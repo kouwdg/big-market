@@ -1,0 +1,918 @@
+24-12-03.13:01:36.296 [main            ] INFO  StrategyAwardTest      - Starting StrategyAwardTest using Java 1.8.0_432 on LAPTOP-FJDJGS3U with PID 11280 (started by 程宇乐 in D:\java\demoTest\s-pay-mall-mvc-241001-xfg-order-pay 2\ddd-103\ddd-103-app)
+24-12-03.13:01:36.298 [main            ] INFO  StrategyAwardTest      - The following 1 profile is active: "dev"
+24-12-03.13:01:38.279 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-12-03.13:01:38.288 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-12-03.13:01:38.346 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 22 ms. Found 0 Redis repository interfaces.
+24-12-03.13:01:40.472 [main            ] INFO  Version                - Redisson 3.23.4
+24-12-03.13:01:41.264 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-03.13:01:41.294 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-03.13:01:45.393 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-12-03.13:01:45.547 [main            ] INFO  StrategyAwardTest      - Started StrategyAwardTest in 10.071 seconds (JVM running for 12.203)
+24-12-03.13:01:46.459 [main            ] INFO  StrategyAwardTest      - 结果:null
+24-12-03.13:03:46.355 [main            ] INFO  StrategyAwardTest      - Starting StrategyAwardTest using Java 1.8.0_432 on LAPTOP-FJDJGS3U with PID 4356 (started by 程宇乐 in D:\java\demoTest\s-pay-mall-mvc-241001-xfg-order-pay 2\ddd-103\ddd-103-app)
+24-12-03.13:03:46.357 [main            ] INFO  StrategyAwardTest      - The following 1 profile is active: "dev"
+24-12-03.13:03:47.852 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-12-03.13:03:47.859 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-12-03.13:03:47.910 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 21 ms. Found 0 Redis repository interfaces.
+24-12-03.13:03:49.997 [main            ] INFO  Version                - Redisson 3.23.4
+24-12-03.13:03:50.716 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-03.13:03:50.738 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-03.13:03:54.264 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-12-03.13:03:54.407 [main            ] INFO  StrategyAwardTest      - Started StrategyAwardTest in 8.87 seconds (JVM running for 10.487)
+24-12-03.13:03:55.208 [main            ] INFO  StrategyAwardTest      - 结果:null
+24-12-03.13:08:03.185 [main            ] INFO  StrategyAwardTest      - Starting StrategyAwardTest using Java 1.8.0_432 on LAPTOP-FJDJGS3U with PID 21352 (started by 程宇乐 in D:\java\demoTest\s-pay-mall-mvc-241001-xfg-order-pay 2\ddd-103\ddd-103-app)
+24-12-03.13:08:03.188 [main            ] INFO  StrategyAwardTest      - The following 1 profile is active: "dev"
+24-12-03.13:08:04.915 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-12-03.13:08:04.924 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-12-03.13:08:04.983 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 22 ms. Found 0 Redis repository interfaces.
+24-12-03.13:08:08.391 [main            ] INFO  Version                - Redisson 3.23.4
+24-12-03.13:08:09.820 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-03.13:08:09.851 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-03.13:08:16.072 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-12-03.13:08:16.273 [main            ] INFO  StrategyAwardTest      - Started StrategyAwardTest in 14.229 seconds (JVM running for 17.399)
+24-12-03.13:09:32.860 [main            ] INFO  StrategyAwardTest      - 结果:null
+24-12-03.13:10:07.103 [main            ] INFO  StrategyAwardTest      - Starting StrategyAwardTest using Java 1.8.0_432 on LAPTOP-FJDJGS3U with PID 16424 (started by 程宇乐 in D:\java\demoTest\s-pay-mall-mvc-241001-xfg-order-pay 2\ddd-103\ddd-103-app)
+24-12-03.13:10:07.105 [main            ] INFO  StrategyAwardTest      - The following 1 profile is active: "dev"
+24-12-03.13:10:08.764 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-12-03.13:10:08.771 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-12-03.13:10:08.825 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 20 ms. Found 0 Redis repository interfaces.
+24-12-03.13:10:11.198 [main            ] INFO  Version                - Redisson 3.23.4
+24-12-03.13:10:11.952 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-03.13:10:11.979 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-03.13:10:15.867 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-12-03.13:10:16.013 [main            ] INFO  StrategyAwardTest      - Started StrategyAwardTest in 9.87 seconds (JVM running for 11.967)
+24-12-03.15:37:45.515 [main            ] INFO  StrategyAwardTest      - Starting StrategyAwardTest using Java 1.8.0_432 on LAPTOP-FJDJGS3U with PID 25816 (started by 程宇乐 in D:\java\demoTest\s-pay-mall-mvc-241001-xfg-order-pay 2\ddd-103\ddd-103-app)
+24-12-03.15:37:45.518 [main            ] INFO  StrategyAwardTest      - The following 1 profile is active: "dev"
+24-12-03.15:37:47.633 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-12-03.15:37:47.641 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-12-03.15:37:47.707 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 25 ms. Found 0 Redis repository interfaces.
+24-12-03.15:37:50.242 [main            ] INFO  Version                - Redisson 3.23.4
+24-12-03.15:37:51.141 [redisson-netty-2-5] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-03.15:37:51.166 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-03.15:37:55.636 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-12-03.15:37:55.786 [main            ] INFO  StrategyAwardTest      - Started StrategyAwardTest in 11.244 seconds (JVM running for 13.266)
+24-12-03.15:38:15.565 [main            ] INFO  StrategyAwardTest      - Starting StrategyAwardTest using Java 1.8.0_432 on LAPTOP-FJDJGS3U with PID 2856 (started by 程宇乐 in D:\java\demoTest\s-pay-mall-mvc-241001-xfg-order-pay 2\ddd-103\ddd-103-app)
+24-12-03.15:38:15.568 [main            ] INFO  StrategyAwardTest      - The following 1 profile is active: "dev"
+24-12-03.15:38:17.395 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-12-03.15:38:17.404 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-12-03.15:38:17.467 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 24 ms. Found 0 Redis repository interfaces.
+24-12-03.15:38:20.493 [main            ] INFO  Version                - Redisson 3.23.4
+24-12-03.15:38:21.815 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-03.15:38:21.840 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-03.15:38:28.090 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-12-03.15:38:28.343 [main            ] INFO  StrategyAwardTest      - Started StrategyAwardTest in 13.682 seconds (JVM running for 16.338)
+24-12-03.15:39:33.570 [main            ] INFO  StrategyAwardTest      - Starting StrategyAwardTest using Java 1.8.0_432 on LAPTOP-FJDJGS3U with PID 23388 (started by 程宇乐 in D:\java\demoTest\s-pay-mall-mvc-241001-xfg-order-pay 2\ddd-103\ddd-103-app)
+24-12-03.15:39:33.573 [main            ] INFO  StrategyAwardTest      - The following 1 profile is active: "dev"
+24-12-03.15:39:35.830 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-12-03.15:39:35.838 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-12-03.15:39:35.897 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 25 ms. Found 0 Redis repository interfaces.
+24-12-03.15:39:38.610 [main            ] INFO  Version                - Redisson 3.23.4
+24-12-03.15:39:39.606 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-03.15:39:39.640 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-03.15:39:44.355 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-12-03.15:39:44.570 [main            ] INFO  StrategyAwardTest      - Started StrategyAwardTest in 12.324 seconds (JVM running for 15.453)
+24-12-03.15:45:18.612 [main            ] INFO  StrategyAwardTest      - Starting StrategyAwardTest using Java 1.8.0_432 on LAPTOP-FJDJGS3U with PID 24600 (started by 程宇乐 in D:\java\demoTest\s-pay-mall-mvc-241001-xfg-order-pay 2\ddd-103\ddd-103-app)
+24-12-03.15:45:18.615 [main            ] INFO  StrategyAwardTest      - The following 1 profile is active: "dev"
+24-12-03.15:45:20.261 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-12-03.15:45:20.267 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-12-03.15:45:20.319 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 21 ms. Found 0 Redis repository interfaces.
+24-12-03.15:45:22.801 [main            ] INFO  Version                - Redisson 3.23.4
+24-12-03.15:45:23.696 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-03.15:45:23.723 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-03.15:45:27.965 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-12-03.15:45:28.120 [main            ] INFO  StrategyAwardTest      - Started StrategyAwardTest in 10.472 seconds (JVM running for 12.681)
+24-12-03.15:45:29.076 [main            ] INFO  StrategyAwardTest      - 结果:101
+24-12-03.15:46:45.203 [main            ] INFO  StrategyAwardTest      - Starting StrategyAwardTest using Java 1.8.0_432 on LAPTOP-FJDJGS3U with PID 13552 (started by 程宇乐 in D:\java\demoTest\s-pay-mall-mvc-241001-xfg-order-pay 2\ddd-103\ddd-103-app)
+24-12-03.15:46:45.209 [main            ] INFO  StrategyAwardTest      - The following 1 profile is active: "dev"
+24-12-03.15:46:47.649 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-12-03.15:46:47.657 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-12-03.15:46:47.713 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 24 ms. Found 0 Redis repository interfaces.
+24-12-03.15:46:50.192 [main            ] INFO  Version                - Redisson 3.23.4
+24-12-03.15:46:50.980 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-03.15:46:51.006 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-03.15:46:55.904 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-12-03.15:46:56.060 [main            ] INFO  StrategyAwardTest      - Started StrategyAwardTest in 11.921 seconds (JVM running for 14.345)
+24-12-03.15:46:57.111 [main            ] INFO  StrategyAwardTest      - 结果:101
+24-12-03.17:58:54.164 [main            ] INFO  StrategyAwardTest      - Starting StrategyAwardTest using Java 1.8.0_432 on LAPTOP-FJDJGS3U with PID 21456 (started by 程宇乐 in D:\java\demoTest\s-pay-mall-mvc-241001-xfg-order-pay 2\ddd-103\ddd-103-app)
+24-12-03.17:58:54.167 [main            ] INFO  StrategyAwardTest      - The following 1 profile is active: "dev"
+24-12-03.17:58:56.958 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-12-03.17:58:56.971 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-12-03.17:58:57.060 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 39 ms. Found 0 Redis repository interfaces.
+24-12-03.17:59:00.235 [main            ] INFO  Version                - Redisson 3.23.4
+24-12-03.17:59:01.591 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-03.17:59:01.672 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-03.17:59:06.923 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-12-03.17:59:07.111 [main            ] INFO  StrategyAwardTest      - Started StrategyAwardTest in 14.281 seconds (JVM running for 17.065)
+24-12-03.17:59:08.123 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-12-03.17:59:08.923 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-12-03.17:59:09.747 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-12-03.17:59:09.785 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-12-03.17:59:36.955 [main            ] INFO  StrategyAwardTest      - Starting StrategyAwardTest using Java 1.8.0_432 on LAPTOP-FJDJGS3U with PID 12788 (started by 程宇乐 in D:\java\demoTest\s-pay-mall-mvc-241001-xfg-order-pay 2\ddd-103\ddd-103-app)
+24-12-03.17:59:36.957 [main            ] INFO  StrategyAwardTest      - The following 1 profile is active: "dev"
+24-12-03.17:59:39.018 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-12-03.17:59:39.029 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-12-03.17:59:39.102 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 32 ms. Found 0 Redis repository interfaces.
+24-12-03.17:59:42.765 [main            ] INFO  Version                - Redisson 3.23.4
+24-12-03.17:59:43.955 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-03.17:59:43.992 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-03.17:59:49.496 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-12-03.17:59:49.719 [main            ] INFO  StrategyAwardTest      - Started StrategyAwardTest in 13.909 seconds (JVM running for 16.485)
+24-12-03.18:00:35.044 [main            ] INFO  StrategyAwardTest      - Starting StrategyAwardTest using Java 1.8.0_432 on LAPTOP-FJDJGS3U with PID 18544 (started by 程宇乐 in D:\java\demoTest\s-pay-mall-mvc-241001-xfg-order-pay 2\ddd-103\ddd-103-app)
+24-12-03.18:00:35.046 [main            ] INFO  StrategyAwardTest      - The following 1 profile is active: "dev"
+24-12-03.18:00:36.984 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-12-03.18:00:36.993 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-12-03.18:00:37.055 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 27 ms. Found 0 Redis repository interfaces.
+24-12-03.18:00:40.217 [main            ] INFO  Version                - Redisson 3.23.4
+24-12-03.18:00:41.461 [redisson-netty-2-5] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-03.18:00:41.523 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-03.18:00:46.172 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-12-03.18:00:46.381 [main            ] INFO  StrategyAwardTest      - Started StrategyAwardTest in 12.265 seconds (JVM running for 14.947)
+24-12-03.18:02:13.102 [main            ] INFO  StrategyAwardTest      - Starting StrategyAwardTest using Java 1.8.0_432 on LAPTOP-FJDJGS3U with PID 26196 (started by 程宇乐 in D:\java\demoTest\s-pay-mall-mvc-241001-xfg-order-pay 2\ddd-103\ddd-103-app)
+24-12-03.18:02:13.104 [main            ] INFO  StrategyAwardTest      - The following 1 profile is active: "dev"
+24-12-03.18:02:14.991 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-12-03.18:02:14.999 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-12-03.18:02:15.068 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 31 ms. Found 0 Redis repository interfaces.
+24-12-03.18:02:18.365 [main            ] INFO  Version                - Redisson 3.23.4
+24-12-03.18:02:19.277 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-03.18:02:19.311 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-03.18:02:23.286 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-12-03.18:02:23.468 [main            ] INFO  StrategyAwardTest      - Started StrategyAwardTest in 11.343 seconds (JVM running for 13.535)
+24-12-03.18:03:31.938 [main            ] INFO  StrategyAwardTest      - Starting StrategyAwardTest using Java 1.8.0_432 on LAPTOP-FJDJGS3U with PID 3028 (started by 程宇乐 in D:\java\demoTest\s-pay-mall-mvc-241001-xfg-order-pay 2\ddd-103\ddd-103-app)
+24-12-03.18:03:31.940 [main            ] INFO  StrategyAwardTest      - The following 1 profile is active: "dev"
+24-12-03.18:03:33.931 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-12-03.18:03:33.939 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-12-03.18:03:34.002 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 28 ms. Found 0 Redis repository interfaces.
+24-12-03.18:03:38.356 [main            ] INFO  Version                - Redisson 3.23.4
+24-12-03.18:03:39.724 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-03.18:03:39.775 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-03.18:03:45.547 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-12-03.18:03:45.858 [main            ] INFO  StrategyAwardTest      - Started StrategyAwardTest in 15.015 seconds (JVM running for 17.655)
+24-12-03.18:05:17.678 [main            ] INFO  StrategyAwardTest      - Starting StrategyAwardTest using Java 1.8.0_432 on LAPTOP-FJDJGS3U with PID 5464 (started by 程宇乐 in D:\java\demoTest\s-pay-mall-mvc-241001-xfg-order-pay 2\ddd-103\ddd-103-app)
+24-12-03.18:05:17.680 [main            ] INFO  StrategyAwardTest      - The following 1 profile is active: "dev"
+24-12-03.18:05:19.542 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-12-03.18:05:19.551 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-12-03.18:05:19.616 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 31 ms. Found 0 Redis repository interfaces.
+24-12-03.18:05:22.227 [main            ] INFO  Version                - Redisson 3.23.4
+24-12-03.18:05:23.048 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-03.18:05:23.076 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-03.18:05:26.544 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-12-03.18:05:26.691 [main            ] INFO  StrategyAwardTest      - Started StrategyAwardTest in 9.985 seconds (JVM running for 11.998)
+24-12-03.18:06:27.916 [main            ] INFO  StrategyAwardTest      - Starting StrategyAwardTest using Java 1.8.0_432 on LAPTOP-FJDJGS3U with PID 25360 (started by 程宇乐 in D:\java\demoTest\s-pay-mall-mvc-241001-xfg-order-pay 2\ddd-103\ddd-103-app)
+24-12-03.18:06:27.918 [main            ] INFO  StrategyAwardTest      - The following 1 profile is active: "dev"
+24-12-03.18:06:29.738 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-12-03.18:06:29.746 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-12-03.18:06:29.797 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 23 ms. Found 0 Redis repository interfaces.
+24-12-03.18:06:32.552 [main            ] INFO  Version                - Redisson 3.23.4
+24-12-03.18:06:33.396 [redisson-netty-2-5] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-03.18:06:33.433 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-03.18:06:37.015 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-12-03.18:06:37.159 [main            ] INFO  StrategyAwardTest      - Started StrategyAwardTest in 10.149 seconds (JVM running for 12.196)
+24-12-03.18:07:24.273 [main            ] INFO  StrategyAwardTest      - Starting StrategyAwardTest using Java 1.8.0_432 on LAPTOP-FJDJGS3U with PID 17740 (started by 程宇乐 in D:\java\demoTest\s-pay-mall-mvc-241001-xfg-order-pay 2\ddd-103\ddd-103-app)
+24-12-03.18:07:24.277 [main            ] INFO  StrategyAwardTest      - The following 1 profile is active: "dev"
+24-12-03.18:07:26.144 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-12-03.18:07:26.164 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-12-03.18:07:26.229 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 27 ms. Found 0 Redis repository interfaces.
+24-12-03.18:07:30.368 [main            ] INFO  Version                - Redisson 3.23.4
+24-12-03.18:07:31.797 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-03.18:07:31.833 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-03.18:07:36.953 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-12-03.18:07:37.200 [main            ] INFO  StrategyAwardTest      - Started StrategyAwardTest in 13.965 seconds (JVM running for 16.678)
+24-12-03.18:15:07.265 [main            ] INFO  StrategyAwardTest      - Starting StrategyAwardTest using Java 1.8.0_432 on LAPTOP-FJDJGS3U with PID 2268 (started by 程宇乐 in D:\java\demoTest\s-pay-mall-mvc-241001-xfg-order-pay 2\ddd-103\ddd-103-app)
+24-12-03.18:15:07.269 [main            ] INFO  StrategyAwardTest      - The following 1 profile is active: "dev"
+24-12-03.18:15:09.459 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-12-03.18:15:09.488 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-12-03.18:15:09.570 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 35 ms. Found 0 Redis repository interfaces.
+24-12-03.18:15:13.743 [main            ] INFO  Version                - Redisson 3.23.4
+24-12-03.18:15:15.094 [redisson-netty-2-5] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-03.18:15:15.126 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-03.18:15:20.421 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-12-03.18:15:20.620 [main            ] INFO  StrategyAwardTest      - Started StrategyAwardTest in 14.271 seconds (JVM running for 17.011)
+24-12-03.18:16:24.410 [main            ] INFO  StrategyAwardTest      - Starting StrategyAwardTest using Java 1.8.0_432 on LAPTOP-FJDJGS3U with PID 20156 (started by 程宇乐 in D:\java\demoTest\s-pay-mall-mvc-241001-xfg-order-pay 2\ddd-103\ddd-103-app)
+24-12-03.18:16:24.413 [main            ] INFO  StrategyAwardTest      - The following 1 profile is active: "dev"
+24-12-03.18:16:26.402 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-12-03.18:16:26.410 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-12-03.18:16:26.465 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 26 ms. Found 0 Redis repository interfaces.
+24-12-03.18:16:30.788 [main            ] INFO  Version                - Redisson 3.23.4
+24-12-03.18:16:32.237 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-03.18:16:32.286 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-03.18:16:37.362 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-12-03.18:16:37.594 [main            ] INFO  StrategyAwardTest      - Started StrategyAwardTest in 14.155 seconds (JVM running for 16.847)
+24-12-03.18:17:34.299 [main            ] INFO  StrategyAwardTest      - Starting StrategyAwardTest using Java 1.8.0_432 on LAPTOP-FJDJGS3U with PID 13540 (started by 程宇乐 in D:\java\demoTest\s-pay-mall-mvc-241001-xfg-order-pay 2\ddd-103\ddd-103-app)
+24-12-03.18:17:34.302 [main            ] INFO  StrategyAwardTest      - The following 1 profile is active: "dev"
+24-12-03.18:17:36.241 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-12-03.18:17:36.249 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-12-03.18:17:36.311 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 28 ms. Found 0 Redis repository interfaces.
+24-12-03.18:17:40.157 [main            ] INFO  Version                - Redisson 3.23.4
+24-12-03.18:17:41.502 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-03.18:17:41.537 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-03.18:17:47.182 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-12-03.18:17:47.425 [main            ] INFO  StrategyAwardTest      - Started StrategyAwardTest in 14.237 seconds (JVM running for 16.86)
+24-12-03.18:21:39.769 [main            ] INFO  StrategyAwardTest      - Starting StrategyAwardTest using Java 1.8.0_432 on LAPTOP-FJDJGS3U with PID 26396 (started by 程宇乐 in D:\java\demoTest\s-pay-mall-mvc-241001-xfg-order-pay 2\ddd-103\ddd-103-app)
+24-12-03.18:21:39.772 [main            ] INFO  StrategyAwardTest      - The following 1 profile is active: "dev"
+24-12-03.18:21:42.096 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-12-03.18:21:42.105 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-12-03.18:21:42.169 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 28 ms. Found 0 Redis repository interfaces.
+24-12-03.18:21:46.703 [main            ] INFO  Version                - Redisson 3.23.4
+24-12-03.18:21:48.260 [redisson-netty-2-5] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-03.18:21:48.294 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-03.18:21:53.966 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-12-03.18:21:54.229 [main            ] INFO  StrategyAwardTest      - Started StrategyAwardTest in 15.668 seconds (JVM running for 18.813)
+24-12-03.18:24:30.251 [main            ] INFO  StrategyAwardTest      - Starting StrategyAwardTest using Java 1.8.0_432 on LAPTOP-FJDJGS3U with PID 3888 (started by 程宇乐 in D:\java\demoTest\s-pay-mall-mvc-241001-xfg-order-pay 2\ddd-103\ddd-103-app)
+24-12-03.18:24:30.253 [main            ] INFO  StrategyAwardTest      - The following 1 profile is active: "dev"
+24-12-03.18:24:32.412 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-12-03.18:24:32.421 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-12-03.18:24:32.499 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 37 ms. Found 0 Redis repository interfaces.
+24-12-03.18:24:37.589 [main            ] INFO  Version                - Redisson 3.23.4
+24-12-03.18:24:39.072 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-03.18:24:39.108 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-03.18:24:46.594 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-12-03.18:24:46.835 [main            ] INFO  StrategyAwardTest      - Started StrategyAwardTest in 17.934 seconds (JVM running for 21.13)
+24-12-03.18:25:51.280 [main            ] INFO  StrategyAwardTest      - Starting StrategyAwardTest using Java 1.8.0_432 on LAPTOP-FJDJGS3U with PID 2344 (started by 程宇乐 in D:\java\demoTest\s-pay-mall-mvc-241001-xfg-order-pay 2\ddd-103\ddd-103-app)
+24-12-03.18:25:51.282 [main            ] INFO  StrategyAwardTest      - The following 1 profile is active: "dev"
+24-12-03.18:25:53.327 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-12-03.18:25:53.336 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-12-03.18:25:53.436 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 39 ms. Found 0 Redis repository interfaces.
+24-12-03.18:25:57.818 [main            ] INFO  Version                - Redisson 3.23.4
+24-12-03.18:25:59.500 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-03.18:25:59.537 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-03.18:26:05.125 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-12-03.18:26:05.367 [main            ] INFO  StrategyAwardTest      - Started StrategyAwardTest in 15.15 seconds (JVM running for 17.88)
+24-12-03.18:31:52.096 [main            ] INFO  StrategyAwardTest      - Starting StrategyAwardTest using Java 1.8.0_432 on LAPTOP-FJDJGS3U with PID 7276 (started by 程宇乐 in D:\java\demoTest\s-pay-mall-mvc-241001-xfg-order-pay 2\ddd-103\ddd-103-app)
+24-12-03.18:31:52.098 [main            ] INFO  StrategyAwardTest      - The following 1 profile is active: "dev"
+24-12-03.18:31:54.812 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-12-03.18:31:54.823 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-12-03.18:31:54.903 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 34 ms. Found 0 Redis repository interfaces.
+24-12-03.18:31:58.433 [main            ] INFO  Version                - Redisson 3.23.4
+24-12-03.18:31:59.496 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-03.18:31:59.526 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-03.18:32:03.315 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-12-03.18:32:03.474 [main            ] INFO  StrategyAwardTest      - Started StrategyAwardTest in 12.433 seconds (JVM running for 15.42)
+24-12-03.18:32:04.432 [main            ] INFO  StrategyAwardTest      - 结果:101
+24-12-03.18:32:21.479 [main            ] INFO  StrategyAwardTest      - Starting StrategyAwardTest using Java 1.8.0_432 on LAPTOP-FJDJGS3U with PID 18428 (started by 程宇乐 in D:\java\demoTest\s-pay-mall-mvc-241001-xfg-order-pay 2\ddd-103\ddd-103-app)
+24-12-03.18:32:21.482 [main            ] INFO  StrategyAwardTest      - The following 1 profile is active: "dev"
+24-12-03.18:32:23.344 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-12-03.18:32:23.352 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-12-03.18:32:23.409 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 25 ms. Found 0 Redis repository interfaces.
+24-12-03.18:32:26.453 [main            ] INFO  Version                - Redisson 3.23.4
+24-12-03.18:32:27.376 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-03.18:32:27.407 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-03.18:32:31.250 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-12-03.18:32:31.409 [main            ] INFO  StrategyAwardTest      - Started StrategyAwardTest in 10.957 seconds (JVM running for 13.09)
+24-12-03.18:32:57.165 [main            ] INFO  StrategyAwardTest      - Starting StrategyAwardTest using Java 1.8.0_432 on LAPTOP-FJDJGS3U with PID 20852 (started by 程宇乐 in D:\java\demoTest\s-pay-mall-mvc-241001-xfg-order-pay 2\ddd-103\ddd-103-app)
+24-12-03.18:32:57.167 [main            ] INFO  StrategyAwardTest      - The following 1 profile is active: "dev"
+24-12-03.18:32:59.419 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-12-03.18:32:59.427 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-12-03.18:32:59.485 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 25 ms. Found 0 Redis repository interfaces.
+24-12-03.18:33:03.627 [main            ] INFO  Version                - Redisson 3.23.4
+24-12-03.18:33:05.047 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-03.18:33:05.091 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-03.18:33:10.672 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-12-03.18:33:10.865 [main            ] INFO  StrategyAwardTest      - Started StrategyAwardTest in 14.747 seconds (JVM running for 17.962)
+24-12-03.18:35:19.468 [main            ] INFO  StrategyAwardTest      - Starting StrategyAwardTest using Java 1.8.0_432 on LAPTOP-FJDJGS3U with PID 5376 (started by 程宇乐 in D:\java\demoTest\s-pay-mall-mvc-241001-xfg-order-pay 2\ddd-103\ddd-103-app)
+24-12-03.18:35:19.471 [main            ] INFO  StrategyAwardTest      - The following 1 profile is active: "dev"
+24-12-03.18:35:21.722 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-12-03.18:35:21.735 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-12-03.18:35:21.808 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 33 ms. Found 0 Redis repository interfaces.
+24-12-03.18:35:26.173 [main            ] INFO  Version                - Redisson 3.23.4
+24-12-03.18:35:27.662 [redisson-netty-2-5] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-03.18:35:27.698 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-03.18:35:33.186 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-12-03.18:35:33.430 [main            ] INFO  StrategyAwardTest      - Started StrategyAwardTest in 14.944 seconds (JVM running for 17.847)
+24-12-03.18:45:16.105 [main            ] INFO  StrategyAwardTest      - Starting StrategyAwardTest using Java 1.8.0_432 on LAPTOP-FJDJGS3U with PID 25960 (started by 程宇乐 in D:\java\demoTest\s-pay-mall-mvc-241001-xfg-order-pay 2\ddd-103\ddd-103-app)
+24-12-03.18:45:16.106 [main            ] INFO  StrategyAwardTest      - The following 1 profile is active: "dev"
+24-12-03.18:45:18.004 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-12-03.18:45:18.014 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-12-03.18:45:18.085 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 33 ms. Found 0 Redis repository interfaces.
+24-12-03.18:45:21.128 [main            ] INFO  Version                - Redisson 3.23.4
+24-12-03.18:45:22.113 [redisson-netty-2-5] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-03.18:45:22.144 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-03.18:45:25.805 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-12-03.18:45:25.956 [main            ] INFO  StrategyAwardTest      - Started StrategyAwardTest in 10.769 seconds (JVM running for 12.825)
+24-12-03.18:47:13.127 [main            ] INFO  StrategyAwardTest      - Starting StrategyAwardTest using Java 1.8.0_432 on LAPTOP-FJDJGS3U with PID 9548 (started by 程宇乐 in D:\java\demoTest\s-pay-mall-mvc-241001-xfg-order-pay 2\ddd-103\ddd-103-app)
+24-12-03.18:47:13.131 [main            ] INFO  StrategyAwardTest      - The following 1 profile is active: "dev"
+24-12-03.18:47:15.200 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-12-03.18:47:15.210 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-12-03.18:47:15.295 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 38 ms. Found 0 Redis repository interfaces.
+24-12-03.18:47:18.514 [main            ] INFO  Version                - Redisson 3.23.4
+24-12-03.18:47:19.662 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-03.18:47:19.693 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-03.18:47:23.576 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-12-03.18:47:23.733 [main            ] INFO  StrategyAwardTest      - Started StrategyAwardTest in 11.757 seconds (JVM running for 14.105)
+24-12-03.18:47:24.666 [main            ] INFO  StrategyAwardTest      - 结果:101
+24-12-03.18:48:17.306 [main            ] INFO  StrategyAwardTest      - Starting StrategyAwardTest using Java 1.8.0_432 on LAPTOP-FJDJGS3U with PID 8556 (started by 程宇乐 in D:\java\demoTest\s-pay-mall-mvc-241001-xfg-order-pay 2\ddd-103\ddd-103-app)
+24-12-03.18:48:17.310 [main            ] INFO  StrategyAwardTest      - The following 1 profile is active: "dev"
+24-12-03.18:48:19.301 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-12-03.18:48:19.309 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-12-03.18:48:19.375 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 28 ms. Found 0 Redis repository interfaces.
+24-12-03.18:48:23.467 [main            ] INFO  Version                - Redisson 3.23.4
+24-12-03.18:48:24.849 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-03.18:48:24.885 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-03.18:48:30.138 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-12-03.18:48:30.351 [main            ] INFO  StrategyAwardTest      - Started StrategyAwardTest in 14.108 seconds (JVM running for 16.78)
+24-12-03.18:50:43.867 [main            ] INFO  StrategyAwardTest      - Starting StrategyAwardTest using Java 1.8.0_432 on LAPTOP-FJDJGS3U with PID 26220 (started by 程宇乐 in D:\java\demoTest\s-pay-mall-mvc-241001-xfg-order-pay 2\ddd-103\ddd-103-app)
+24-12-03.18:50:43.869 [main            ] INFO  StrategyAwardTest      - The following 1 profile is active: "dev"
+24-12-03.18:50:45.907 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-12-03.18:50:45.915 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-12-03.18:50:45.978 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 28 ms. Found 0 Redis repository interfaces.
+24-12-03.18:50:49.973 [main            ] INFO  Version                - Redisson 3.23.4
+24-12-03.18:50:51.325 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-03.18:50:51.376 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-03.18:50:56.533 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-12-03.18:50:56.751 [main            ] INFO  StrategyAwardTest      - Started StrategyAwardTest in 13.924 seconds (JVM running for 16.535)
+24-12-03.18:52:26.381 [main            ] INFO  StrategyAwardTest      - Starting StrategyAwardTest using Java 1.8.0_432 on LAPTOP-FJDJGS3U with PID 7516 (started by 程宇乐 in D:\java\demoTest\s-pay-mall-mvc-241001-xfg-order-pay 2\ddd-103\ddd-103-app)
+24-12-03.18:52:26.384 [main            ] INFO  StrategyAwardTest      - The following 1 profile is active: "dev"
+24-12-03.18:52:28.693 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-12-03.18:52:28.710 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-12-03.18:52:28.801 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 38 ms. Found 0 Redis repository interfaces.
+24-12-03.18:52:33.332 [main            ] INFO  Version                - Redisson 3.23.4
+24-12-03.18:52:35.020 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-03.18:52:35.077 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-03.18:52:41.361 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-12-03.18:52:41.694 [main            ] INFO  StrategyAwardTest      - Started StrategyAwardTest in 16.533 seconds (JVM running for 19.195)
+24-12-03.18:56:30.089 [main            ] INFO  StrategyAwardTest      - Starting StrategyAwardTest using Java 1.8.0_432 on LAPTOP-FJDJGS3U with PID 26396 (started by 程宇乐 in D:\java\demoTest\s-pay-mall-mvc-241001-xfg-order-pay 2\ddd-103\ddd-103-app)
+24-12-03.18:56:30.091 [main            ] INFO  StrategyAwardTest      - The following 1 profile is active: "dev"
+24-12-03.18:56:31.928 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-12-03.18:56:31.937 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-12-03.18:56:32.004 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 30 ms. Found 0 Redis repository interfaces.
+24-12-03.18:56:34.974 [main            ] INFO  Version                - Redisson 3.23.4
+24-12-03.18:56:35.946 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-03.18:56:35.975 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-03.18:56:39.787 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-12-03.18:56:39.930 [main            ] INFO  StrategyAwardTest      - Started StrategyAwardTest in 10.841 seconds (JVM running for 12.942)
+24-12-03.19:00:22.112 [main            ] INFO  StrategyAwardTest      - Starting StrategyAwardTest using Java 1.8.0_432 on LAPTOP-FJDJGS3U with PID 23908 (started by 程宇乐 in D:\java\demoTest\s-pay-mall-mvc-241001-xfg-order-pay 2\ddd-103\ddd-103-app)
+24-12-03.19:00:22.115 [main            ] INFO  StrategyAwardTest      - The following 1 profile is active: "dev"
+24-12-03.19:00:23.813 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-12-03.19:00:23.820 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-12-03.19:00:23.886 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 30 ms. Found 0 Redis repository interfaces.
+24-12-03.19:00:26.718 [main            ] INFO  Version                - Redisson 3.23.4
+24-12-03.19:00:27.558 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-03.19:00:27.588 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-03.19:00:31.323 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-12-03.19:00:31.462 [main            ] INFO  StrategyAwardTest      - Started StrategyAwardTest in 10.445 seconds (JVM running for 12.447)
+24-12-03.19:17:50.528 [main            ] INFO  StrategyAwardTest      - Starting StrategyAwardTest using Java 1.8.0_432 on LAPTOP-FJDJGS3U with PID 18544 (started by 程宇乐 in D:\java\demoTest\s-pay-mall-mvc-241001-xfg-order-pay 2\ddd-103\ddd-103-app)
+24-12-03.19:17:50.530 [main            ] INFO  StrategyAwardTest      - The following 1 profile is active: "dev"
+24-12-03.19:17:52.565 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-12-03.19:17:52.578 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-12-03.19:17:52.669 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 39 ms. Found 0 Redis repository interfaces.
+24-12-03.19:17:55.987 [main            ] INFO  Version                - Redisson 3.23.4
+24-12-03.19:17:56.964 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-03.19:17:57.006 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-03.19:18:01.128 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-12-03.19:18:01.294 [main            ] INFO  StrategyAwardTest      - Started StrategyAwardTest in 11.884 seconds (JVM running for 13.956)
+24-12-03.19:19:04.450 [main            ] INFO  StrategyAwardTest      - Starting StrategyAwardTest using Java 1.8.0_432 on LAPTOP-FJDJGS3U with PID 19312 (started by 程宇乐 in D:\java\demoTest\s-pay-mall-mvc-241001-xfg-order-pay 2\ddd-103\ddd-103-app)
+24-12-03.19:19:04.459 [main            ] INFO  StrategyAwardTest      - The following 1 profile is active: "dev"
+24-12-03.19:19:07.577 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-12-03.19:19:07.606 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-12-03.19:19:07.747 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 76 ms. Found 0 Redis repository interfaces.
+24-12-03.19:19:11.273 [main            ] INFO  Version                - Redisson 3.23.4
+24-12-03.19:19:12.372 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-03.19:19:12.412 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-03.19:19:16.853 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-12-03.19:19:17.022 [main            ] INFO  StrategyAwardTest      - Started StrategyAwardTest in 13.745 seconds (JVM running for 16.328)
+24-12-03.19:21:43.862 [main            ] INFO  StrategyAwardTest      - Starting StrategyAwardTest using Java 1.8.0_432 on LAPTOP-FJDJGS3U with PID 2740 (started by 程宇乐 in D:\java\demoTest\s-pay-mall-mvc-241001-xfg-order-pay 2\ddd-103\ddd-103-app)
+24-12-03.19:21:43.865 [main            ] INFO  StrategyAwardTest      - The following 1 profile is active: "dev"
+24-12-03.19:21:46.030 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-12-03.19:21:46.040 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-12-03.19:21:46.114 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 34 ms. Found 0 Redis repository interfaces.
+24-12-03.19:21:49.530 [main            ] INFO  Version                - Redisson 3.23.4
+24-12-03.19:21:50.636 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-03.19:21:50.674 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-03.19:21:55.067 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-12-03.19:21:55.231 [main            ] INFO  StrategyAwardTest      - Started StrategyAwardTest in 12.288 seconds (JVM running for 14.567)
+24-12-03.19:27:40.742 [main            ] INFO  StrategyAwardTest      - Starting StrategyAwardTest using Java 1.8.0_432 on LAPTOP-FJDJGS3U with PID 10772 (started by 程宇乐 in D:\java\demoTest\s-pay-mall-mvc-241001-xfg-order-pay 2\ddd-103\ddd-103-app)
+24-12-03.19:27:40.745 [main            ] INFO  StrategyAwardTest      - The following 1 profile is active: "dev"
+24-12-03.19:27:42.615 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-12-03.19:27:42.622 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-12-03.19:27:42.689 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 32 ms. Found 0 Redis repository interfaces.
+24-12-03.19:27:46.208 [main            ] INFO  Version                - Redisson 3.23.4
+24-12-03.19:27:47.266 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-03.19:27:47.303 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-03.19:27:51.513 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-12-03.19:27:51.678 [main            ] INFO  StrategyAwardTest      - Started StrategyAwardTest in 11.905 seconds (JVM running for 14.0)
+24-12-03.19:27:52.820 [redisson-netty-2-2] ERROR CommandDecoder         - Unable to decode data. channel: [id: 0xc1c76539, L:/127.0.0.1:60347 - R:127.0.0.1/127.0.0.1:6379], reply: ReplayingDecoderByteBuf(ridx=259, widx=259), command: (GET), promise: java.util.concurrent.CompletableFuture@77b110e5[Not completed, 1 dependents], params: [big_market_strategy_key_10001]
+com.alibaba.fastjson.JSONException: offset 1, character , line 1, column 2, fastjson-version 2.0.39  java.util.ArrayLis�com.cheng.domain.strategy.model.entity.StrategyAwardEntit� ��	��	�java.math.BigDecima�@�����������N�N�����>�>�������<�������������
+	at com.alibaba.fastjson.JSON.parseObject(JSON.java:711)
+	at com.alibaba.fastjson.JSON.parseObject(JSON.java:625)
+	at com.cheng.config.RedisClientConfig$RedisCodec.lambda$new$1(RedisClientConfig.java:71)
+	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:394)
+	at org.redisson.client.handler.CommandDecoder.decodeCommand(CommandDecoder.java:205)
+	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:144)
+	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:120)
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:529)
+	at io.netty.handler.codec.ReplayingDecoder.callDecode(ReplayingDecoder.java:366)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: com.alibaba.fastjson2.JSONException: offset 1, character , line 1, column 2, fastjson-version 2.0.39  java.util.ArrayLis�com.cheng.domain.strategy.model.entity.StrategyAwardEntit� ��	��	�java.math.BigDecima�@�����������N�N�����>�>�������<�������������
+	at com.alibaba.fastjson2.reader.ObjectReaderImplObject.readObject(ObjectReaderImplObject.java:299)
+	at com.alibaba.fastjson.JSON.parseObject(JSON.java:701)
+	... 25 common frames omitted
+24-12-03.19:27:52.836 [redisson-netty-2-2] ERROR ErrorsLoggingHandler   - Exception occured. Channel: [id: 0xc1c76539, L:/127.0.0.1:60347 - R:127.0.0.1/127.0.0.1:6379]
+io.netty.handler.codec.DecoderException: com.alibaba.fastjson.JSONException: offset 1, character , line 1, column 2, fastjson-version 2.0.39  java.util.ArrayLis�com.cheng.domain.strategy.model.entity.StrategyAwardEntit� ��	��	�java.math.BigDecima�@�����������N�N�����>�>�������<�������������
+	at io.netty.handler.codec.ReplayingDecoder.callDecode(ReplayingDecoder.java:421)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: com.alibaba.fastjson.JSONException: offset 1, character , line 1, column 2, fastjson-version 2.0.39  java.util.ArrayLis�com.cheng.domain.strategy.model.entity.StrategyAwardEntit� ��	��	�java.math.BigDecima�@�����������N�N�����>�>�������<�������������
+	at com.alibaba.fastjson.JSON.parseObject(JSON.java:711)
+	at com.alibaba.fastjson.JSON.parseObject(JSON.java:625)
+	at com.cheng.config.RedisClientConfig$RedisCodec.lambda$new$1(RedisClientConfig.java:71)
+	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:394)
+	at org.redisson.client.handler.CommandDecoder.decodeCommand(CommandDecoder.java:205)
+	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:144)
+	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:120)
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:529)
+	at io.netty.handler.codec.ReplayingDecoder.callDecode(ReplayingDecoder.java:366)
+	... 17 common frames omitted
+Caused by: com.alibaba.fastjson2.JSONException: offset 1, character , line 1, column 2, fastjson-version 2.0.39  java.util.ArrayLis�com.cheng.domain.strategy.model.entity.StrategyAwardEntit� ��	��	�java.math.BigDecima�@�����������N�N�����>�>�������<�������������
+	at com.alibaba.fastjson2.reader.ObjectReaderImplObject.readObject(ObjectReaderImplObject.java:299)
+	at com.alibaba.fastjson.JSON.parseObject(JSON.java:701)
+	... 25 common frames omitted
+24-12-03.19:29:54.703 [main            ] INFO  StrategyAwardTest      - Starting StrategyAwardTest using Java 1.8.0_432 on LAPTOP-FJDJGS3U with PID 24192 (started by 程宇乐 in D:\java\demoTest\s-pay-mall-mvc-241001-xfg-order-pay 2\ddd-103\ddd-103-app)
+24-12-03.19:29:54.705 [main            ] INFO  StrategyAwardTest      - The following 1 profile is active: "dev"
+24-12-03.19:29:56.652 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-12-03.19:29:56.664 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-12-03.19:29:56.740 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 33 ms. Found 0 Redis repository interfaces.
+24-12-03.19:30:00.336 [main            ] INFO  Version                - Redisson 3.23.4
+24-12-03.19:30:01.321 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-03.19:30:01.358 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-03.19:30:05.065 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-12-03.19:30:05.217 [main            ] INFO  StrategyAwardTest      - Started StrategyAwardTest in 11.572 seconds (JVM running for 13.816)
+24-12-03.19:30:06.101 [redisson-netty-2-2] ERROR CommandDecoder         - Unable to decode data. channel: [id: 0x91c2844c, L:/127.0.0.1:60471 - R:127.0.0.1/127.0.0.1:6379], reply: ReplayingDecoderByteBuf(ridx=259, widx=259), command: (GET), promise: java.util.concurrent.CompletableFuture@26e69442[Not completed, 1 dependents], params: [big_market_strategy_key_10001]
+com.fasterxml.jackson.core.JsonParseException: Illegal character ((CTRL-CHAR, code 1)): only regular white space (\r, \n, \t) is allowed between tokens
+ at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]
+	at com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:2391)
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:735)
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._throwInvalidSpace(ParserMinimalBase.java:713)
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser._skipWSOrEnd(ReaderBasedJsonParser.java:2461)
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser.nextToken(ReaderBasedJsonParser.java:698)
+	at com.fasterxml.jackson.databind.ObjectMapper._initForReading(ObjectMapper.java:4761)
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4667)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3666)
+	at org.redisson.codec.JsonJacksonCodec$2.decode(JsonJacksonCodec.java:99)
+	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:394)
+	at org.redisson.client.handler.CommandDecoder.decodeCommand(CommandDecoder.java:205)
+	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:144)
+	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:120)
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:529)
+	at io.netty.handler.codec.ReplayingDecoder.callDecode(ReplayingDecoder.java:366)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+24-12-03.19:30:06.122 [redisson-netty-2-2] ERROR ErrorsLoggingHandler   - Exception occured. Channel: [id: 0x91c2844c, L:/127.0.0.1:60471 - R:127.0.0.1/127.0.0.1:6379]
+io.netty.handler.codec.DecoderException: com.fasterxml.jackson.core.JsonParseException: Illegal character ((CTRL-CHAR, code 1)): only regular white space (\r, \n, \t) is allowed between tokens
+ at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]
+	at io.netty.handler.codec.ReplayingDecoder.callDecode(ReplayingDecoder.java:421)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: com.fasterxml.jackson.core.JsonParseException: Illegal character ((CTRL-CHAR, code 1)): only regular white space (\r, \n, \t) is allowed between tokens
+ at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]
+	at com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:2391)
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:735)
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._throwInvalidSpace(ParserMinimalBase.java:713)
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser._skipWSOrEnd(ReaderBasedJsonParser.java:2461)
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser.nextToken(ReaderBasedJsonParser.java:698)
+	at com.fasterxml.jackson.databind.ObjectMapper._initForReading(ObjectMapper.java:4761)
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4667)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3666)
+	at org.redisson.codec.JsonJacksonCodec$2.decode(JsonJacksonCodec.java:99)
+	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:394)
+	at org.redisson.client.handler.CommandDecoder.decodeCommand(CommandDecoder.java:205)
+	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:144)
+	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:120)
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:529)
+	at io.netty.handler.codec.ReplayingDecoder.callDecode(ReplayingDecoder.java:366)
+	... 17 common frames omitted
+24-12-03.19:38:26.183 [main            ] INFO  StrategyAwardTest      - Starting StrategyAwardTest using Java 1.8.0_432 on LAPTOP-FJDJGS3U with PID 17864 (started by 程宇乐 in D:\java\demoTest\s-pay-mall-mvc-241001-xfg-order-pay 2\ddd-103\ddd-103-app)
+24-12-03.19:38:26.185 [main            ] INFO  StrategyAwardTest      - The following 1 profile is active: "dev"
+24-12-03.19:38:28.080 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-12-03.19:38:28.087 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-12-03.19:38:28.147 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 28 ms. Found 0 Redis repository interfaces.
+24-12-03.19:38:31.129 [main            ] INFO  Version                - Redisson 3.23.4
+24-12-03.19:38:32.141 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-03.19:38:32.172 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-03.19:38:37.716 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-12-03.19:38:37.930 [main            ] INFO  StrategyAwardTest      - Started StrategyAwardTest in 12.692 seconds (JVM running for 14.821)
+24-12-03.19:41:01.792 [main            ] INFO  StrategyAwardTest      - Starting StrategyAwardTest using Java 1.8.0_432 on LAPTOP-FJDJGS3U with PID 20428 (started by 程宇乐 in D:\java\demoTest\s-pay-mall-mvc-241001-xfg-order-pay 2\ddd-103\ddd-103-app)
+24-12-03.19:41:01.794 [main            ] INFO  StrategyAwardTest      - The following 1 profile is active: "dev"
+24-12-03.19:41:03.672 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-12-03.19:41:03.680 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-12-03.19:41:03.737 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 24 ms. Found 0 Redis repository interfaces.
+24-12-03.19:41:07.600 [main            ] INFO  Version                - Redisson 3.23.4
+24-12-03.19:41:08.418 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-03.19:41:08.450 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-03.19:41:12.532 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-12-03.19:41:12.717 [main            ] INFO  StrategyAwardTest      - Started StrategyAwardTest in 11.961 seconds (JVM running for 14.226)
+24-12-03.19:41:13.628 [redisson-netty-2-2] ERROR CommandDecoder         - Unable to decode data. channel: [id: 0x9efef6d2, L:/127.0.0.1:61479 - R:127.0.0.1/127.0.0.1:6379], reply: ReplayingDecoderByteBuf(ridx=259, widx=259), command: (GET), promise: java.util.concurrent.CompletableFuture@b79449e[Not completed, 1 dependents], params: [big_market_strategy_key_10001]
+com.fasterxml.jackson.core.JsonParseException: Illegal character ((CTRL-CHAR, code 1)): only regular white space (\r, \n, \t) is allowed between tokens
+ at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]
+	at com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:2391)
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:735)
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._throwInvalidSpace(ParserMinimalBase.java:713)
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser._skipWSOrEnd(ReaderBasedJsonParser.java:2461)
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser.nextToken(ReaderBasedJsonParser.java:698)
+	at com.fasterxml.jackson.databind.ObjectMapper._initForReading(ObjectMapper.java:4761)
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4667)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3666)
+	at org.redisson.codec.JsonJacksonCodec$2.decode(JsonJacksonCodec.java:99)
+	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:394)
+	at org.redisson.client.handler.CommandDecoder.decodeCommand(CommandDecoder.java:205)
+	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:144)
+	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:120)
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:529)
+	at io.netty.handler.codec.ReplayingDecoder.callDecode(ReplayingDecoder.java:366)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+24-12-03.19:41:13.649 [redisson-netty-2-2] ERROR ErrorsLoggingHandler   - Exception occured. Channel: [id: 0x9efef6d2, L:/127.0.0.1:61479 - R:127.0.0.1/127.0.0.1:6379]
+io.netty.handler.codec.DecoderException: com.fasterxml.jackson.core.JsonParseException: Illegal character ((CTRL-CHAR, code 1)): only regular white space (\r, \n, \t) is allowed between tokens
+ at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]
+	at io.netty.handler.codec.ReplayingDecoder.callDecode(ReplayingDecoder.java:421)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: com.fasterxml.jackson.core.JsonParseException: Illegal character ((CTRL-CHAR, code 1)): only regular white space (\r, \n, \t) is allowed between tokens
+ at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]
+	at com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:2391)
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:735)
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._throwInvalidSpace(ParserMinimalBase.java:713)
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser._skipWSOrEnd(ReaderBasedJsonParser.java:2461)
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser.nextToken(ReaderBasedJsonParser.java:698)
+	at com.fasterxml.jackson.databind.ObjectMapper._initForReading(ObjectMapper.java:4761)
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4667)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3666)
+	at org.redisson.codec.JsonJacksonCodec$2.decode(JsonJacksonCodec.java:99)
+	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:394)
+	at org.redisson.client.handler.CommandDecoder.decodeCommand(CommandDecoder.java:205)
+	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:144)
+	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:120)
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:529)
+	at io.netty.handler.codec.ReplayingDecoder.callDecode(ReplayingDecoder.java:366)
+	... 17 common frames omitted
+24-12-03.19:42:57.491 [main            ] INFO  StrategyAwardTest      - Starting StrategyAwardTest using Java 1.8.0_432 on LAPTOP-FJDJGS3U with PID 25532 (started by 程宇乐 in D:\java\demoTest\s-pay-mall-mvc-241001-xfg-order-pay 2\ddd-103\ddd-103-app)
+24-12-03.19:42:57.493 [main            ] INFO  StrategyAwardTest      - The following 1 profile is active: "dev"
+24-12-03.19:42:59.322 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-12-03.19:42:59.330 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-12-03.19:42:59.396 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 30 ms. Found 0 Redis repository interfaces.
+24-12-03.19:43:02.200 [main            ] INFO  Version                - Redisson 3.23.4
+24-12-03.19:43:02.995 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-03.19:43:03.023 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-03.19:43:06.457 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-12-03.19:43:06.620 [main            ] INFO  StrategyAwardTest      - Started StrategyAwardTest in 10.069 seconds (JVM running for 12.074)
+24-12-03.19:43:07.453 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-12-03.19:43:08.190 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-12-03.19:43:09.411 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-12-03.19:43:09.438 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-12-03.19:43:30.703 [main            ] INFO  StrategyAwardTest      - Starting StrategyAwardTest using Java 1.8.0_432 on LAPTOP-FJDJGS3U with PID 13008 (started by 程宇乐 in D:\java\demoTest\s-pay-mall-mvc-241001-xfg-order-pay 2\ddd-103\ddd-103-app)
+24-12-03.19:43:30.705 [main            ] INFO  StrategyAwardTest      - The following 1 profile is active: "dev"
+24-12-03.19:43:32.570 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-12-03.19:43:32.578 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-12-03.19:43:32.644 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 30 ms. Found 0 Redis repository interfaces.
+24-12-03.19:43:35.932 [main            ] INFO  Version                - Redisson 3.23.4
+24-12-03.19:43:36.751 [redisson-netty-2-5] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-03.19:43:36.785 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-03.19:43:40.516 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-12-03.19:43:40.677 [main            ] INFO  StrategyAwardTest      - Started StrategyAwardTest in 10.996 seconds (JVM running for 13.182)
+24-12-03.19:44:46.244 [main            ] INFO  StrategyAwardTest      - Starting StrategyAwardTest using Java 1.8.0_432 on LAPTOP-FJDJGS3U with PID 25796 (started by 程宇乐 in D:\java\demoTest\s-pay-mall-mvc-241001-xfg-order-pay 2\ddd-103\ddd-103-app)
+24-12-03.19:44:46.247 [main            ] INFO  StrategyAwardTest      - The following 1 profile is active: "dev"
+24-12-03.19:44:48.435 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-12-03.19:44:48.444 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-12-03.19:44:48.504 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 28 ms. Found 0 Redis repository interfaces.
+24-12-03.19:44:52.178 [main            ] INFO  Version                - Redisson 3.23.4
+24-12-03.19:44:53.129 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-03.19:44:53.176 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-03.19:44:57.382 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-12-03.19:44:57.559 [main            ] INFO  StrategyAwardTest      - Started StrategyAwardTest in 12.427 seconds (JVM running for 15.303)
+24-12-03.19:50:32.496 [main            ] INFO  StrategyAwardTest      - Starting StrategyAwardTest using Java 1.8.0_432 on LAPTOP-FJDJGS3U with PID 24708 (started by 程宇乐 in D:\java\demoTest\s-pay-mall-mvc-241001-xfg-order-pay 2\ddd-103\ddd-103-app)
+24-12-03.19:50:32.499 [main            ] INFO  StrategyAwardTest      - The following 1 profile is active: "dev"
+24-12-03.19:50:34.425 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-12-03.19:50:34.436 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-12-03.19:50:34.519 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 36 ms. Found 0 Redis repository interfaces.
+24-12-03.19:50:37.661 [main            ] INFO  Version                - Redisson 3.23.4
+24-12-03.19:50:38.576 [redisson-netty-2-5] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-03.19:50:38.605 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-03.19:50:42.503 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-12-03.19:50:42.656 [main            ] INFO  StrategyAwardTest      - Started StrategyAwardTest in 11.428 seconds (JVM running for 13.622)
+24-12-03.19:50:56.919 [main            ] INFO  StrategyAwardTest      - Starting StrategyAwardTest using Java 1.8.0_432 on LAPTOP-FJDJGS3U with PID 23900 (started by 程宇乐 in D:\java\demoTest\s-pay-mall-mvc-241001-xfg-order-pay 2\ddd-103\ddd-103-app)
+24-12-03.19:50:56.922 [main            ] INFO  StrategyAwardTest      - The following 1 profile is active: "dev"
+24-12-03.19:50:59.085 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-12-03.19:50:59.093 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-12-03.19:50:59.162 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 29 ms. Found 0 Redis repository interfaces.
+24-12-03.19:51:03.021 [main            ] INFO  Version                - Redisson 3.23.4
+24-12-03.19:51:03.917 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-03.19:51:03.971 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-03.19:51:08.330 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-12-03.19:51:08.523 [main            ] INFO  StrategyAwardTest      - Started StrategyAwardTest in 12.776 seconds (JVM running for 15.698)
+24-12-03.19:59:11.501 [main            ] INFO  StrategyAwardTest      - Starting StrategyAwardTest using Java 1.8.0_432 on LAPTOP-FJDJGS3U with PID 20624 (started by 程宇乐 in D:\java\demoTest\s-pay-mall-mvc-241001-xfg-order-pay 2\ddd-103\ddd-103-app)
+24-12-03.19:59:11.503 [main            ] INFO  StrategyAwardTest      - The following 1 profile is active: "dev"
+24-12-03.19:59:13.054 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-12-03.19:59:13.063 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-12-03.19:59:13.126 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 28 ms. Found 0 Redis repository interfaces.
+24-12-03.19:59:16.296 [main            ] INFO  Version                - Redisson 3.23.4
+24-12-03.19:59:17.036 [redisson-netty-2-5] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-03.19:59:17.065 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-03.19:59:21.030 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-12-03.19:59:21.187 [main            ] INFO  StrategyAwardTest      - Started StrategyAwardTest in 10.68 seconds (JVM running for 12.745)
+24-12-03.20:01:04.450 [main            ] INFO  StrategyAwardTest      - Starting StrategyAwardTest using Java 1.8.0_432 on LAPTOP-FJDJGS3U with PID 17000 (started by 程宇乐 in D:\java\demoTest\s-pay-mall-mvc-241001-xfg-order-pay 2\ddd-103\ddd-103-app)
+24-12-03.20:01:04.453 [main            ] INFO  StrategyAwardTest      - The following 1 profile is active: "dev"
+24-12-03.20:01:06.624 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-12-03.20:01:06.634 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-12-03.20:01:06.721 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 46 ms. Found 0 Redis repository interfaces.
+24-12-03.20:01:10.760 [main            ] INFO  Version                - Redisson 3.23.4
+24-12-03.20:01:12.344 [redisson-netty-2-5] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-03.20:01:12.391 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-03.20:01:15.784 [main            ] INFO  StrategyAwardTest      - Starting StrategyAwardTest using Java 1.8.0_432 on LAPTOP-FJDJGS3U with PID 524 (started by 程宇乐 in D:\java\demoTest\s-pay-mall-mvc-241001-xfg-order-pay 2\ddd-103\ddd-103-app)
+24-12-03.20:01:15.787 [main            ] INFO  StrategyAwardTest      - The following 1 profile is active: "dev"
+24-12-03.20:01:19.372 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-12-03.20:01:19.412 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-12-03.20:01:19.430 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-12-03.20:01:19.751 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 45 ms. Found 0 Redis repository interfaces.
+24-12-03.20:01:19.843 [main            ] INFO  StrategyAwardTest      - Started StrategyAwardTest in 16.536 seconds (JVM running for 18.768)
+24-12-03.20:01:25.130 [main            ] INFO  Version                - Redisson 3.23.4
+24-12-03.20:01:26.307 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-03.20:01:26.384 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-03.20:01:32.174 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-12-03.20:01:32.349 [main            ] INFO  StrategyAwardTest      - Started StrategyAwardTest in 18.802 seconds (JVM running for 21.752)
+24-12-03.20:03:59.386 [main            ] INFO  StrategyAwardTest      - Starting StrategyAwardTest using Java 1.8.0_432 on LAPTOP-FJDJGS3U with PID 15224 (started by 程宇乐 in D:\java\demoTest\s-pay-mall-mvc-241001-xfg-order-pay 2\ddd-103\ddd-103-app)
+24-12-03.20:03:59.387 [main            ] INFO  StrategyAwardTest      - The following 1 profile is active: "dev"
+24-12-03.20:04:01.074 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-12-03.20:04:01.083 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-12-03.20:04:01.144 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 30 ms. Found 0 Redis repository interfaces.
+24-12-03.20:04:04.160 [main            ] INFO  Version                - Redisson 3.23.4
+24-12-03.20:04:04.928 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-03.20:04:04.959 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-03.20:04:08.605 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-12-03.20:04:08.751 [main            ] INFO  StrategyAwardTest      - Started StrategyAwardTest in 10.275 seconds (JVM running for 12.309)
+24-12-03.20:04:55.713 [main            ] INFO  StrategyAwardTest      - Starting StrategyAwardTest using Java 1.8.0_432 on LAPTOP-FJDJGS3U with PID 26576 (started by 程宇乐 in D:\java\demoTest\s-pay-mall-mvc-241001-xfg-order-pay 2\ddd-103\ddd-103-app)
+24-12-03.20:04:55.715 [main            ] INFO  StrategyAwardTest      - The following 1 profile is active: "dev"
+24-12-03.20:04:57.346 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-12-03.20:04:57.354 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-12-03.20:04:57.419 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 30 ms. Found 0 Redis repository interfaces.
+24-12-03.20:05:00.831 [main            ] INFO  Version                - Redisson 3.23.4
+24-12-03.20:05:01.579 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-03.20:05:01.609 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-03.20:05:04.963 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-12-03.20:05:05.107 [main            ] INFO  StrategyAwardTest      - Started StrategyAwardTest in 10.327 seconds (JVM running for 12.406)
+24-12-03.20:10:00.258 [main            ] INFO  StrategyAwardTest      - Starting StrategyAwardTest using Java 1.8.0_432 on LAPTOP-FJDJGS3U with PID 26096 (started by 程宇乐 in D:\java\demoTest\s-pay-mall-mvc-241001-xfg-order-pay 2\ddd-103\ddd-103-app)
+24-12-03.20:10:00.260 [main            ] INFO  StrategyAwardTest      - The following 1 profile is active: "dev"
+24-12-03.20:10:02.228 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-12-03.20:10:02.240 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-12-03.20:10:02.327 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 39 ms. Found 0 Redis repository interfaces.
+24-12-03.20:10:05.490 [main            ] INFO  Version                - Redisson 3.23.4
+24-12-03.20:10:06.327 [redisson-netty-2-5] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-03.20:10:06.361 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-03.20:10:10.325 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-12-03.20:10:10.565 [main            ] INFO  StrategyAwardTest      - Started StrategyAwardTest in 11.3 seconds (JVM running for 13.481)
+24-12-03.20:10:21.160 [main            ] INFO  StrategyAwardTest      - Starting StrategyAwardTest using Java 1.8.0_432 on LAPTOP-FJDJGS3U with PID 24220 (started by 程宇乐 in D:\java\demoTest\s-pay-mall-mvc-241001-xfg-order-pay 2\ddd-103\ddd-103-app)
+24-12-03.20:10:21.163 [main            ] INFO  StrategyAwardTest      - The following 1 profile is active: "dev"
+24-12-03.20:10:23.030 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-12-03.20:10:23.039 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-12-03.20:10:23.107 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 31 ms. Found 0 Redis repository interfaces.
+24-12-03.20:10:26.061 [main            ] INFO  Version                - Redisson 3.23.4
+24-12-03.20:10:26.917 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-03.20:10:26.952 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-03.20:10:30.720 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-12-03.20:10:30.864 [main            ] INFO  StrategyAwardTest      - Started StrategyAwardTest in 10.713 seconds (JVM running for 12.918)
+24-12-03.20:12:55.994 [main            ] INFO  StrategyAwardTest      - Starting StrategyAwardTest using Java 1.8.0_432 on LAPTOP-FJDJGS3U with PID 24648 (started by 程宇乐 in D:\java\demoTest\s-pay-mall-mvc-241001-xfg-order-pay 2\ddd-103\ddd-103-app)
+24-12-03.20:12:55.997 [main            ] INFO  StrategyAwardTest      - The following 1 profile is active: "dev"
+24-12-03.20:12:57.973 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-12-03.20:12:57.981 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-12-03.20:12:58.046 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 31 ms. Found 0 Redis repository interfaces.
+24-12-03.20:13:01.240 [main            ] INFO  Version                - Redisson 3.23.4
+24-12-03.20:13:02.251 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-03.20:13:02.294 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-03.20:13:06.153 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-12-03.20:13:06.334 [main            ] INFO  StrategyAwardTest      - Started StrategyAwardTest in 11.37 seconds (JVM running for 13.508)
+24-12-03.20:13:33.654 [main            ] INFO  StrategyAwardTest      - Starting StrategyAwardTest using Java 1.8.0_432 on LAPTOP-FJDJGS3U with PID 26036 (started by 程宇乐 in D:\java\demoTest\s-pay-mall-mvc-241001-xfg-order-pay 2\ddd-103\ddd-103-app)
+24-12-03.20:13:33.656 [main            ] INFO  StrategyAwardTest      - The following 1 profile is active: "dev"
+24-12-03.20:13:35.584 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-12-03.20:13:35.593 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-12-03.20:13:35.666 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 32 ms. Found 0 Redis repository interfaces.
+24-12-03.20:13:38.822 [main            ] INFO  Version                - Redisson 3.23.4
+24-12-03.20:13:39.657 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-03.20:13:39.688 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-03.20:13:43.540 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-12-03.20:13:43.702 [main            ] INFO  StrategyAwardTest      - Started StrategyAwardTest in 11.053 seconds (JVM running for 13.259)
+24-12-03.20:17:49.943 [main            ] INFO  StrategyAwardTest      - Starting StrategyAwardTest using Java 1.8.0_432 on LAPTOP-FJDJGS3U with PID 13128 (started by 程宇乐 in D:\java\demoTest\s-pay-mall-mvc-241001-xfg-order-pay 2\ddd-103\ddd-103-app)
+24-12-03.20:17:49.946 [main            ] INFO  StrategyAwardTest      - The following 1 profile is active: "dev"
+24-12-03.20:17:51.843 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-12-03.20:17:51.851 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-12-03.20:17:51.925 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 31 ms. Found 0 Redis repository interfaces.
+24-12-03.20:17:55.363 [main            ] INFO  Version                - Redisson 3.23.4
+24-12-03.20:17:56.259 [redisson-netty-2-5] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-03.20:17:56.295 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-03.20:18:00.260 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-12-03.20:18:00.452 [main            ] INFO  StrategyAwardTest      - Started StrategyAwardTest in 11.472 seconds (JVM running for 13.6)
+24-12-03.20:19:04.707 [main            ] INFO  StrategyAwardTest      - Starting StrategyAwardTest using Java 1.8.0_432 on LAPTOP-FJDJGS3U with PID 12144 (started by 程宇乐 in D:\java\demoTest\s-pay-mall-mvc-241001-xfg-order-pay 2\ddd-103\ddd-103-app)
+24-12-03.20:19:04.710 [main            ] INFO  StrategyAwardTest      - The following 1 profile is active: "dev"
+24-12-03.20:19:06.908 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-12-03.20:19:06.917 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-12-03.20:19:06.989 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 33 ms. Found 0 Redis repository interfaces.
+24-12-03.20:19:10.380 [main            ] INFO  Version                - Redisson 3.23.4
+24-12-03.20:19:11.398 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-03.20:19:11.428 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-03.20:19:15.627 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-12-03.20:19:15.789 [main            ] INFO  StrategyAwardTest      - Started StrategyAwardTest in 12.175 seconds (JVM running for 14.402)
+24-12-03.20:19:16.767 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-12-03.20:19:17.566 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-12-03.20:19:18.600 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-12-03.20:19:18.628 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-12-03.20:26:18.897 [main            ] INFO  StrategyAwardTest      - Starting StrategyAwardTest using Java 1.8.0_432 on LAPTOP-FJDJGS3U with PID 17268 (started by 程宇乐 in D:\java\demoTest\s-pay-mall-mvc-241001-xfg-order-pay 2\ddd-103\ddd-103-app)
+24-12-03.20:26:18.900 [main            ] INFO  StrategyAwardTest      - The following 1 profile is active: "dev"
+24-12-03.20:26:20.798 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-12-03.20:26:20.807 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-12-03.20:26:20.887 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 41 ms. Found 0 Redis repository interfaces.
+24-12-03.20:26:24.125 [main            ] INFO  Version                - Redisson 3.23.4
+24-12-03.20:26:24.925 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-03.20:26:24.956 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-03.20:26:28.655 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-12-03.20:26:28.811 [main            ] INFO  StrategyAwardTest      - Started StrategyAwardTest in 10.979 seconds (JVM running for 13.065)
+24-12-03.20:26:29.626 [main            ] INFO  StrategyAwardTest      - 抽奖key：915
+24-12-03.20:26:29.672 [main            ] INFO  StrategyAwardTest      - 奖品:101
+24-12-03.20:26:29.672 [main            ] INFO  StrategyAwardTest      - 抽奖key：720
+24-12-03.20:26:29.675 [main            ] INFO  StrategyAwardTest      - 奖品:101
+24-12-03.20:26:29.675 [main            ] INFO  StrategyAwardTest      - 抽奖key：621
+24-12-03.20:26:29.678 [main            ] INFO  StrategyAwardTest      - 奖品:103
+24-12-03.20:26:29.678 [main            ] INFO  StrategyAwardTest      - 抽奖key：847
+24-12-03.20:26:29.681 [main            ] INFO  StrategyAwardTest      - 奖品:101
+24-12-03.20:26:29.681 [main            ] INFO  StrategyAwardTest      - 抽奖key：74
+24-12-03.20:26:29.684 [main            ] INFO  StrategyAwardTest      - 奖品:101
+24-12-03.20:26:29.684 [main            ] INFO  StrategyAwardTest      - 抽奖key：269
+24-12-03.20:26:29.686 [main            ] INFO  StrategyAwardTest      - 奖品:101
+24-12-03.20:26:29.687 [main            ] INFO  StrategyAwardTest      - 抽奖key：384
+24-12-03.20:26:29.688 [main            ] INFO  StrategyAwardTest      - 奖品:101
+24-12-03.20:26:29.689 [main            ] INFO  StrategyAwardTest      - 抽奖key：871
+24-12-03.20:26:29.691 [main            ] INFO  StrategyAwardTest      - 奖品:101
+24-12-03.20:26:29.692 [main            ] INFO  StrategyAwardTest      - 抽奖key：651
+24-12-03.20:26:29.694 [main            ] INFO  StrategyAwardTest      - 奖品:101
+24-12-03.20:26:29.695 [main            ] INFO  StrategyAwardTest      - 抽奖key：985
+24-12-03.20:26:29.697 [main            ] INFO  StrategyAwardTest      - 奖品:101
+24-12-03.22:04:18.290 [main            ] INFO  StrategyAwardTest      - Starting StrategyAwardTest using Java 1.8.0_432 on LAPTOP-FJDJGS3U with PID 14876 (started by 程宇乐 in D:\java\demoTest\s-pay-mall-mvc-241001-xfg-order-pay 2\ddd-103\ddd-103-app)
+24-12-03.22:04:18.291 [main            ] INFO  StrategyAwardTest      - The following 1 profile is active: "dev"
+24-12-03.22:04:19.929 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-12-03.22:04:19.937 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-12-03.22:04:19.994 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 27 ms. Found 0 Redis repository interfaces.
+24-12-03.22:04:22.910 [main            ] INFO  Version                - Redisson 3.23.4
+24-12-03.22:04:23.635 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-03.22:04:23.661 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-03.22:04:26.988 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-12-03.22:04:27.126 [main            ] INFO  StrategyAwardTest      - Started StrategyAwardTest in 9.635 seconds (JVM running for 14.712)
+24-12-03.22:04:27.856 [main            ] INFO  StrategyArmory         - 随机值: 3410
+24-12-03.22:06:29.230 [main            ] INFO  StrategyAwardTest      - Starting StrategyAwardTest using Java 1.8.0_432 on LAPTOP-FJDJGS3U with PID 17228 (started by 程宇乐 in D:\java\demoTest\s-pay-mall-mvc-241001-xfg-order-pay 2\ddd-103\ddd-103-app)
+24-12-03.22:06:29.232 [main            ] INFO  StrategyAwardTest      - The following 1 profile is active: "dev"
+24-12-03.22:06:32.045 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-12-03.22:06:32.056 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-12-03.22:06:32.171 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 38 ms. Found 0 Redis repository interfaces.
+24-12-03.22:06:35.104 [main            ] INFO  Version                - Redisson 3.23.4
+24-12-03.22:06:35.844 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-03.22:06:35.871 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-03.22:06:39.234 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-12-03.22:06:39.381 [main            ] INFO  StrategyAwardTest      - Started StrategyAwardTest in 11.38 seconds (JVM running for 13.529)
+24-12-03.22:06:40.100 [main            ] INFO  StrategyAwardTest      - 抽奖key：303
+24-12-03.22:06:40.141 [main            ] INFO  StrategyAwardTest      - 奖品:101
+24-12-03.22:06:40.141 [main            ] INFO  StrategyAwardTest      - 抽奖key：959
+24-12-03.22:06:40.144 [main            ] INFO  StrategyAwardTest      - 奖品:101
+24-12-03.22:06:40.144 [main            ] INFO  StrategyAwardTest      - 抽奖key：548
+24-12-03.22:06:40.147 [main            ] INFO  StrategyAwardTest      - 奖品:101
+24-12-03.22:06:40.148 [main            ] INFO  StrategyAwardTest      - 抽奖key：352
+24-12-03.22:06:40.150 [main            ] INFO  StrategyAwardTest      - 奖品:102
+24-12-03.22:06:40.150 [main            ] INFO  StrategyAwardTest      - 抽奖key：882
+24-12-03.22:06:40.152 [main            ] INFO  StrategyAwardTest      - 奖品:101
+24-12-03.22:06:40.153 [main            ] INFO  StrategyAwardTest      - 抽奖key：408
+24-12-03.22:06:40.154 [main            ] INFO  StrategyAwardTest      - 奖品:106
+24-12-03.22:06:40.154 [main            ] INFO  StrategyAwardTest      - 抽奖key：634
+24-12-03.22:06:40.156 [main            ] INFO  StrategyAwardTest      - 奖品:101
+24-12-03.22:06:40.157 [main            ] INFO  StrategyAwardTest      - 抽奖key：654
+24-12-03.22:06:40.159 [main            ] INFO  StrategyAwardTest      - 奖品:102
+24-12-03.22:06:40.159 [main            ] INFO  StrategyAwardTest      - 抽奖key：416
+24-12-03.22:06:40.161 [main            ] INFO  StrategyAwardTest      - 奖品:101
+24-12-03.22:06:40.162 [main            ] INFO  StrategyAwardTest      - 抽奖key：148
+24-12-03.22:06:40.164 [main            ] INFO  StrategyAwardTest      - 奖品:103
+24-12-03.22:07:45.448 [main            ] INFO  StrategyAwardTest      - Starting StrategyAwardTest using Java 1.8.0_432 on LAPTOP-FJDJGS3U with PID 27040 (started by 程宇乐 in D:\java\demoTest\s-pay-mall-mvc-241001-xfg-order-pay 2\ddd-103\ddd-103-app)
+24-12-03.22:07:45.450 [main            ] INFO  StrategyAwardTest      - The following 1 profile is active: "dev"
+24-12-03.22:07:47.111 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-12-03.22:07:47.119 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-12-03.22:07:47.178 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 27 ms. Found 0 Redis repository interfaces.
+24-12-03.22:07:49.835 [main            ] INFO  Version                - Redisson 3.23.4
+24-12-03.22:07:50.563 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-03.22:07:50.589 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-03.22:07:53.868 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-12-03.22:07:54.009 [main            ] INFO  StrategyAwardTest      - Started StrategyAwardTest in 9.457 seconds (JVM running for 11.456)
+24-12-03.22:07:54.753 [main            ] INFO  StrategyArmory         - 随机值: 8859
+24-12-03.22:07:54.754 [main            ] INFO  StrategyRepository     - mapName: big_market_strategy_key_10001
+24-12-03.22:07:54.754 [main            ] INFO  StrategyRepository     - 随机值: 8859
+24-12-03.22:08:32.552 [main            ] INFO  StrategyAwardTest      - Starting StrategyAwardTest using Java 1.8.0_432 on LAPTOP-FJDJGS3U with PID 16208 (started by 程宇乐 in D:\java\demoTest\s-pay-mall-mvc-241001-xfg-order-pay 2\ddd-103\ddd-103-app)
+24-12-03.22:08:32.555 [main            ] INFO  StrategyAwardTest      - The following 1 profile is active: "dev"
+24-12-03.22:08:34.278 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-12-03.22:08:34.285 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-12-03.22:08:34.337 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 20 ms. Found 0 Redis repository interfaces.
+24-12-03.22:08:37.302 [main            ] INFO  Version                - Redisson 3.23.4
+24-12-03.22:08:38.013 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-03.22:08:38.040 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-03.22:08:41.191 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-12-03.22:08:41.330 [main            ] INFO  StrategyAwardTest      - Started StrategyAwardTest in 9.727 seconds (JVM running for 11.476)
+24-12-03.22:08:42.049 [main            ] INFO  StrategyArmory         - 随机值: 6409
+24-12-03.22:08:42.050 [main            ] INFO  StrategyRepository     - mapName: big_market_strategy_rate_table_key_10001
+24-12-03.22:08:42.050 [main            ] INFO  StrategyRepository     - 随机值: 6409
+24-12-03.22:08:42.065 [main            ] INFO  StrategyRepository     - 奖品Id: 101
+24-12-03.22:08:42.065 [main            ] INFO  StrategyAwardTest      - 奖品101:
+24-12-03.22:08:42.067 [main            ] INFO  StrategyArmory         - 随机值: 9695
+24-12-03.22:08:42.067 [main            ] INFO  StrategyRepository     - mapName: big_market_strategy_rate_table_key_10001
+24-12-03.22:08:42.067 [main            ] INFO  StrategyRepository     - 随机值: 9695
+24-12-03.22:08:42.069 [main            ] INFO  StrategyRepository     - 奖品Id: 101
+24-12-03.22:08:42.070 [main            ] INFO  StrategyAwardTest      - 奖品101:
+24-12-03.22:08:42.071 [main            ] INFO  StrategyArmory         - 随机值: 7811
+24-12-03.22:08:42.071 [main            ] INFO  StrategyRepository     - mapName: big_market_strategy_rate_table_key_10001
+24-12-03.22:08:42.072 [main            ] INFO  StrategyRepository     - 随机值: 7811
+24-12-03.22:08:42.074 [main            ] INFO  StrategyRepository     - 奖品Id: 101
+24-12-03.22:08:42.074 [main            ] INFO  StrategyAwardTest      - 奖品101:
+24-12-03.22:08:42.076 [main            ] INFO  StrategyArmory         - 随机值: 4319
+24-12-03.22:08:42.076 [main            ] INFO  StrategyRepository     - mapName: big_market_strategy_rate_table_key_10001
+24-12-03.22:08:42.076 [main            ] INFO  StrategyRepository     - 随机值: 4319
+24-12-03.22:08:42.077 [main            ] INFO  StrategyRepository     - 奖品Id: 102
+24-12-03.22:08:42.078 [main            ] INFO  StrategyAwardTest      - 奖品102:

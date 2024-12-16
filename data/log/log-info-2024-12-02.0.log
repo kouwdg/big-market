@@ -1,0 +1,16 @@
+24-12-02.13:25:26.533 [main            ] INFO  Application            - Starting Application using Java 1.8.0_432 on LAPTOP-FJDJGS3U with PID 23548 (D:\java\demoTest\s-pay-mall-mvc-241001-xfg-order-pay 2\ddd-103\ddd-103-app\target\classes started by 程宇乐 in D:\java\demoTest\s-pay-mall-mvc-241001-xfg-order-pay 2\ddd-103)
+24-12-02.13:25:26.537 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+24-12-02.13:25:27.344 [main            ] WARN  ClassPathMapperScanner - No MyBatis mapper was found in '[com.cheng]' package. Please check your configuration.
+24-12-02.13:25:27.798 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8091 (http)
+24-12-02.13:25:27.799 [main            ] INFO  AprLifecycleListener   - Loaded Apache Tomcat Native library [2.0.7] using APR version [1.7.4].
+24-12-02.13:25:27.799 [main            ] INFO  AprLifecycleListener   - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+24-12-02.13:25:27.799 [main            ] INFO  AprLifecycleListener   - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+24-12-02.13:25:27.823 [main            ] INFO  AprLifecycleListener   - OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+24-12-02.13:25:27.838 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8091"]
+24-12-02.13:25:27.838 [main            ] INFO  StandardService        - Starting service [Tomcat]
+24-12-02.13:25:27.839 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+24-12-02.13:25:27.961 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+24-12-02.13:25:27.962 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1378 ms
+24-12-02.13:25:28.610 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8091"]
+24-12-02.13:25:28.682 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 8091 (http) with context path ''
+24-12-02.13:25:28.692 [main            ] INFO  Application            - Started Application in 2.772 seconds (JVM running for 4.441)

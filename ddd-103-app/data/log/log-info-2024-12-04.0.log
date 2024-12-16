@@ -1,0 +1,280 @@
+24-12-04.13:34:17.982 [main            ] INFO  StrategyAwardTest      - Starting StrategyAwardTest using Java 1.8.0_432 on LAPTOP-FJDJGS3U with PID 24764 (started by 程宇乐 in D:\java\demoTest\s-pay-mall-mvc-241001-xfg-order-pay 2\ddd-103\ddd-103-app)
+24-12-04.13:34:17.984 [main            ] INFO  StrategyAwardTest      - The following 1 profile is active: "dev"
+24-12-04.13:34:19.308 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-12-04.13:34:19.314 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-12-04.13:34:19.365 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 22 ms. Found 0 Redis repository interfaces.
+24-12-04.13:34:21.735 [main            ] INFO  Version                - Redisson 3.23.4
+24-12-04.13:34:22.401 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-04.13:34:22.421 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-04.13:34:24.681 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-12-04.13:34:24.765 [main            ] INFO  StrategyAwardTest      - Started StrategyAwardTest in 7.458 seconds (JVM running for 9.419)
+24-12-04.13:34:25.309 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-12-04.13:34:25.883 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-12-04.13:34:25.984 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-12-04.13:34:25.988 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-12-04.13:36:03.348 [main            ] INFO  StrategyAwardTest      - Starting StrategyAwardTest using Java 1.8.0_432 on LAPTOP-FJDJGS3U with PID 15368 (started by 程宇乐 in D:\java\demoTest\s-pay-mall-mvc-241001-xfg-order-pay 2\ddd-103\ddd-103-app)
+24-12-04.13:36:03.349 [main            ] INFO  StrategyAwardTest      - The following 1 profile is active: "dev"
+24-12-04.13:36:04.503 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-12-04.13:36:04.508 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-12-04.13:36:04.562 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 26 ms. Found 0 Redis repository interfaces.
+24-12-04.13:36:07.437 [main            ] INFO  Version                - Redisson 3.23.4
+24-12-04.13:36:08.184 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-04.13:36:08.207 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-04.13:36:10.831 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-12-04.13:36:10.957 [main            ] INFO  StrategyAwardTest      - Started StrategyAwardTest in 8.383 seconds (JVM running for 10.07)
+24-12-04.13:36:11.497 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-12-04.13:36:11.936 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-12-04.13:36:11.991 [main            ] INFO  StrategyRepository     - strategy:Strategy(id=1, strategyId=null, strategyDesc=null, ruleModels=null, createTime=null, updateTime=null)
+24-12-04.13:36:12.038 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-12-04.13:36:12.042 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-12-04.13:37:08.371 [main            ] INFO  StrategyAwardTest      - Starting StrategyAwardTest using Java 1.8.0_432 on LAPTOP-FJDJGS3U with PID 15280 (started by 程宇乐 in D:\java\demoTest\s-pay-mall-mvc-241001-xfg-order-pay 2\ddd-103\ddd-103-app)
+24-12-04.13:37:08.372 [main            ] INFO  StrategyAwardTest      - The following 1 profile is active: "dev"
+24-12-04.13:37:09.926 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-12-04.13:37:09.931 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-12-04.13:37:09.978 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 18 ms. Found 0 Redis repository interfaces.
+24-12-04.13:37:13.272 [main            ] INFO  Version                - Redisson 3.23.4
+24-12-04.13:37:14.198 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-04.13:37:14.239 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-04.13:37:18.052 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-12-04.13:37:18.195 [main            ] INFO  StrategyAwardTest      - Started StrategyAwardTest in 10.488 seconds (JVM running for 12.798)
+24-12-04.13:37:22.761 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-12-04.13:37:23.658 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-12-04.13:37:23.753 [main            ] INFO  StrategyRepository     - strategy:Strategy(id=1, strategyId=null, strategyDesc=null, ruleModels=null, createTime=null, updateTime=null)
+24-12-04.13:37:23.861 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-12-04.13:37:23.885 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-12-04.13:37:44.180 [main            ] INFO  StrategyAwardTest      - Starting StrategyAwardTest using Java 1.8.0_432 on LAPTOP-FJDJGS3U with PID 3388 (started by 程宇乐 in D:\java\demoTest\s-pay-mall-mvc-241001-xfg-order-pay 2\ddd-103\ddd-103-app)
+24-12-04.13:37:44.182 [main            ] INFO  StrategyAwardTest      - The following 1 profile is active: "dev"
+24-12-04.13:37:45.778 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-12-04.13:37:45.783 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-12-04.13:37:45.827 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 19 ms. Found 0 Redis repository interfaces.
+24-12-04.13:37:49.015 [main            ] INFO  Version                - Redisson 3.23.4
+24-12-04.13:37:49.979 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-04.13:37:50.016 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-04.13:37:53.596 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-12-04.13:37:53.741 [main            ] INFO  StrategyAwardTest      - Started StrategyAwardTest in 10.254 seconds (JVM running for 12.16)
+24-12-04.13:39:06.301 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-12-04.13:39:12.286 [main            ] INFO  StrategyAwardTest      - Starting StrategyAwardTest using Java 1.8.0_432 on LAPTOP-FJDJGS3U with PID 24932 (started by 程宇乐 in D:\java\demoTest\s-pay-mall-mvc-241001-xfg-order-pay 2\ddd-103\ddd-103-app)
+24-12-04.13:39:12.287 [main            ] INFO  StrategyAwardTest      - The following 1 profile is active: "dev"
+24-12-04.13:39:13.676 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-12-04.13:39:13.682 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-12-04.13:39:13.728 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 21 ms. Found 0 Redis repository interfaces.
+24-12-04.13:39:16.982 [main            ] INFO  Version                - Redisson 3.23.4
+24-12-04.13:39:17.908 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-04.13:39:17.949 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-04.13:39:21.674 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-12-04.13:39:21.826 [main            ] INFO  StrategyAwardTest      - Started StrategyAwardTest in 10.538 seconds (JVM running for 12.744)
+24-12-04.13:39:40.142 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-12-04.13:39:40.966 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-12-04.13:39:41.057 [main            ] INFO  StrategyRepository     - strategy:Strategy(id=1, strategyId=null, strategyDesc=null, ruleModels=null, createTime=null, updateTime=null)
+24-12-04.13:39:41.155 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-12-04.13:39:41.173 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-12-04.13:40:27.096 [main            ] INFO  StrategyAwardTest      - Starting StrategyAwardTest using Java 1.8.0_432 on LAPTOP-FJDJGS3U with PID 21788 (started by 程宇乐 in D:\java\demoTest\s-pay-mall-mvc-241001-xfg-order-pay 2\ddd-103\ddd-103-app)
+24-12-04.13:40:27.098 [main            ] INFO  StrategyAwardTest      - The following 1 profile is active: "dev"
+24-12-04.13:40:28.468 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-12-04.13:40:28.472 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-12-04.13:40:28.510 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 17 ms. Found 0 Redis repository interfaces.
+24-12-04.13:40:31.816 [main            ] INFO  Version                - Redisson 3.23.4
+24-12-04.13:40:32.698 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-04.13:40:32.720 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-04.13:40:36.236 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-12-04.13:40:36.373 [main            ] INFO  StrategyAwardTest      - Started StrategyAwardTest in 9.919 seconds (JVM running for 11.782)
+24-12-04.13:40:41.155 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-12-04.13:40:43.300 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-12-04.13:40:45.530 [main            ] INFO  StrategyRepository     - strategy:Strategy(id=1, strategyId=10001, strategyDesc=抽奖策略A, ruleModels=rule_weight, createTime=Tue Dec 03 02:25:52 CST 2024, updateTime=Tue Dec 03 02:25:56 CST 2024)
+24-12-04.13:40:51.201 [redisson-netty-2-6] ERROR ErrorsLoggingHandler   - Exception occured. Channel: [id: 0xb6c576ea, L:/127.0.0.1:61618 - R:127.0.0.1/127.0.0.1:6379]
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:379)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+24-12-04.13:40:51.324 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-12-04.13:40:51.416 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-12-04.13:41:20.951 [main            ] INFO  StrategyAwardTest      - Starting StrategyAwardTest using Java 1.8.0_432 on LAPTOP-FJDJGS3U with PID 22188 (started by 程宇乐 in D:\java\demoTest\s-pay-mall-mvc-241001-xfg-order-pay 2\ddd-103\ddd-103-app)
+24-12-04.13:41:20.953 [main            ] INFO  StrategyAwardTest      - The following 1 profile is active: "dev"
+24-12-04.13:41:22.414 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-12-04.13:41:22.420 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-12-04.13:41:22.473 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 23 ms. Found 0 Redis repository interfaces.
+24-12-04.13:41:25.696 [main            ] INFO  Version                - Redisson 3.23.4
+24-12-04.13:41:26.631 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-04.13:41:26.655 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-04.13:41:30.115 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-12-04.13:41:30.245 [main            ] INFO  StrategyAwardTest      - Started StrategyAwardTest in 9.969 seconds (JVM running for 11.746)
+24-12-04.13:41:35.051 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-12-04.13:41:37.099 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-12-04.13:41:48.008 [main            ] INFO  StrategyRepository     - strategy:Strategy(id=1, strategyId=10001, strategyDesc=抽奖策略A, ruleModels=rule_weight, createTime=Tue Dec 03 02:25:52 CST 2024, updateTime=Tue Dec 03 02:25:56 CST 2024)
+24-12-04.13:42:07.145 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-12-04.13:42:07.165 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-12-04.13:43:20.863 [main            ] INFO  StrategyAwardTest      - Starting StrategyAwardTest using Java 1.8.0_432 on LAPTOP-FJDJGS3U with PID 320 (started by 程宇乐 in D:\java\demoTest\s-pay-mall-mvc-241001-xfg-order-pay 2\ddd-103\ddd-103-app)
+24-12-04.13:43:20.866 [main            ] INFO  StrategyAwardTest      - The following 1 profile is active: "dev"
+24-12-04.13:43:22.165 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-12-04.13:43:22.171 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-12-04.13:43:22.214 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 19 ms. Found 0 Redis repository interfaces.
+24-12-04.13:43:24.437 [main            ] INFO  Version                - Redisson 3.23.4
+24-12-04.13:43:25.074 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-04.13:43:25.093 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-04.13:43:27.268 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-12-04.13:43:27.360 [main            ] INFO  StrategyAwardTest      - Started StrategyAwardTest in 7.132 seconds (JVM running for 8.528)
+24-12-04.13:43:27.892 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-12-04.13:43:28.278 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-12-04.13:43:28.328 [main            ] INFO  StrategyRepository     - strategy:Strategy(id=1, strategyId=10001, strategyDesc=抽奖策略A, ruleModels=rule_weight, createTime=Tue Dec 03 02:25:52 CST 2024, updateTime=Tue Dec 03 02:25:56 CST 2024)
+24-12-04.13:43:28.377 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-12-04.13:43:28.382 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-12-04.14:27:46.829 [main            ] INFO  StrategyAwardTest      - Starting StrategyAwardTest using Java 1.8.0_432 on LAPTOP-FJDJGS3U with PID 4524 (started by 程宇乐 in D:\java\demoTest\s-pay-mall-mvc-241001-xfg-order-pay 2\ddd-103\ddd-103-app)
+24-12-04.14:27:46.837 [main            ] INFO  StrategyAwardTest      - The following 1 profile is active: "dev"
+24-12-04.14:27:48.258 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-12-04.14:27:48.267 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-12-04.14:27:48.398 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 92 ms. Found 0 Redis repository interfaces.
+24-12-04.14:27:51.332 [main            ] INFO  Version                - Redisson 3.23.4
+24-12-04.14:27:52.278 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-04.14:27:52.308 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-04.14:27:54.529 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-12-04.14:27:54.624 [main            ] INFO  StrategyAwardTest      - Started StrategyAwardTest in 8.469 seconds (JVM running for 10.041)
+24-12-04.14:27:55.188 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-12-04.14:27:55.651 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-12-04.14:27:55.763 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-12-04.14:27:55.794 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-12-04.14:28:20.864 [main            ] INFO  StrategyAwardTest      - Starting StrategyAwardTest using Java 1.8.0_432 on LAPTOP-FJDJGS3U with PID 23004 (started by 程宇乐 in D:\java\demoTest\s-pay-mall-mvc-241001-xfg-order-pay 2\ddd-103\ddd-103-app)
+24-12-04.14:28:20.867 [main            ] INFO  StrategyAwardTest      - The following 1 profile is active: "dev"
+24-12-04.14:28:22.317 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-12-04.14:28:22.322 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-12-04.14:28:22.359 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 15 ms. Found 0 Redis repository interfaces.
+24-12-04.14:28:25.740 [main            ] INFO  Version                - Redisson 3.23.4
+24-12-04.14:28:26.703 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-04.14:28:26.725 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-04.14:28:30.483 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-12-04.14:28:30.616 [main            ] INFO  StrategyAwardTest      - Started StrategyAwardTest in 10.385 seconds (JVM running for 12.385)
+24-12-04.14:28:43.705 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-12-04.14:28:45.626 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-12-04.14:30:04.300 [HikariPool-1 housekeeper] WARN  HikariPool             - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m18s572ms503µs700ns).
+24-12-04.14:30:04.388 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-12-04.14:30:04.407 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-12-04.14:30:12.137 [main            ] INFO  StrategyAwardTest      - Starting StrategyAwardTest using Java 1.8.0_432 on LAPTOP-FJDJGS3U with PID 14272 (started by 程宇乐 in D:\java\demoTest\s-pay-mall-mvc-241001-xfg-order-pay 2\ddd-103\ddd-103-app)
+24-12-04.14:30:12.139 [main            ] INFO  StrategyAwardTest      - The following 1 profile is active: "dev"
+24-12-04.14:30:13.203 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-12-04.14:30:13.207 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-12-04.14:30:13.243 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 17 ms. Found 0 Redis repository interfaces.
+24-12-04.14:30:15.391 [main            ] INFO  Version                - Redisson 3.23.4
+24-12-04.14:30:15.984 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-04.14:30:16.005 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-04.14:30:18.123 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-12-04.14:30:18.209 [main            ] INFO  StrategyAwardTest      - Started StrategyAwardTest in 6.717 seconds (JVM running for 8.138)
+24-12-04.14:30:18.783 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-12-04.14:30:19.244 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-12-04.14:30:19.355 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-12-04.14:30:19.392 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-12-04.14:51:50.856 [main            ] INFO  StrategyAwardTest      - Starting StrategyAwardTest using Java 1.8.0_432 on LAPTOP-FJDJGS3U with PID 6008 (started by 程宇乐 in D:\java\demoTest\s-pay-mall-mvc-241001-xfg-order-pay 2\ddd-103\ddd-103-app)
+24-12-04.14:51:50.857 [main            ] INFO  StrategyAwardTest      - The following 1 profile is active: "dev"
+24-12-04.14:51:52.038 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-12-04.14:51:52.041 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-12-04.14:51:52.073 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 14 ms. Found 0 Redis repository interfaces.
+24-12-04.14:51:54.179 [main            ] INFO  Version                - Redisson 3.23.4
+24-12-04.14:51:54.795 [redisson-netty-2-5] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-04.14:51:54.819 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-04.14:51:57.085 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-12-04.14:51:57.167 [main            ] INFO  StrategyAwardTest      - Started StrategyAwardTest in 6.941 seconds (JVM running for 8.221)
+24-12-04.14:51:57.730 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-12-04.14:51:58.060 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-12-04.14:51:58.172 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-12-04.14:51:58.210 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-12-04.14:52:40.721 [main            ] INFO  StrategyAwardTest      - Starting StrategyAwardTest using Java 1.8.0_432 on LAPTOP-FJDJGS3U with PID 25016 (started by 程宇乐 in D:\java\demoTest\s-pay-mall-mvc-241001-xfg-order-pay 2\ddd-103\ddd-103-app)
+24-12-04.14:52:40.722 [main            ] INFO  StrategyAwardTest      - The following 1 profile is active: "dev"
+24-12-04.14:52:41.976 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-12-04.14:52:41.981 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-12-04.14:52:42.020 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 16 ms. Found 0 Redis repository interfaces.
+24-12-04.14:52:44.438 [main            ] INFO  Version                - Redisson 3.23.4
+24-12-04.14:52:45.116 [redisson-netty-2-5] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-04.14:52:45.158 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-04.14:52:47.732 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-12-04.14:52:47.835 [main            ] INFO  StrategyAwardTest      - Started StrategyAwardTest in 7.716 seconds (JVM running for 9.457)
+24-12-04.14:52:48.411 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-12-04.14:52:48.860 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-12-04.14:54:29.780 [HikariPool-1 housekeeper] WARN  HikariPool             - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m40s817ms649µs200ns).
+24-12-04.14:54:29.920 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-12-04.14:54:29.947 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-12-04.14:54:38.749 [main            ] INFO  StrategyAwardTest      - Starting StrategyAwardTest using Java 1.8.0_432 on LAPTOP-FJDJGS3U with PID 24836 (started by 程宇乐 in D:\java\demoTest\s-pay-mall-mvc-241001-xfg-order-pay 2\ddd-103\ddd-103-app)
+24-12-04.14:54:38.750 [main            ] INFO  StrategyAwardTest      - The following 1 profile is active: "dev"
+24-12-04.14:54:39.877 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-12-04.14:54:39.881 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-12-04.14:54:39.917 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 17 ms. Found 0 Redis repository interfaces.
+24-12-04.14:54:41.922 [main            ] INFO  Version                - Redisson 3.23.4
+24-12-04.14:54:42.543 [redisson-netty-2-5] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-04.14:54:42.568 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-04.14:54:44.757 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-12-04.14:54:44.839 [main            ] INFO  StrategyAwardTest      - Started StrategyAwardTest in 6.701 seconds (JVM running for 8.042)
+24-12-04.14:54:45.360 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-12-04.14:54:45.773 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-12-04.14:54:45.822 [main            ] INFO  StrategyAwardTest      - ruleWeight:{5000=[106, 107, 108], 6000=[101, 102, 103, 105, 106, 107, 108, 109], 4000=[101, 102, 103, 105]}
+24-12-04.14:54:45.874 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-12-04.14:54:45.879 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-12-04.15:13:18.774 [main            ] INFO  StrategyAwardTest      - Starting StrategyAwardTest using Java 1.8.0_432 on LAPTOP-FJDJGS3U with PID 16268 (started by 程宇乐 in D:\java\demoTest\s-pay-mall-mvc-241001-xfg-order-pay 2\ddd-103\ddd-103-app)
+24-12-04.15:13:18.777 [main            ] INFO  StrategyAwardTest      - The following 1 profile is active: "dev"
+24-12-04.15:13:20.598 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-12-04.15:13:20.609 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-12-04.15:13:20.705 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 47 ms. Found 0 Redis repository interfaces.
+24-12-04.15:13:23.859 [main            ] INFO  Version                - Redisson 3.23.4
+24-12-04.15:13:24.688 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-04.15:13:24.714 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-04.15:13:27.435 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-12-04.15:13:27.578 [main            ] INFO  StrategyAwardTest      - Started StrategyAwardTest in 9.727 seconds (JVM running for 12.153)
+24-12-04.15:13:28.994 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-12-04.15:13:29.607 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-12-04.15:13:29.668 [main            ] INFO  StrategyRepository     - strategy:Strategy(id=1, strategyId=10001, strategyDesc=抽奖策略A, ruleModels=rule_weight,rule_backlist, createTime=Tue Dec 03 02:25:52 CST 2024, updateTime=Tue Dec 03 02:25:56 CST 2024)
+24-12-04.15:13:30.162 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-12-04.15:13:30.246 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-12-04.15:16:16.242 [main            ] INFO  StrategyAwardTest      - Starting StrategyAwardTest using Java 1.8.0_432 on LAPTOP-FJDJGS3U with PID 23996 (started by 程宇乐 in D:\java\demoTest\s-pay-mall-mvc-241001-xfg-order-pay 2\ddd-103\ddd-103-app)
+24-12-04.15:16:16.244 [main            ] INFO  StrategyAwardTest      - The following 1 profile is active: "dev"
+24-12-04.15:16:17.645 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-12-04.15:16:17.651 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-12-04.15:16:17.696 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 22 ms. Found 0 Redis repository interfaces.
+24-12-04.15:16:20.447 [main            ] INFO  Version                - Redisson 3.23.4
+24-12-04.15:16:21.320 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-04.15:16:21.347 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-04.15:16:24.449 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-12-04.15:16:24.557 [main            ] INFO  StrategyAwardTest      - Started StrategyAwardTest in 9.178 seconds (JVM running for 11.015)
+24-12-04.15:16:25.427 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-12-04.15:16:26.118 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-12-04.15:16:27.219 [main            ] INFO  StrategyRepository     - strategy:Strategy(id=1, strategyId=10001, strategyDesc=抽奖策略A, ruleModels=rule_weight,rule_backlist, createTime=Tue Dec 03 02:25:52 CST 2024, updateTime=Tue Dec 03 02:25:56 CST 2024)
+24-12-04.15:16:27.610 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-12-04.15:16:27.639 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-12-04.16:02:53.008 [main            ] INFO  StrategyAwardTest      - Starting StrategyAwardTest using Java 1.8.0_432 on LAPTOP-FJDJGS3U with PID 16512 (started by 程宇乐 in D:\java\demoTest\s-pay-mall-mvc-241001-xfg-order-pay 2\ddd-103\ddd-103-app)
+24-12-04.16:02:53.010 [main            ] INFO  StrategyAwardTest      - The following 1 profile is active: "dev"
+24-12-04.16:02:54.396 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-12-04.16:02:54.402 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-12-04.16:02:54.454 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 25 ms. Found 0 Redis repository interfaces.
+24-12-04.16:02:56.933 [main            ] INFO  Version                - Redisson 3.23.4
+24-12-04.16:02:57.668 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-04.16:02:57.689 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-04.16:03:00.253 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-12-04.16:03:00.360 [main            ] INFO  StrategyAwardTest      - Started StrategyAwardTest in 7.979 seconds (JVM running for 9.765)
+24-12-04.16:03:01.540 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-12-04.16:03:02.014 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-12-04.16:03:02.389 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-12-04.16:03:02.414 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-12-04.17:53:05.808 [main            ] INFO  StrategyAwardTest      - Starting StrategyAwardTest using Java 1.8.0_432 on LAPTOP-FJDJGS3U with PID 23512 (started by 程宇乐 in D:\java\demoTest\s-pay-mall-mvc-241001-xfg-order-pay 2\ddd-103\ddd-103-app)
+24-12-04.17:53:05.810 [main            ] INFO  StrategyAwardTest      - The following 1 profile is active: "dev"
+24-12-04.17:53:07.166 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-12-04.17:53:07.170 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-12-04.17:53:07.214 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 19 ms. Found 0 Redis repository interfaces.
+24-12-04.17:53:09.583 [main            ] INFO  Version                - Redisson 3.23.4
+24-12-04.17:53:10.373 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-04.17:53:10.394 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-04.17:53:12.684 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-12-04.17:53:12.760 [main            ] INFO  StrategyAwardTest      - Started StrategyAwardTest in 7.631 seconds (JVM running for 9.316)
+24-12-04.17:53:13.340 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-12-04.17:53:13.956 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-12-04.17:53:14.989 [main            ] INFO  StrategyRepository     - strategy:Strategy(id=1, strategyId=10001, strategyDesc=抽奖策略A, ruleModels=rule_weight,rule_blacklist, createTime=Tue Dec 03 02:25:52 CST 2024, updateTime=Tue Dec 03 02:25:56 CST 2024)
+24-12-04.17:53:15.206 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-12-04.17:53:15.230 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.

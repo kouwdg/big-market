@@ -1,0 +1,129 @@
+24-12-03.15:38:00.570 [main            ] INFO  Application            - Starting Application using Java 1.8.0_432 on LAPTOP-FJDJGS3U with PID 19816 (D:\java\demoTest\s-pay-mall-mvc-241001-xfg-order-pay 2\ddd-103\ddd-103-app\target\classes started by 程宇乐 in D:\java\demoTest\s-pay-mall-mvc-241001-xfg-order-pay 2\ddd-103)
+24-12-03.15:38:00.574 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+24-12-03.15:38:01.929 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-12-03.15:38:01.940 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-12-03.15:38:01.978 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 14 ms. Found 0 Redis repository interfaces.
+24-12-03.15:38:02.675 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8091 (http)
+24-12-03.15:38:02.676 [main            ] INFO  AprLifecycleListener   - Loaded Apache Tomcat Native library [2.0.7] using APR version [1.7.4].
+24-12-03.15:38:02.677 [main            ] INFO  AprLifecycleListener   - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+24-12-03.15:38:02.677 [main            ] INFO  AprLifecycleListener   - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+24-12-03.15:38:02.699 [main            ] INFO  AprLifecycleListener   - OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+24-12-03.15:38:02.710 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8091"]
+24-12-03.15:38:02.711 [main            ] INFO  StandardService        - Starting service [Tomcat]
+24-12-03.15:38:02.711 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+24-12-03.15:38:02.913 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+24-12-03.15:38:02.915 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2263 ms
+24-12-03.15:38:03.440 [main            ] INFO  Version                - Redisson 3.23.4
+24-12-03.15:38:04.101 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-03.15:38:04.119 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-03.15:38:05.508 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-12-03.15:38:05.614 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8091"]
+24-12-03.15:38:05.636 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 8091 (http) with context path ''
+24-12-03.15:38:05.670 [main            ] INFO  Application            - Started Application in 5.947 seconds (JVM running for 7.668)
+24-12-03.15:38:06.197 [RMI TCP Connection(1)-2.0.0.1] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
+24-12-03.15:38:06.197 [RMI TCP Connection(1)-2.0.0.1] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
+24-12-03.15:38:06.201 [RMI TCP Connection(1)-2.0.0.1] INFO  DispatcherServlet      - Completed initialization in 3 ms
+24-12-03.15:38:06.944 [RMI TCP Connection(3)-2.0.0.1] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-12-03.15:38:07.426 [RMI TCP Connection(3)-2.0.0.1] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-12-03.15:39:07.975 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-12-03.15:39:07.994 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-12-03.15:39:20.045 [main            ] INFO  Application            - Starting Application using Java 1.8.0_432 on LAPTOP-FJDJGS3U with PID 25144 (D:\java\demoTest\s-pay-mall-mvc-241001-xfg-order-pay 2\ddd-103\ddd-103-app\target\classes started by 程宇乐 in D:\java\demoTest\s-pay-mall-mvc-241001-xfg-order-pay 2\ddd-103)
+24-12-03.15:39:20.048 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+24-12-03.15:39:22.074 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-12-03.15:39:22.079 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-12-03.15:39:22.162 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 39 ms. Found 0 Redis repository interfaces.
+24-12-03.15:39:23.741 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8091 (http)
+24-12-03.15:39:23.744 [main            ] INFO  AprLifecycleListener   - Loaded Apache Tomcat Native library [2.0.7] using APR version [1.7.4].
+24-12-03.15:39:23.745 [main            ] INFO  AprLifecycleListener   - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+24-12-03.15:39:23.745 [main            ] INFO  AprLifecycleListener   - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+24-12-03.15:39:23.754 [main            ] INFO  AprLifecycleListener   - OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+24-12-03.15:39:23.777 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8091"]
+24-12-03.15:39:23.777 [main            ] INFO  StandardService        - Starting service [Tomcat]
+24-12-03.15:39:23.778 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+24-12-03.15:39:24.047 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+24-12-03.15:39:24.047 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3810 ms
+24-12-03.15:39:24.923 [main            ] INFO  Version                - Redisson 3.23.4
+24-12-03.15:39:25.759 [main            ] INFO  Application            - Starting Application using Java 1.8.0_432 on LAPTOP-FJDJGS3U with PID 23776 (D:\java\demoTest\s-pay-mall-mvc-241001-xfg-order-pay 2\ddd-103\ddd-103-app\target\classes started by 程宇乐 in D:\java\demoTest\s-pay-mall-mvc-241001-xfg-order-pay 2\ddd-103)
+24-12-03.15:39:25.764 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+24-12-03.15:39:26.138 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-03.15:39:26.171 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-03.15:39:27.566 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-12-03.15:39:27.580 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-12-03.15:39:27.633 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 20 ms. Found 0 Redis repository interfaces.
+24-12-03.15:39:28.511 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-12-03.15:39:28.627 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8091"]
+24-12-03.15:39:28.651 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 8091 (http) with context path ''
+24-12-03.15:39:28.687 [main            ] INFO  Application            - Started Application in 9.845 seconds (JVM running for 12.13)
+24-12-03.15:39:28.687 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8091 (http)
+24-12-03.15:39:28.689 [main            ] INFO  AprLifecycleListener   - Loaded Apache Tomcat Native library [2.0.7] using APR version [1.7.4].
+24-12-03.15:39:28.690 [main            ] INFO  AprLifecycleListener   - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+24-12-03.15:39:28.690 [main            ] INFO  AprLifecycleListener   - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+24-12-03.15:39:28.699 [main            ] INFO  AprLifecycleListener   - OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+24-12-03.15:39:28.713 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8091"]
+24-12-03.15:39:28.715 [main            ] INFO  StandardService        - Starting service [Tomcat]
+24-12-03.15:39:28.715 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+24-12-03.15:39:28.994 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+24-12-03.15:39:28.996 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3151 ms
+24-12-03.15:39:29.429 [RMI TCP Connection(2)-2.0.0.1] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
+24-12-03.15:39:29.430 [RMI TCP Connection(2)-2.0.0.1] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
+24-12-03.15:39:29.433 [RMI TCP Connection(1)-2.0.0.1] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-12-03.15:39:29.433 [RMI TCP Connection(2)-2.0.0.1] INFO  DispatcherServlet      - Completed initialization in 3 ms
+24-12-03.15:39:29.953 [main            ] INFO  Version                - Redisson 3.23.4
+24-12-03.15:39:30.540 [RMI TCP Connection(1)-2.0.0.1] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-12-03.15:39:31.280 [redisson-netty-2-5] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-03.15:39:31.312 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-03.15:39:33.691 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-12-03.15:39:33.821 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8091"]
+24-12-03.15:39:33.827 [main            ] WARN  AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8091 is already in use
+24-12-03.15:39:33.878 [main            ] INFO  Http11NioProtocol      - Pausing ProtocolHandler ["http-nio-8091"]
+24-12-03.15:39:33.878 [main            ] INFO  StandardService        - Stopping service [Tomcat]
+24-12-03.15:39:33.888 [main            ] INFO  Http11NioProtocol      - Stopping ProtocolHandler ["http-nio-8091"]
+24-12-03.15:39:33.889 [main            ] INFO  Http11NioProtocol      - Destroying ProtocolHandler ["http-nio-8091"]
+24-12-03.15:39:33.923 [main            ] INFO  ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+24-12-03.15:39:34.001 [main            ] ERROR LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8091 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8091 or configure this application to listen on another port.
+
+24-12-03.15:40:04.289 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-12-03.15:40:04.348 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-12-03.18:01:35.268 [main            ] INFO  Application            - Starting Application using Java 1.8.0_432 on LAPTOP-FJDJGS3U with PID 11980 (D:\java\demoTest\s-pay-mall-mvc-241001-xfg-order-pay 2\ddd-103\ddd-103-app\target\classes started by 程宇乐 in D:\java\demoTest\s-pay-mall-mvc-241001-xfg-order-pay 2\ddd-103)
+24-12-03.18:01:35.273 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+24-12-03.18:01:36.643 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-12-03.18:01:36.647 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-12-03.18:01:36.682 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 17 ms. Found 0 Redis repository interfaces.
+24-12-03.18:01:37.517 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8091 (http)
+24-12-03.18:01:37.519 [main            ] INFO  AprLifecycleListener   - Loaded Apache Tomcat Native library [2.0.7] using APR version [1.7.4].
+24-12-03.18:01:37.519 [main            ] INFO  AprLifecycleListener   - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+24-12-03.18:01:37.519 [main            ] INFO  AprLifecycleListener   - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+24-12-03.18:01:37.547 [main            ] INFO  AprLifecycleListener   - OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+24-12-03.18:01:37.562 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8091"]
+24-12-03.18:01:37.563 [main            ] INFO  StandardService        - Starting service [Tomcat]
+24-12-03.18:01:37.563 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+24-12-03.18:01:37.799 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+24-12-03.18:01:37.799 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2441 ms
+24-12-03.18:01:38.479 [main            ] INFO  Version                - Redisson 3.23.4
+24-12-03.18:01:39.191 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-03.18:01:39.214 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-12-03.18:01:40.316 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-12-03.18:01:40.361 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8091"]
+24-12-03.18:01:40.385 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 8091 (http) with context path ''
+24-12-03.18:01:40.405 [main            ] INFO  Application            - Started Application in 6.153 seconds (JVM running for 8.117)
+24-12-03.18:01:41.150 [RMI TCP Connection(3)-2.0.0.1] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
+24-12-03.18:01:41.150 [RMI TCP Connection(3)-2.0.0.1] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
+24-12-03.18:01:41.154 [RMI TCP Connection(3)-2.0.0.1] INFO  DispatcherServlet      - Completed initialization in 3 ms
+24-12-03.18:01:41.167 [RMI TCP Connection(4)-2.0.0.1] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-12-03.18:01:41.736 [RMI TCP Connection(4)-2.0.0.1] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-12-03.18:27:17.255 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-12-03.18:27:17.276 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
