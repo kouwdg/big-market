@@ -38,6 +38,7 @@ public class BackListLogicChain extends AbstractLogicChain {
         }
         log.info("抽奖责任链-黑名单放行 userId:{} strategyId:{} ruleModel:{}",
                 UserId,strategyId,ruleModel());
+        log.info("测试git");
         return next().logic(UserId,strategyId);
     }
 
