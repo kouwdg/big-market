@@ -30,6 +30,9 @@ public class BackListLogicChain extends AbstractLogicChain {
             if(blackUser.equals(UserId)){
                 log.info("抽奖责任链-黑名单接管 userId:{} strategyId:{} ruleModel:{} awardId:{}",
                         UserId,strategyId,ruleModel(),awardId);
+
+                System.out.println("git测试");
+                log.info("git测算");
                 return DefaultChainFactory.StrategyAwardIdVo.builder()
                         .awardId(awardId)
                         .logicModel(ruleModel())
