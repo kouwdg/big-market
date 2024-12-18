@@ -29,8 +29,8 @@ thread:
 spring:
   datasource:
     username: root
-    password: 1234
-    url: jdbc:mysql://127.0.0.1:3306/big_market?useUnicode=true&characterEncoding=utf8&autoReconnect=true&zeroDateTimeBehavior=convertToNull&serverTimezone=UTC&useSSL=true
+    password: 123456
+    url: jdbc:mysql://42.194.241.83:13306/big_market?useUnicode=true&characterEncoding=utf8&autoReconnect=true&zeroDateTimeBehavior=convertToNull&serverTimezone=UTC&useSSL=true
     driver-class-name: com.mysql.cj.jdbc.Driver
   hikari:
     pool-name: Retail_HikariCP
@@ -52,9 +52,9 @@ mybatis:
 redis:
   sdk:
     config:
-      host: 127.0.0.1
-      port: 6379
-      password: 123456
+      host: 42.194.241.83
+      port: 16379
+      password:
       pool-size: 10
       min-idle-size: 5
       idle-timeout: 30000

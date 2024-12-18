@@ -42,6 +42,7 @@ public abstract class AbstractRaffleStrategy implements IRaffleStrategy {
         if(userId==null||strategyId==null){
             throw new AppException(ResponseCode.ILLEGAL_PARAMETER.getCode(),ResponseCode.ILLEGAL_PARAMETER.getInfo());
         }
+        log.info("校验参数成功");
 
         //2 使用 责任链模式 处理 前置规则
         DefaultChainFactory.StrategyAwardIdVo strategyAwardIdVo = raffleLogicChain(userId, strategyId);
@@ -61,7 +62,7 @@ public abstract class AbstractRaffleStrategy implements IRaffleStrategy {
         DefaultTreeFactory.StrategyAwardData strategyAwardData = raffleLogicTree(userId, strategyId, awardId);
         log.info("策略树处理完成,获得奖品:{}",strategyAwardData.getAwardId());
 
-        return buildRaffleAwardEntity(strategyId,awardId);
+        return buildRaffleAwardEntity(strategyId,strategyAwardData.getAwardId());
     }
 
     protected abstract RuleActionEntity<RuleActionEntity.RaffleBeforeEntity> doCheckRaffleBeforeLogic(RaffleFactorEntity build,String...logic);

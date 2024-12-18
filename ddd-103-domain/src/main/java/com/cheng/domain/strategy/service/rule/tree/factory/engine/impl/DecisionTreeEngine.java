@@ -32,6 +32,7 @@ public class DecisionTreeEngine implements IDecisionTreeEngine {
 
         //1 根据规则树获得根节点的name
         String next = ruleTreeVO.getTreeRootRuleNode();
+        log.info("next:{}",next);
         Map<String, RuleTreeNodeVO> treeNodeMap = ruleTreeVO.getTreeNodeMap();
 
         while (next!=null){

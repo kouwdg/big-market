@@ -154,6 +154,8 @@ public class DefaultRaffleStrategy extends AbstractRaffleStrategy implements IRa
         log.info("奖品对应的规则：{}",strategyAwardRuleModelVo.getRuleModel());
         RuleTreeVO ruleTreeVO=
                 repository.queryRuleTreeVoByTreeId(strategyAwardRuleModelVo.getRuleModel());
+
+        log.info("工厂装配的 RuleTreeVo：{}",ruleTreeVO);
         IDecisionTreeEngine engine = defaultTreeFactory.openLogicTree(ruleTreeVO);
         return engine.process(userId, StrategyId, awardId);
 

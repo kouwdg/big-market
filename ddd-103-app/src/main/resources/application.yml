@@ -2,4 +2,4 @@ spring:
   config:
     name: ddd-103-app
   profiles:
-    active: dev
+    active: prod

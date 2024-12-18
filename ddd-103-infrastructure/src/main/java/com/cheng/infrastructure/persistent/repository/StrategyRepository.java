@@ -249,6 +249,9 @@ public class StrategyRepository implements IStrategyRepository {
     //装配RuleTreeVo
     @Override
     public RuleTreeVO queryRuleTreeVoByTreeId(String treeId) {
+
+        //todo 考虑从redis中获取
+
         // 从数据库获取
         RuleTree ruleTree = ruleTreeDao.queryRuleTreeByTreeId(treeId);
         List<RuleTreeNode> ruleTreeNodes = ruleTreeNodeDao.queryRuleTreeNodeListByTreeId(treeId);
@@ -283,6 +286,7 @@ public class StrategyRepository implements IStrategyRepository {
                     .build();
             treeNodeMap.put(ruleTreeNode.getRuleKey(), ruleTreeNodeVO);
         }
+        log.info("数据库查询的ruleTree:{}",ruleTree);
 
         // 3. 构建 Rule Tree
         RuleTreeVO ruleTreeVODB = RuleTreeVO.builder()
@@ -361,6 +365,7 @@ public class StrategyRepository implements IStrategyRepository {
 
         //优先从缓存中获取
         String cacheKey=Constants.redisKey.STRATEGY_AWARD_KEY+strategyId+Constants.UNDERLINE+awardId;
+        log.info("cacheKey:{}",cacheKey);
         StrategyAwardEntity value = redisService.getValue(cacheKey);
         if (value!=null){
             log.info("test 缓存中获取 {}",value);

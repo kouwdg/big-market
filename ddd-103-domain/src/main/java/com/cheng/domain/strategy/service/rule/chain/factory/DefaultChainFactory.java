@@ -4,10 +4,12 @@ import com.cheng.domain.strategy.model.entity.StrategyEntity;
 import com.cheng.domain.strategy.repository.IStrategyRepository;
 import com.cheng.domain.strategy.service.rule.chain.ILogicChain;
 import lombok.*;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.Map;
+@Slf4j
 
 @Service
 public class DefaultChainFactory {
@@ -26,6 +28,7 @@ public class DefaultChainFactory {
         StrategyEntity strategyEntity = repository.queryStrategyEntityByStrategyId(strategyId);
         String[] ruleModels = strategyEntity.getRuleModelList();
         if(ruleModels==null||ruleModels.length==0){
+            log.info("前置规则为空");
             return logicChainMap.get("default");
         }
         ILogicChain iLogicChain = logicChainMap.get(ruleModels[0]);

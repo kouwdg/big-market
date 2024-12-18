@@ -26,6 +26,7 @@ public class StrategyArmory implements IStrategyArmory,IStrategyDispatch{
 
     @Override
     public boolean assembleLotteryStrategy(Long strategyId){
+        log.info("a");
         //查询策略中包含的抽奖奖品的信息
         List<StrategyAwardEntity> entityList=repository.queryStrategyAwardList(strategyId);
 
@@ -39,13 +40,17 @@ public class StrategyArmory implements IStrategyArmory,IStrategyDispatch{
             cacheStrategyAwardCount(strategyId,awardId,awardCount);
         }
 
+
+
         //根据策略id 与 抽奖奖品的信息 创建原始奖品表 (全量抽奖概率)
         assembleLotteryStrategy(strategyId.toString(),entityList);
+
 
         //查询策略配置 主要是将 ruleModel查出来
         StrategyEntity strategyEntity=repository.queryStrategyEntityByStrategyId(strategyId);
         log.info("StrategyEntity:{}",strategyEntity);
         if(strategyEntity==null) return true;
+
         if(strategyEntity.getRuleWeight()==null) return true;
 
         //查看具体的策略规则
@@ -71,6 +76,7 @@ public class StrategyArmory implements IStrategyArmory,IStrategyDispatch{
     @Override
     public Boolean subtractionAwardStock(Long strategyId, Integer awardId) {
         String cacheKey=Constants.redisKey.STRATEGY_AWARD_COUNT_KEY+strategyId+Constants.UNDERLINE+awardId;
+        System.out.println(cacheKey);
         return repository.subtractionAwardStock(cacheKey);
     }
 

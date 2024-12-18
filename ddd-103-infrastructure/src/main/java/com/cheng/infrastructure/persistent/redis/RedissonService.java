@@ -1,6 +1,5 @@
 package com.cheng.infrastructure.persistent.redis;
 
-import com.cheng.infrastructure.persistent.redis.IRedisService;
 import org.redisson.api.*;
 import org.springframework.stereotype.Service;
 import javax.annotation.Resource;

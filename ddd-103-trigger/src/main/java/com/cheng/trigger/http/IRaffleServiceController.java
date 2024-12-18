@@ -113,11 +113,13 @@ public class IRaffleServiceController implements IRaffleService {
     @Override
     public Response<RaffleResponseDTO> RandomRaffle(@RequestBody RaffleRequestDTO requestDTO) {
         try {
+            log.info("调用抽奖接口");
             //调用抽奖接口
             RaffleAwardEntity raffleAwardEntity = raffleStrategy.preformRaffle(RaffleFactorEntity.builder()
                     .userId("system")
                     .strategyId(requestDTO.getStrategyId())
                     .build());
+            log.info("调用抽奖成功");
 
             //封装返回结果
             Response<RaffleResponseDTO> result = Response.<RaffleResponseDTO>builder()

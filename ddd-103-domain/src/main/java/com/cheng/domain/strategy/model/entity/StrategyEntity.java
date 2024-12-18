@@ -21,6 +21,9 @@ public class StrategyEntity {
     //获得 ruleModel中的 rule_weight
     //示例数据 ：rule_weight,rule_backlist
     public String getRuleWeight(){
+        if(ruleModels==null||ruleModels.length()==0){
+            return null;
+        }
         String[] split = ruleModels.split(Constants.SPLIT);
         for (String string : split) {
             if("rule_weight".equals(string)){
@@ -31,6 +34,9 @@ public class StrategyEntity {
     }
 
     public String[] getRuleModelList(){
+        if(ruleModels==null||ruleModels.length()==0){
+            return null;
+        }
         return ruleModels.split(Constants.SPLIT);
     }
 }
