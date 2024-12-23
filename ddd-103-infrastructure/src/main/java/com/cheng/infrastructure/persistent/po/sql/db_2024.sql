@@ -67,9 +67,36 @@ CREATE TABLE `raffle_activity` (
   UNIQUE KEY `uq_activity_id` (`activity_id`),
   KEY `idx_begin_date_time` (`begin_date_time`),
   KEY `idx_end_date_time` (`end_date_time`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT='抽奖活动表';
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT='抽奖活动表';
 
 /*Data for the table `raffle_activity` */
+
+insert  into `raffle_activity`(`id`,`activity_id`,`activity_name`,`activity_desc`,`begin_date_time`,`end_date_time`,`stock_count`,`stock_count_surplus`,`activity_count_id`,`strategy_id`,`state`,`create_time`,`update_time`) values 
+(1,132,'421大','FAFSA','2024-12-19 14:36:37','2024-12-28 14:36:40',4124,514,4214,4214,'4214','2024-12-19 14:36:54','2024-12-19 14:36:54');
+
+/*Table structure for table `raffle_activity_account_flow` */
+
+DROP TABLE IF EXISTS `raffle_activity_account_flow`;
+
+CREATE TABLE `raffle_activity_account_flow` (
+  `id` int unsigned NOT NULL AUTO_INCREMENT COMMENT '自增ID',
+  `user_id` varchar(32) NOT NULL COMMENT '用户ID',
+  `activity_id` bigint NOT NULL COMMENT '活动ID',
+  `total_count` int NOT NULL COMMENT '总次数',
+  `day_count` int NOT NULL COMMENT '日次数',
+  `month_count` int NOT NULL COMMENT '月次数',
+  `flow_id` varchar(32) NOT NULL COMMENT '流水ID - 生成的唯一ID',
+  `flow_channel` varchar(12) NOT NULL DEFAULT 'activity' COMMENT '流水渠道（activity-活动领取、sale-购买、redeem-兑换、free-免费赠送）',
+  `biz_id` varchar(12) NOT NULL COMMENT '业务ID（外部透传，活动ID、订单ID）',
+  `create_time` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
+  `update_time` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '更新时间',
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `uq_flow_id` (`flow_id`),
+  UNIQUE KEY `uq_biz_id` (`biz_id`),
+  KEY `idx_user_id_activity_id` (`user_id`,`activity_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT='抽奖活动账户流水表';
+
+/*Data for the table `raffle_activity_account_flow` */
 
 /*Table structure for table `raffle_activity_count` */
 
@@ -88,6 +115,51 @@ CREATE TABLE `raffle_activity_count` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT='抽奖活动次数配置表';
 
 /*Data for the table `raffle_activity_count` */
+
+/*Table structure for table `raffle_activity_order` */
+
+DROP TABLE IF EXISTS `raffle_activity_order`;
+
+CREATE TABLE `raffle_activity_order` (
+  `id` bigint unsigned NOT NULL AUTO_INCREMENT COMMENT '自增ID',
+  `user_id` varchar(32) NOT NULL COMMENT '用户ID',
+  `activity_id` bigint NOT NULL COMMENT '活动ID',
+  `activity_name` varchar(64) NOT NULL COMMENT '活动名称',
+  `strategy_id` bigint NOT NULL COMMENT '抽奖策略ID',
+  `order_id` varchar(12) NOT NULL COMMENT '订单ID',
+  `order_time` datetime NOT NULL COMMENT '下单时间',
+  `state` varchar(8) NOT NULL COMMENT '订单状态（not_used、used、expire）',
+  `create_time` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
+  `update_time` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '更新时间',
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `uq_order_id` (`order_id`),
+  KEY `idx_user_id_activity_id` (`user_id`,`activity_id`,`state`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT='抽奖活动单';
+
+/*Data for the table `raffle_activity_order` */
+
+/*Table structure for table `raffle_activity_sku` */
+
+DROP TABLE IF EXISTS `raffle_activity_sku`;
+
+CREATE TABLE `raffle_activity_sku` (
+  `id` int unsigned NOT NULL AUTO_INCREMENT COMMENT '自增ID',
+  `sku` bigint NOT NULL COMMENT '商品sku - 把每一个组合当做一个商品',
+  `activity_id` bigint NOT NULL COMMENT '活动ID',
+  `activity_count_id` bigint NOT NULL COMMENT '活动个人参与次数ID',
+  `stock_count` int NOT NULL COMMENT '商品库存',
+  `stock_count_surplus` int NOT NULL COMMENT '剩余库存',
+  `create_time` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
+  `update_time` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP COMMENT '更新时间',
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `uq_sku` (`sku`),
+  KEY `idx_activity_id_activity_count_id` (`activity_id`,`activity_count_id`)
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+/*Data for the table `raffle_activity_sku` */
+
+insert  into `raffle_activity_sku`(`id`,`sku`,`activity_id`,`activity_count_id`,`stock_count`,`stock_count_surplus`,`create_time`,`update_time`) values 
+(1,9011,100301,11101,0,0,'2024-03-16 11:41:09','2024-03-16 11:59:21');
 
 /*Table structure for table `rule_tree` */
 

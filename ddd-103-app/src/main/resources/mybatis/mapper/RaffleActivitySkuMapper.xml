@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.cheng.infrastructure.persistent.dao.IRaffleActivitySkuDao">
+
+    <resultMap id="RaffleActivitySkuMap" type="com.cheng.infrastructure.persistent.po.RaffleActivitySku">
+        <id column="id" property="id"/>
+        <result column="sku" property="sku"/>
+        <result column="activity_id" property="activityId"/>
+        <result column="activity_count_id" property="activityCountId"/>
+        <result column="stock_count" property="stockCount"/>
+        <result column="stock_count_surplus" property="stockCountSurplus"/>
+        <result column="create_time" property="createTime"/>
+        <result column="update_time" property="updateTime"/>
+
+    </resultMap>
+
+    <select id="queryActivitySku" resultMap="RaffleActivitySkuMap">
+        SELECT *
+        FROM `raffle_activity_sku`
+        WHERE sku=#{sku}
+    </select>
+</mapper>
