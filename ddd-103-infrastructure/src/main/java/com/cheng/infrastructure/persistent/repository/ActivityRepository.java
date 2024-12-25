@@ -1,18 +1,28 @@
 package com.cheng.infrastructure.persistent.repository;
 
+import com.cheng.domain.activity.event.ActivitySkuStoreZeroMessageEvent;
 import com.cheng.domain.activity.model.aggregate.CreateOrderAggregate;
 import com.cheng.domain.activity.model.entity.ActivityCountEntity;
 import com.cheng.domain.activity.model.entity.ActivityEntity;
 import com.cheng.domain.activity.model.entity.ActivityOrderEntity;
 import com.cheng.domain.activity.model.entity.ActivitySkuEntity;
+import com.cheng.domain.activity.model.vo.ActivitySkuStockKeyVo;
 import com.cheng.domain.activity.model.vo.ActivityStateVO;
 import com.cheng.domain.activity.repository.IActivityRepository;
+import com.cheng.domain.strategy.model.vo.StrategyAwardStockKeyVo;
+import com.cheng.infrastructure.event.eventPublisher;
 import com.cheng.infrastructure.persistent.dao.*;
 import com.cheng.infrastructure.persistent.po.*;
+import com.cheng.infrastructure.persistent.redis.IRedisService;
+import com.cheng.types.common.Constants;
 import com.cheng.types.exception.AppException;
 import lombok.extern.slf4j.Slf4j;
+import org.redisson.api.RBlockingQueue;
+import org.redisson.api.RDelayedQueue;
 import org.springframework.stereotype.Repository;
 import javax.annotation.Resource;
+import java.util.Date;
+import java.util.concurrent.TimeUnit;
 
 /**
  * @author 程宇乐
@@ -24,6 +34,8 @@ import javax.annotation.Resource;
 @Slf4j
 public class ActivityRepository implements IActivityRepository {
 
+    @Resource
+    private IRedisService redisService;
     @Resource
     private IRaffleActivitySkuDao raffleActivitySkuDao;
 
@@ -37,6 +49,11 @@ public class ActivityRepository implements IActivityRepository {
     private IRaffleActivityOrderDao raffleActivityOrderDao;
     @Resource
     private IRaffleActivityAccountDao raffleActivityAccountDao;
+
+    @Resource
+    private eventPublisher eventPublisher;
+    @Resource
+    private ActivitySkuStoreZeroMessageEvent activitySkuStoreZeroMessageEvent;
     @Override
     public ActivitySkuEntity queryActivitySku(Long sku) {
         RaffleActivitySku tem=raffleActivitySkuDao.queryActivitySku(sku);
@@ -112,17 +129,98 @@ public class ActivityRepository implements IActivityRepository {
         try {
             //1 写入订单  //todo 暂时所有用户的订单流水都放入一个表中
             raffleActivityOrderDao.insert(raffleActivityOrder);
-            log.info("{}",1);
         }catch (Exception error){
             throw new AppException("200","写入订单记录，唯一索引冲突");
         }
         //2 更新账户
         int count = raffleActivityAccountDao.updateAccountQuota(raffleActivityAccount);
-        log.info("{}",2);
         if(count==0){
             //创建账户
             raffleActivityAccountDao.insert(raffleActivityAccount);
         }
 
+    }
+
+    /**
+     *  保存sku库存到redis
+     * @param cache redisKey
+     * @param stockCount redisValue
+     */
+    @Override
+    public void cacheActivitySkuStockCount(String cache, Integer stockCount) {
+        //判断redis中是否存在
+        if(redisService.isExists(cache))return;
+        redisService.setAtomicLong(cache,stockCount);
+    }
+
+    /**
+     *  扣减库存
+     * @param sku
+     * @param cache
+     * @param endDateTime
+     * @return
+     */
+
+    @Override
+    public boolean subtractionActivitySkuStock(Long sku, String cache, Date endDateTime) {
+        long decr = redisService.decr(cache);
+        if (decr==0){
+            //todo 库存消耗完毕 发送mq消息
+            eventPublisher.publish(activitySkuStoreZeroMessageEvent.topic(),activitySkuStoreZeroMessageEvent.buildEventMessage(sku));
+            return false;
+        }else if(decr<0){
+            //库存小于0 ，恢复为0
+            redisService.setAtomicLong(cache,0);
+            return false;
+        }
+        //加锁
+        String lockKey=cache + Constants.UNDERLINE+decr;
+        long expireMillis=endDateTime.getTime()-System.currentTimeMillis()+ TimeUnit.DAYS.toMillis(1);
+        Boolean lock= redisService.setNx(lockKey, expireMillis, TimeUnit.MINUTES);
+        if(!lock){
+            log.info("活动库存sku,加锁失败");
+        }
+        return lock;
+    }
+
+    /**
+     * 延迟队列
+     * @param build
+     */
+    @Override
+    public void activitySkuStockSendQueue(ActivitySkuStockKeyVo build) {
+        //延迟队列的key
+        String cacheKey = Constants.redisKey.ACTIVITY_SKU_STOCK_COUNT_QUERY_KEY;
+        //创建队列消息
+        RBlockingQueue<ActivitySkuStockKeyVo> blockingQueue = redisService.getBlockingQueue(cacheKey);
+        //将队列 转换成 延迟队列
+        RDelayedQueue<ActivitySkuStockKeyVo> delayedQueue = redisService.getDelayedQueue(blockingQueue);
+        //填入消息
+        delayedQueue.offer(build,3, TimeUnit.SECONDS);
+    }
+
+    @Override
+    public ActivitySkuStockKeyVo takeQueueValue() {
+        String cacheKey = Constants.redisKey.ACTIVITY_SKU_STOCK_COUNT_QUERY_KEY;
+        RBlockingQueue<ActivitySkuStockKeyVo> activitySkuStockKeyVos = redisService.getBlockingQueue(cacheKey);
+        return activitySkuStockKeyVos.poll();
+    }
+
+    @Override
+    public void clearQueueValue() {
+        String cacheKey = Constants.redisKey.ACTIVITY_SKU_STOCK_COUNT_QUERY_KEY;
+        RBlockingQueue<ActivitySkuStockKeyVo> activitySkuStockKeyVos = redisService.getBlockingQueue(cacheKey);
+        activitySkuStockKeyVos.clear();
+
+    }
+
+    @Override
+    public void updateActivitySkuStock(Long sku) {
+        raffleActivitySkuDao.updateActivitySkuStock(sku);
+    }
+
+    @Override
+    public void clearActivitySkuStock(Long sku) {
+        raffleActivitySkuDao.clearActivitySkuStock(sku);
     }
 }

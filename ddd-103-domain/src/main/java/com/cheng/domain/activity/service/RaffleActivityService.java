@@ -2,6 +2,7 @@ package com.cheng.domain.activity.service;
 
 import com.cheng.domain.activity.model.aggregate.CreateOrderAggregate;
 import com.cheng.domain.activity.model.entity.*;
+import com.cheng.domain.activity.model.vo.ActivitySkuStockKeyVo;
 import com.cheng.domain.activity.model.vo.OrderStateVO;
 import com.cheng.domain.activity.repository.IActivityRepository;
 import com.cheng.domain.activity.service.rule.chain.factory.DefaultActivityChainFactory;
@@ -17,7 +18,7 @@ import java.util.Date;
  * @date 2024/12/23 13:28
  */
 @Service
-public class RaffleActivityService extends AbstractRaffleActivity{
+public class RaffleActivityService extends AbstractRaffleActivity implements ISkuStock{
 
     public RaffleActivityService(IActivityRepository activityRepository, DefaultActivityChainFactory defaultActivityChainFactory, IActivityRepository activityRepository1) {
         super(activityRepository, defaultActivityChainFactory, activityRepository1);
@@ -58,4 +59,23 @@ public class RaffleActivityService extends AbstractRaffleActivity{
     activityRepository.doSaveOrder(orderAggregate);
     }
 
+    @Override
+    public ActivitySkuStockKeyVo takeQueueValue() throws InterruptedException {
+        return activityRepository.takeQueueValue();
+    }
+
+    @Override
+    public void clearQueueValue() {
+        activityRepository.clearQueueValue();
+    }
+
+    @Override
+    public void updateActivitySkuStock(Long sku) {
+        activityRepository.updateActivitySkuStock(sku);
+    }
+
+    @Override
+    public void clearActivitySkuStock(Long sku) {
+        activityRepository.clearActivitySkuStock(sku);
+    }
 }
