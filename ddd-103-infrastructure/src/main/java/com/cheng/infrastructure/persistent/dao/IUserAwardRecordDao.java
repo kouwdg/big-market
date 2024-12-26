@@ -1,5 +1,6 @@
 package com.cheng.infrastructure.persistent.dao;
 
+import com.cheng.infrastructure.persistent.po.UserAwardRecord;
 import org.apache.ibatis.annotations.Mapper;
 
 /**
@@ -10,4 +11,5 @@ import org.apache.ibatis.annotations.Mapper;
  */
 @Mapper
 public interface IUserAwardRecordDao {
+    void insert(UserAwardRecord userAwardRecord);
 }

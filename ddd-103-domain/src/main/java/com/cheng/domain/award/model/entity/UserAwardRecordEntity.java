@@ -1,5 +1,6 @@
-package com.cheng.infrastructure.persistent.po;
+package com.cheng.domain.award.model.entity;
 
+import com.cheng.domain.award.model.vo.UserAwardRecordStateVo;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -8,18 +9,18 @@ import lombok.NoArgsConstructor;
 import java.util.Date;
 
 /**
- * @author Fuzhengwei bugstack.cn @小傅哥
- * @description 用户中奖记录表
- * @create 2024-04-03 15:30
+ * @author 程宇乐
+ * @version 1.0
+ * @description: 用户中奖记录 实体对象
+ * @date 2024/12/26 11:00
  */
+
 @Data
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-public class UserAwardRecord {
+public class UserAwardRecordEntity {
 
-    /** 自增ID */
-    private String id;
     /** 用户ID */
     private String userId;
     /** 活动ID */
@@ -35,10 +36,5 @@ public class UserAwardRecord {
     /** 中奖时间 */
     private Date awardTime;
     /** 奖品状态；create-创建、completed-发奖完成 */
-    private String awardState;
-    /** 创建时间 */
-    private Date createTime;
-    /** 更新时间 */
-    private Date updateTime;
-
+    private UserAwardRecordStateVo awardState;
 }

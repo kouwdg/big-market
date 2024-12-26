@@ -1,5 +1,5 @@
-24-12-25.17:01:12.791 [main            ] WARN  GenericWebApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'updateActivitySkuStockJob': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'raffleActivityService' defined in file [D:\java\demoTest\s-pay-mall-mvc-241001-xfg-order-pay 2\ddd-103\ddd-103-domain\target\classes\com\cheng\domain\activity\service\RaffleActivityService.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'activityRepository': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.cheng.domain.activity.event.ActivitySkuStoreZeroMessageEvent' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup=, name=, description=, authenticationType=CONTAINER, type=class java.lang.Object, mappedName=)}
-24-12-25.17:01:12.897 [main            ] ERROR LoggingFailureAnalysisReporter - 
+24-12-26.16:38:13.489 [main            ] WARN  GenericWebApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'awardService': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.cheng.domain.award.repository.IAwardRepository' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup=, name=, description=, authenticationType=CONTAINER, type=class java.lang.Object, mappedName=)}
+24-12-26.16:38:13.609 [main            ] ERROR LoggingFailureAnalysisReporter - 
 
 ***************************
 APPLICATION FAILED TO START
@@ -7,14 +7,14 @@ APPLICATION FAILED TO START
 
 Description:
 
-Parameter 0 of constructor in com.cheng.domain.activity.service.quota.RaffleActivityService required a bean of type 'com.cheng.domain.activity.event.ActivitySkuStoreZeroMessageEvent' that could not be found.
+A component required a bean of type 'com.cheng.domain.award.repository.IAwardRepository' that could not be found.
 
 
 Action:
 
-Consider defining a bean of type 'com.cheng.domain.activity.event.ActivitySkuStoreZeroMessageEvent' in your configuration.
+Consider defining a bean of type 'com.cheng.domain.award.repository.IAwardRepository' in your configuration.
 
-24-12-25.17:01:12.902 [main            ] ERROR TestContextManager     - Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@58a9760d] to prepare test instance [com.cheng.test.RaffleOrderTest@28b458e6]
+24-12-26.16:38:13.613 [main            ] ERROR TestContextManager     - Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@707194ba] to prepare test instance [com.cheng.test.infrastructure.UserAwardOrderTest@45b7c97f]
 java.lang.IllegalStateException: Failed to load ApplicationContext
 	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:98)
 	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:124)
@@ -44,7 +44,7 @@ java.lang.IllegalStateException: Failed to load ApplicationContext
 	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
 	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:232)
 	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:55)
-Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'updateActivitySkuStockJob': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'raffleActivityService' defined in file [D:\java\demoTest\s-pay-mall-mvc-241001-xfg-order-pay 2\ddd-103\ddd-103-domain\target\classes\com\cheng\domain\activity\service\RaffleActivityService.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'activityRepository': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.cheng.domain.activity.event.ActivitySkuStoreZeroMessageEvent' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup=, name=, description=, authenticationType=CONTAINER, type=class java.lang.Object, mappedName=)}
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'awardService': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.cheng.domain.award.repository.IAwardRepository' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup=, name=, description=, authenticationType=CONTAINER, type=class java.lang.Object, mappedName=)}
 	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:332)
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
@@ -63,43 +63,7 @@ Caused by: org.springframework.beans.factory.BeanCreationException: Error creati
 	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:141)
 	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:90)
 	... 27 common frames omitted
-Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'raffleActivityService' defined in file [D:\java\demoTest\s-pay-mall-mvc-241001-xfg-order-pay 2\ddd-103\ddd-103-domain\target\classes\com\cheng\domain\activity\service\RaffleActivityService.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'activityRepository': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.cheng.domain.activity.event.ActivitySkuStoreZeroMessageEvent' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup=, name=, description=, authenticationType=CONTAINER, type=class java.lang.Object, mappedName=)}
-	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:800)
-	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:229)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1372)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1222)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
-	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
-	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:544)
-	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:520)
-	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:673)
-	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:228)
-	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
-	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:329)
-	... 43 common frames omitted
-Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'activityRepository': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.cheng.domain.activity.event.ActivitySkuStoreZeroMessageEvent' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup=, name=, description=, authenticationType=CONTAINER, type=class java.lang.Object, mappedName=)}
-	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:332)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
-	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
-	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:887)
-	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
-	... 61 common frames omitted
-Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.cheng.domain.activity.event.ActivitySkuStoreZeroMessageEvent' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup=, name=, description=, authenticationType=CONTAINER, type=class java.lang.Object, mappedName=)}
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.cheng.domain.award.repository.IAwardRepository' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup=, name=, description=, authenticationType=CONTAINER, type=class java.lang.Object, mappedName=)}
 	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1801)
 	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1357)
 	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
@@ -109,35 +73,56 @@ Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No q
 	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:228)
 	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
 	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:329)
-	... 73 common frames omitted
-24-12-25.17:03:25.901 [main            ] WARN  GenericWebApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'updateActivitySkuStockJob': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'raffleActivityService' defined in file [D:\java\demoTest\s-pay-mall-mvc-241001-xfg-order-pay 2\ddd-103\ddd-103-domain\target\classes\com\cheng\domain\activity\service\RaffleActivityService.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'defaultActivityChainFactory' defined in file [D:\java\demoTest\s-pay-mall-mvc-241001-xfg-order-pay 2\ddd-103\ddd-103-domain\target\classes\com\cheng\domain\activity\service\rule\chain\factory\DefaultActivityChainFactory.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'activity_sku_stock_action': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.cheng.domain.activity.service.armory.IActivityDispatch' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup=, name=, description=, authenticationType=CONTAINER, type=class java.lang.Object, mappedName=)}
-24-12-25.17:03:26.007 [main            ] ERROR LoggingFailureAnalysisReporter - 
-
-***************************
-APPLICATION FAILED TO START
-***************************
-
-Description:
-
-Parameter 0 of constructor in com.cheng.domain.activity.service.quota.rule.chain.factory.DefaultActivityChainFactory required a bean of type 'com.cheng.domain.activity.service.armory.IActivityDispatch' that could not be found.
-
-
-Action:
-
-Consider defining a bean of type 'com.cheng.domain.activity.service.armory.IActivityDispatch' in your configuration.
-
-24-12-25.17:03:26.011 [main            ] ERROR TestContextManager     - Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@58a9760d] to prepare test instance [com.cheng.test.RaffleOrderTest@44641d6c]
-java.lang.IllegalStateException: Failed to load ApplicationContext
-	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:98)
-	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:124)
-	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:190)
-	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:132)
-	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:248)
-	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227)
-	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	... 43 common frames omitted
+24-12-26.16:44:36.685 [main            ] ERROR AwardRepository        - 写入出错
+org.springframework.dao.DataIntegrityViolationException: 
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'strategy_id' cannot be null
+### The error may exist in file [D:\java\demoTest\s-pay-mall-mvc-241001-xfg-order-pay 2\ddd-103\ddd-103-app\target\classes\mybatis\mapper\UserAwardRecordMapper.xml]
+### The error may involve com.cheng.infrastructure.persistent.dao.IUserAwardRecordDao.insert-Inline
+### The error occurred while setting parameters
+### SQL: insert into user_award_record(         user_id, activity_id, strategy_id, order_id, award_id, award_title, award_time, award_state, create_time, update_time         ) values (         ?,?,?,?,?,?,?,?,now(),now()         )
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'strategy_id' cannot be null
+; Column 'strategy_id' cannot be null; nested exception is java.sql.SQLIntegrityConstraintViolationException: Column 'strategy_id' cannot be null
+	at org.springframework.jdbc.support.SQLExceptionSubclassTranslator.doTranslate(SQLExceptionSubclassTranslator.java:87)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:70)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:79)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:91)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:441)
+	at com.sun.proxy.$Proxy98.insert(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:272)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:62)
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:152)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:85)
+	at com.sun.proxy.$Proxy128.insert(Unknown Source)
+	at com.cheng.infrastructure.persistent.repository.AwardRepository.saveTaskAndUserAwardRecord(AwardRepository.java:84)
+	at com.cheng.infrastructure.persistent.repository.AwardRepository.saveUserAwardRecord(AwardRepository.java:67)
+	at com.cheng.infrastructure.persistent.repository.AwardRepository$$FastClassBySpringCGLIB$$7b6f0d71.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708)
+	at com.cheng.infrastructure.persistent.repository.AwardRepository$$EnhancerBySpringCGLIB$$bbb8d632.saveUserAwardRecord(<generated>)
+	at com.cheng.domain.award.service.AwardService.saveUserAwardRecord(AwardService.java:54)
+	at com.cheng.test.infrastructure.UserAwardOrderTest.test1(UserAwardOrderTest.java:42)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
 	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
-	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
-	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestExecutionCallbacks.evaluate(RunBeforeTestExecutionCallbacks.java:74)
+	at org.springframework.test.context.junit4.statements.RunAfterTestExecutionCallbacks.evaluate(RunAfterTestExecutionCallbacks.java:84)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:75)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:86)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:84)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:251)
 	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
 	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
@@ -156,180 +141,24 @@ java.lang.IllegalStateException: Failed to load ApplicationContext
 	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
 	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:232)
 	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:55)
-Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'updateActivitySkuStockJob': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'raffleActivityService' defined in file [D:\java\demoTest\s-pay-mall-mvc-241001-xfg-order-pay 2\ddd-103\ddd-103-domain\target\classes\com\cheng\domain\activity\service\RaffleActivityService.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'defaultActivityChainFactory' defined in file [D:\java\demoTest\s-pay-mall-mvc-241001-xfg-order-pay 2\ddd-103\ddd-103-domain\target\classes\com\cheng\domain\activity\service\rule\chain\factory\DefaultActivityChainFactory.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'activity_sku_stock_action': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.cheng.domain.activity.service.armory.IActivityDispatch' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup=, name=, description=, authenticationType=CONTAINER, type=class java.lang.Object, mappedName=)}
-	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:332)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
-	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:920)
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
-	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:136)
-	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:141)
-	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:90)
-	... 27 common frames omitted
-Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'raffleActivityService' defined in file [D:\java\demoTest\s-pay-mall-mvc-241001-xfg-order-pay 2\ddd-103\ddd-103-domain\target\classes\com\cheng\domain\activity\service\RaffleActivityService.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'defaultActivityChainFactory' defined in file [D:\java\demoTest\s-pay-mall-mvc-241001-xfg-order-pay 2\ddd-103\ddd-103-domain\target\classes\com\cheng\domain\activity\service\rule\chain\factory\DefaultActivityChainFactory.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'activity_sku_stock_action': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.cheng.domain.activity.service.armory.IActivityDispatch' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup=, name=, description=, authenticationType=CONTAINER, type=class java.lang.Object, mappedName=)}
-	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:800)
-	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:229)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1372)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1222)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
-	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
-	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:544)
-	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:520)
-	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:673)
-	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:228)
-	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
-	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:329)
-	... 43 common frames omitted
-Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'defaultActivityChainFactory' defined in file [D:\java\demoTest\s-pay-mall-mvc-241001-xfg-order-pay 2\ddd-103\ddd-103-domain\target\classes\com\cheng\domain\activity\service\rule\chain\factory\DefaultActivityChainFactory.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'activity_sku_stock_action': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.cheng.domain.activity.service.armory.IActivityDispatch' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup=, name=, description=, authenticationType=CONTAINER, type=class java.lang.Object, mappedName=)}
-	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:800)
-	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:229)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1372)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1222)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
-	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
-	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:887)
-	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
-	... 61 common frames omitted
-Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'activity_sku_stock_action': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.cheng.domain.activity.service.armory.IActivityDispatch' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup=, name=, description=, authenticationType=CONTAINER, type=class java.lang.Object, mappedName=)}
-	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:332)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
-	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.addCandidateEntry(DefaultListableBeanFactory.java:1609)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1573)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveMultipleBeans(DefaultListableBeanFactory.java:1492)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1349)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
-	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:887)
-	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
-	... 75 common frames omitted
-Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.cheng.domain.activity.service.armory.IActivityDispatch' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup=, name=, description=, authenticationType=CONTAINER, type=class java.lang.Object, mappedName=)}
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1801)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1357)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
-	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:544)
-	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:520)
-	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:673)
-	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:228)
-	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
-	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:329)
-	... 90 common frames omitted
-24-12-25.17:05:43.548 [main            ] WARN  RaffleOrderTest        - 活动未开启
-24-12-25.17:05:43.585 [main            ] WARN  RaffleOrderTest        - 活动未开启
-24-12-25.17:05:43.622 [main            ] WARN  RaffleOrderTest        - 活动未开启
-24-12-25.17:05:43.661 [main            ] WARN  RaffleOrderTest        - 活动未开启
-24-12-25.17:05:43.700 [main            ] WARN  RaffleOrderTest        - 活动未开启
-24-12-25.17:05:43.740 [main            ] WARN  RaffleOrderTest        - 活动未开启
-24-12-25.17:05:43.787 [main            ] WARN  RaffleOrderTest        - 活动未开启
-24-12-25.17:05:43.833 [main            ] WARN  RaffleOrderTest        - 活动未开启
-24-12-25.17:05:43.873 [main            ] WARN  RaffleOrderTest        - 活动未开启
-24-12-25.17:05:43.910 [main            ] WARN  RaffleOrderTest        - 活动未开启
-24-12-25.17:05:43.947 [main            ] WARN  RaffleOrderTest        - 活动未开启
-24-12-25.17:05:43.984 [main            ] WARN  RaffleOrderTest        - 活动未开启
-24-12-25.17:05:44.020 [main            ] WARN  RaffleOrderTest        - 活动未开启
-24-12-25.17:05:44.056 [main            ] WARN  RaffleOrderTest        - 活动未开启
-24-12-25.17:05:44.096 [main            ] WARN  RaffleOrderTest        - 活动未开启
-24-12-25.17:05:44.150 [main            ] WARN  RaffleOrderTest        - 活动未开启
-24-12-25.17:05:44.195 [main            ] WARN  RaffleOrderTest        - 活动未开启
-24-12-25.17:05:44.236 [main            ] WARN  RaffleOrderTest        - 活动未开启
-24-12-25.17:05:44.272 [main            ] WARN  RaffleOrderTest        - 活动未开启
-24-12-25.17:05:44.325 [main            ] WARN  RaffleOrderTest        - 活动未开启
-24-12-25.17:34:02.318 [main            ] WARN  RaffleOrderTest        - 活动未开启
-24-12-25.17:34:02.364 [main            ] WARN  RaffleOrderTest        - 活动未开启
-24-12-25.17:34:02.414 [main            ] WARN  RaffleOrderTest        - 活动未开启
-24-12-25.17:34:02.458 [main            ] WARN  RaffleOrderTest        - 活动未开启
-24-12-25.17:34:02.503 [main            ] WARN  RaffleOrderTest        - 活动未开启
-24-12-25.17:34:02.545 [main            ] WARN  RaffleOrderTest        - 活动未开启
-24-12-25.17:34:02.593 [main            ] WARN  RaffleOrderTest        - 活动未开启
-24-12-25.17:34:02.648 [main            ] WARN  RaffleOrderTest        - 活动未开启
-24-12-25.17:34:02.700 [main            ] WARN  RaffleOrderTest        - 活动未开启
-24-12-25.17:34:02.744 [main            ] WARN  RaffleOrderTest        - 活动未开启
-24-12-25.17:34:02.788 [main            ] WARN  RaffleOrderTest        - 活动未开启
-24-12-25.17:34:02.834 [main            ] WARN  RaffleOrderTest        - 活动未开启
-24-12-25.17:34:02.880 [main            ] WARN  RaffleOrderTest        - 活动未开启
-24-12-25.17:34:02.925 [main            ] WARN  RaffleOrderTest        - 活动未开启
-24-12-25.17:34:02.970 [main            ] WARN  RaffleOrderTest        - 活动未开启
-24-12-25.17:34:03.017 [main            ] WARN  RaffleOrderTest        - 活动未开启
-24-12-25.17:34:03.061 [main            ] WARN  RaffleOrderTest        - 活动未开启
-24-12-25.17:34:03.107 [main            ] WARN  RaffleOrderTest        - 活动未开启
-24-12-25.17:34:03.150 [main            ] WARN  RaffleOrderTest        - 活动未开启
-24-12-25.17:34:03.193 [main            ] WARN  RaffleOrderTest        - 活动未开启
-24-12-25.17:36:29.858 [main            ] WARN  RaffleOrderTest        - 活动未开启
-24-12-25.17:36:46.394 [main            ] WARN  RaffleOrderTest        - 活动未开启
-24-12-25.17:36:53.624 [scheduling-1    ] ERROR UpdateAwardStockJob    - 定时任务，更新奖品消耗库存失败
-org.redisson.client.RedisResponseTimeoutException: Redis server response timeout (3000 ms) occured after 2 retry attempts, is non-idempotent command: true Check connection with Redis node: 42.194.241.83/42.194.241.83:16379 for TCP packet drops or bandwidth limits.  Try to increase nettyThreads and/or timeout settings. Command: (LPOP), params: [strategy_award_count_query_key], channel: [id: 0x0f3f79ad, L:/10.152.163.235:55270 - R:42.194.241.83/42.194.241.83:16379]
-	at org.redisson.command.RedisExecutor.lambda$scheduleResponseTimeout$9(RedisExecutor.java:407)
-	at io.netty.util.HashedWheelTimer$HashedWheelTimeout.run(HashedWheelTimer.java:715)
-	at io.netty.util.concurrent.ImmediateExecutor.execute(ImmediateExecutor.java:34)
-	at io.netty.util.HashedWheelTimer$HashedWheelTimeout.expire(HashedWheelTimer.java:703)
-	at io.netty.util.HashedWheelTimer$HashedWheelBucket.expireTimeouts(HashedWheelTimer.java:790)
-	at io.netty.util.HashedWheelTimer$Worker.run(HashedWheelTimer.java:503)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.lang.Thread.run(Thread.java:750)
-24-12-25.17:37:07.774 [main            ] WARN  RaffleOrderTest        - 活动未开启
-24-12-25.17:37:07.827 [main            ] WARN  RaffleOrderTest        - 活动未开启
-24-12-25.17:37:07.866 [main            ] WARN  RaffleOrderTest        - 活动未开启
-24-12-25.17:37:07.903 [main            ] WARN  RaffleOrderTest        - 活动未开启
-24-12-25.17:37:07.939 [main            ] WARN  RaffleOrderTest        - 活动未开启
-24-12-25.17:37:07.975 [main            ] WARN  RaffleOrderTest        - 活动未开启
-24-12-25.17:37:08.011 [main            ] WARN  RaffleOrderTest        - 活动未开启
-24-12-25.17:37:08.048 [main            ] WARN  RaffleOrderTest        - 活动未开启
-24-12-25.17:37:08.085 [main            ] WARN  RaffleOrderTest        - 活动未开启
-24-12-25.17:37:08.122 [main            ] WARN  RaffleOrderTest        - 活动未开启
-24-12-25.17:37:08.160 [main            ] WARN  RaffleOrderTest        - 活动未开启
-24-12-25.17:37:08.200 [main            ] WARN  RaffleOrderTest        - 活动未开启
-24-12-25.17:37:08.247 [main            ] WARN  RaffleOrderTest        - 活动未开启
-24-12-25.17:37:08.292 [main            ] WARN  RaffleOrderTest        - 活动未开启
-24-12-25.17:37:08.330 [main            ] WARN  RaffleOrderTest        - 活动未开启
-24-12-25.17:37:08.378 [main            ] WARN  RaffleOrderTest        - 活动未开启
-24-12-25.17:37:08.416 [main            ] WARN  RaffleOrderTest        - 活动未开启
-24-12-25.17:37:08.453 [main            ] WARN  RaffleOrderTest        - 活动未开启
-24-12-25.17:38:24.829 [main            ] WARN  RaffleOrderTest        - 活动未开启
-24-12-25.17:38:24.868 [main            ] WARN  RaffleOrderTest        - 活动未开启
-24-12-25.17:38:24.905 [main            ] WARN  RaffleOrderTest        - 活动未开启
-24-12-25.17:38:24.945 [main            ] WARN  RaffleOrderTest        - 活动未开启
-24-12-25.17:38:24.983 [main            ] WARN  RaffleOrderTest        - 活动未开启
-24-12-25.17:38:25.020 [main            ] WARN  RaffleOrderTest        - 活动未开启
-24-12-25.17:38:25.058 [main            ] WARN  RaffleOrderTest        - 活动未开启
-24-12-25.17:38:25.094 [main            ] WARN  RaffleOrderTest        - 活动未开启
-24-12-25.17:38:25.133 [main            ] WARN  RaffleOrderTest        - 活动未开启
-24-12-25.17:38:25.174 [main            ] WARN  RaffleOrderTest        - 活动未开启
-24-12-25.17:38:25.213 [main            ] WARN  RaffleOrderTest        - 活动未开启
-24-12-25.17:38:25.251 [main            ] WARN  RaffleOrderTest        - 活动未开启
-24-12-25.17:38:25.289 [main            ] WARN  RaffleOrderTest        - 活动未开启
-24-12-25.17:38:25.324 [main            ] WARN  RaffleOrderTest        - 活动未开启
-24-12-25.17:38:25.366 [main            ] WARN  RaffleOrderTest        - 活动未开启
-24-12-25.17:38:25.409 [main            ] WARN  RaffleOrderTest        - 活动未开启
-24-12-25.17:38:25.451 [main            ] WARN  RaffleOrderTest        - 活动未开启
-24-12-25.17:38:25.497 [main            ] WARN  RaffleOrderTest        - 活动未开启
-24-12-25.17:38:25.544 [main            ] WARN  RaffleOrderTest        - 活动未开启
-24-12-25.17:38:25.591 [main            ] WARN  RaffleOrderTest        - 活动未开启
-24-12-25.17:43:23.500 [main            ] WARN  RaffleOrderTest        - 活动库存不足
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Column 'strategy_id' cannot be null
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:370)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:47)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:74)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:50)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:197)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:184)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:427)
+	... 53 common frames omitted

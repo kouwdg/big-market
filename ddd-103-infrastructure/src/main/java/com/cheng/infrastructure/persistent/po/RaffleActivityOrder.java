@@ -1,8 +1,11 @@
 package com.cheng.infrastructure.persistent.po;
+
 import lombok.Data;
+
 import java.util.Date;
+
 /**
- * @author  程宇乐
+ * @author 程宇乐
  * @description 抽奖活动单 持久化对象
  * @create 2024-03-02 13:21
  */

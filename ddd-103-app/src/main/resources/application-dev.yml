@@ -51,6 +51,9 @@ spring:
     listener:
       simple:
         prefetch: 1
+    topic:
+      send_award:send_award
+      activity_sku_stock_zero:activity_sku_stock_zero
 
 
 
