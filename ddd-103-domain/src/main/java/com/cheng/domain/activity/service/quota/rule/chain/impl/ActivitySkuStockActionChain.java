@@ -1,4 +1,4 @@
-package com.cheng.domain.activity.service.rule.chain.impl;
+package com.cheng.domain.activity.service.quota.rule.chain.impl;
 
 import com.cheng.domain.activity.model.entity.ActivityCountEntity;
 import com.cheng.domain.activity.model.entity.ActivityEntity;
@@ -6,14 +6,13 @@ import com.cheng.domain.activity.model.entity.ActivitySkuEntity;
 import com.cheng.domain.activity.model.vo.ActivitySkuStockKeyVo;
 import com.cheng.domain.activity.repository.IActivityRepository;
 import com.cheng.domain.activity.service.armory.IActivityDispatch;
-import com.cheng.domain.activity.service.rule.chain.AbstractActionChain;
+import com.cheng.domain.activity.service.quota.rule.chain.AbstractActionChain;
 import com.cheng.types.enums.ResponseCode;
 import com.cheng.types.exception.AppException;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;
 
 import javax.annotation.Resource;
-import javax.xml.ws.RequestWrapper;
 
 /**
  * @author Fuzhengwei bugstack.cn @小傅哥

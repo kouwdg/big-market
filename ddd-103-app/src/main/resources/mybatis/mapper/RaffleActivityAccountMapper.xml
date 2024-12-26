@@ -42,4 +42,18 @@
         update_time = now()
         where user_id = #{userId} and activity_id = #{activityId}
     </update>
+    <update id="updateAccountSubtractionQuota" parameterType="com.cheng.infrastructure.persistent.po.RaffleActivityAccount">
+        UPDATE `raffle_activity_account`
+        SET
+            total_count_surplus=total_count_surplus-1,
+            day_count_surplus=day_count_surplus-1,
+            month_count_surplus=month_count_surplus-1
+        WHERE user_id=#{userId} AND activity_id=#{activityId}
+    </update>
+    <select id="queryActivityAccountByUserId" resultMap="RaffleActivityAccountMap">
+        select user_id, activity_id, total_count, total_count_surplus, day_count,
+        day_count_surplus, month_count, month_count_surplus
+        from raffle_activity_account
+        where user_id = #{userId} and activity_id = #{activityId}
+    </select>
 </mapper>

@@ -7,7 +7,7 @@ APPLICATION FAILED TO START
 
 Description:
 
-Parameter 0 of constructor in com.cheng.domain.activity.service.RaffleActivityService required a bean of type 'com.cheng.domain.activity.event.ActivitySkuStoreZeroMessageEvent' that could not be found.
+Parameter 0 of constructor in com.cheng.domain.activity.service.quota.RaffleActivityService required a bean of type 'com.cheng.domain.activity.event.ActivitySkuStoreZeroMessageEvent' that could not be found.
 
 
 Action:
@@ -119,7 +119,7 @@ APPLICATION FAILED TO START
 
 Description:
 
-Parameter 0 of constructor in com.cheng.domain.activity.service.rule.chain.factory.DefaultActivityChainFactory required a bean of type 'com.cheng.domain.activity.service.armory.IActivityDispatch' that could not be found.
+Parameter 0 of constructor in com.cheng.domain.activity.service.quota.rule.chain.factory.DefaultActivityChainFactory required a bean of type 'com.cheng.domain.activity.service.armory.IActivityDispatch' that could not be found.
 
 
 Action:

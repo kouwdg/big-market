@@ -1,11 +1,12 @@
-package com.cheng.domain.activity.service;
+package com.cheng.domain.activity.service.quota;
 
 import com.cheng.domain.activity.model.aggregate.CreateOrderAggregate;
 import com.cheng.domain.activity.model.entity.*;
 import com.cheng.domain.activity.model.vo.ActivitySkuStockKeyVo;
 import com.cheng.domain.activity.model.vo.OrderStateVO;
 import com.cheng.domain.activity.repository.IActivityRepository;
-import com.cheng.domain.activity.service.rule.chain.factory.DefaultActivityChainFactory;
+import com.cheng.domain.activity.service.ISkuStock;
+import com.cheng.domain.activity.service.quota.rule.chain.factory.DefaultActivityChainFactory;
 import org.apache.commons.lang3.RandomStringUtils;
 import org.springframework.stereotype.Service;
 
@@ -18,7 +19,7 @@ import java.util.Date;
  * @date 2024/12/23 13:28
  */
 @Service
-public class RaffleActivityService extends AbstractRaffleActivity implements ISkuStock{
+public class RaffleActivityService extends AbstractRaffleActivity implements ISkuStock {
 
     public RaffleActivityService(IActivityRepository activityRepository, DefaultActivityChainFactory defaultActivityChainFactory, IActivityRepository activityRepository1) {
         super(activityRepository, defaultActivityChainFactory, activityRepository1);

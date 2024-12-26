@@ -1,4 +1,4 @@
-package com.cheng.domain.activity.service.rule.chain;
+package com.cheng.domain.activity.service.quota.rule.chain;
 
 /**
  * @author 程宇乐

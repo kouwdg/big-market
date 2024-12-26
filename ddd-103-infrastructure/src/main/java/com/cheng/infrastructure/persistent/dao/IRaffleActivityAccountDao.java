@@ -1,7 +1,9 @@
 package com.cheng.infrastructure.persistent.dao;
 
+import com.cheng.domain.activity.model.entity.ActivityAccountEntity;
 import com.cheng.infrastructure.persistent.po.RaffleActivityAccount;
 import org.apache.ibatis.annotations.Mapper;
+import org.apache.ibatis.annotations.Param;
 
 /**
  * @author 程宇乐
@@ -14,4 +16,9 @@ public interface IRaffleActivityAccountDao {
     int updateAccountQuota(RaffleActivityAccount raffleActivityAccount);
 
     void insert(RaffleActivityAccount raffleActivityAccount);
+
+    //总额度自减
+    int updateAccountSubtractionQuota(RaffleActivityAccount build);
+
+    RaffleActivityAccount queryActivityAccountByUserId(@Param("userId") String userId,@Param("activityId") Long activityId);
 }

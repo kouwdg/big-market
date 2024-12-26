@@ -1,4 +1,4 @@
-package com.cheng.domain.activity.service;
+package com.cheng.domain.activity.service.quota;
 
 import com.cheng.domain.activity.model.entity.ActivityCountEntity;
 import com.cheng.domain.activity.model.entity.ActivityEntity;

@@ -1,10 +1,11 @@
-package com.cheng.domain.activity.service;
+package com.cheng.domain.activity.service.quota;
 
 import com.cheng.domain.activity.model.aggregate.CreateOrderAggregate;
 import com.cheng.domain.activity.model.entity.*;
 import com.cheng.domain.activity.repository.IActivityRepository;
-import com.cheng.domain.activity.service.rule.chain.IActionChain;
-import com.cheng.domain.activity.service.rule.chain.factory.DefaultActivityChainFactory;
+import com.cheng.domain.activity.service.IRaffleOrder;
+import com.cheng.domain.activity.service.quota.rule.chain.IActionChain;
+import com.cheng.domain.activity.service.quota.rule.chain.factory.DefaultActivityChainFactory;
 import com.cheng.types.exception.AppException;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
@@ -19,7 +20,7 @@ import org.springframework.stereotype.Service;
 
 @Slf4j
 @Service
-public abstract class AbstractRaffleActivity extends RaffleActivitySupport implements IRaffleOrder{
+public abstract class AbstractRaffleActivity extends RaffleActivitySupport implements IRaffleOrder {
 
     protected DefaultActivityChainFactory defaultActivityChainFactory;
     protected IActivityRepository activityRepository;

@@ -2,9 +2,8 @@ package com.cheng.domain.activity.repository;
 
 
 import com.cheng.domain.activity.model.aggregate.CreateOrderAggregate;
-import com.cheng.domain.activity.model.entity.ActivityCountEntity;
-import com.cheng.domain.activity.model.entity.ActivityEntity;
-import com.cheng.domain.activity.model.entity.ActivitySkuEntity;
+import com.cheng.domain.activity.model.aggregate.CreatePartakeOrderAggregate;
+import com.cheng.domain.activity.model.entity.*;
 import com.cheng.domain.activity.model.vo.ActivitySkuStockKeyVo;
 
 import java.util.Date;
@@ -37,4 +36,14 @@ public interface IActivityRepository {
     void updateActivitySkuStock(Long sku);
 
     void clearActivitySkuStock(Long sku);
+
+    void saveCreatePartakeOrderAggregate(CreatePartakeOrderAggregate orderAggregate);
+
+    UserRaffleOrderEntity queryNoUseRaffleOrder(PartakeRaffleActivityEntity partakeRaffleActivityEntity);
+
+    ActivityAccountEntity queryActivityAccountByUserId(String userId, Long activityId);
+
+    RaffleActivityAccountMonthEntity queryActivityAccountMouthByUserId(String userId, Long activityId, String mouth);
+
+    RaffleActivityAccountDayEntity queryActivityAccountDayByUserId(String userId, Long activityId, String day);
 }

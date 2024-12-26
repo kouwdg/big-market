@@ -6,7 +6,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 /**
- * @author Fuzhengwei bugstack.cn @小傅哥
+ * @author 程宇乐
  * @description 活动账户实体对象
  * @create 2024-03-16 10:43
  */

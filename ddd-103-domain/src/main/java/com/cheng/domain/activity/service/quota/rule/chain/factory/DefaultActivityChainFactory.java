@@ -1,7 +1,7 @@
-package com.cheng.domain.activity.service.rule.chain.factory;
+package com.cheng.domain.activity.service.quota.rule.chain.factory;
 
 
-import com.cheng.domain.activity.service.rule.chain.IActionChain;
+import com.cheng.domain.activity.service.quota.rule.chain.IActionChain;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import org.springframework.stereotype.Service;

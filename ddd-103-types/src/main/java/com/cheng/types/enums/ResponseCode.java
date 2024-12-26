@@ -15,7 +15,10 @@ public enum ResponseCode {
     RULE_WRIGHT("0003","rule_weight格式不正确"),
     ACTIVITY_DATE_ERROR("ERR_BIZ_004","非活动日期范围"),
     ACTIVITY_SKU_STOCK_ERROR("ERR_BIZ_005","活动库存不足"),
-    ACTIVITY_STATUS_OPEN("ERR_BIZ_006","活动未开启")
+    ACTIVITY_STATUS_OPEN("ERR_BIZ_006","活动未开启"),
+    ACCOUNT_QUOTA_ERROR("ERR_BIZ_006","账户总额度不足"),
+    ACCOUNT_MONTH_QUOTA_ERROR("ERR_BIZ_007","账户月额度不足"),
+    ACCOUNT_DAY_QUOTA_ERROR("ERR_BIZ_008","账户日额度不足"),
     ;
 
     private String code;
