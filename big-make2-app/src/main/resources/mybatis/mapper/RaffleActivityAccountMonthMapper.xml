@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="org.example.infrastructure.persistent.dao.IRaffleActivityAccountMonthDao">
+
+    <resultMap id="dataMap" type="org.example.infrastructure.persistent.po.RaffleActivityAccountMonth">
+        <id column="id" property="id"/>
+        <result column="user_id" property="userId"/>
+        <result column="activity_id" property="activityId"/>
+        <result column="month" property="month"/>
+        <result column="month_count" property="monthCount"/>
+        <result column="month_count_surplus" property="monthCountSurplus"/>
+        <result column="create_time" property="createTime"/>
+        <result column="update_time" property="updateTime"/>
+    </resultMap>
+    <insert id="insert" parameterType="org.example.domain.activity.model.entity.RaffleActivityAccountMonthEntity">
+        INSERT `raffle_activity_account_month`(
+        user_id,activity_id,MONTH,
+        month_count,month_count_surplus,create_time,update_time)
+        VALUE(#{userId},#{activityId},#{month},#{monthCount},#{monthCountSurplus},#{createTime},#{updateTime})
+    </insert>
+    <insert id="insertPo" parameterType="org.example.infrastructure.persistent.po.RaffleActivityAccountMonth">
+        INSERT `raffle_activity_account_month`(
+        user_id,activity_id,month,
+        month_count,month_count_surplus,create_time,update_time)
+        VALUE(#{userId},#{activityId},#{month},#{monthCount},#{monthCountSurplus},now(),now())
+    </insert>
+    <update id="updateAccountSubtractionMonthQuota" parameterType="org.example.domain.activity.model.entity.RaffleActivityAccountMonthEntity">
+        UPDATE `raffle_activity_account_month`
+        SET month_count_surplus=month_count_surplus-1
+        WHERE user_id=#{userId} AND activity_id=#{activityId} AND month_count_surplus>0 AND month=#{month}
+    </update>
+    <!--    添加剩余次数-->
+    <update id="AddSurplusCount" parameterType="org.example.infrastructure.persistent.po.RaffleActivityAccountMonth">
+        UPDATE `raffle_activity_account_month`
+        SET month_count_surplus=month_count_surplus+1
+        WHERE user_id=#{userId} AND activity_id=#{activityId} AND month_count_surplus>0 AND MONTH=#{month}
+    </update>
+    <select id="queryActivityAccountMouthByUserId" resultMap="dataMap">
+        select user_id, activity_id, month, month_count, month_count_surplus
+        from raffle_activity_account_month
+        where user_id = #{userId} and activity_id = #{activityId} and month = #{month}
+    </select>
+</mapper>

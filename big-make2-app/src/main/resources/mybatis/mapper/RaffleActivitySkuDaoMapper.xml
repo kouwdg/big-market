@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="org.example.infrastructure.persistent.dao.IRaffleActivitySkuDao">
+
+    <resultMap id="RaffleActivitySkuMap" type="org.example.infrastructure.persistent.po.RaffleActivitySku">
+        <id column="id" property="id"/>
+        <result column="sku" property="sku"/>
+        <result column="activity_id" property="activityId"/>
+        <result column="activity_count_id" property="activityCountId"/>
+        <result column="stock_count" property="stockCount"/>
+        <result column="stock_count_surplus" property="stockCountSurplus"/>
+        <result column="create_time" property="createTime"/>
+        <result column="update_time" property="updateTime"/>
+
+    </resultMap>
+    <update id="updateActivitySkuStock">
+        update raffle_activity_sku
+        set stock_count_surplus = stock_count_surplus - 1, update_time = now()
+        where sku = #{sku} and stock_count_surplus > 0
+    </update>
+    <select id="queryActivitySku" resultMap="RaffleActivitySkuMap">
+        SELECT *
+        FROM `raffle_activity_sku`
+        WHERE sku=#{sku}
+    </select>
+    <select id="queryActivitySkuByActivityId" resultMap="RaffleActivitySkuMap">
+        SELECT *
+        FROM `raffle_activity_sku`
+        WHERE activity_id=#{activityId}
+    </select>
+</mapper>
