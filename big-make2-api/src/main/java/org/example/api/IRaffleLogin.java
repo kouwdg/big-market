@@ -1,6 +1,8 @@
 package org.example.api;
 
+import org.example.api.dto.UserAccountRequest;
 import org.example.types.model.Response;
+import org.springframework.web.bind.annotation.RequestBody;
 
 /**
  * @author 程宇乐
@@ -11,7 +13,10 @@ import org.example.types.model.Response;
 public interface IRaffleLogin {
 
     //登录
-    Response<Boolean> login();
+    Response<String> login( UserAccountRequest userAccountRequest) throws Exception;
+
+    //退出登录
+    Response<Boolean>QuitLogin(String userName);
 
     //注册
     Response<Boolean> register();

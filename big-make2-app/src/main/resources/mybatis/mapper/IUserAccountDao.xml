@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="org.example.infrastructure.persistent.dao.IUserAccountDao">
+
+    <resultMap id="UserMap" type="org.example.infrastructure.persistent.po.UserAccount">
+        <id column="id" property="id"/>
+
+        <result column="user_id" property="userId"/>
+        <result column="user_name" property="userName"/>
+        <result column="password" property="password"/>
+    </resultMap>
+    <select id="queryByUseName" resultMap="UserMap">
+        SELECT *
+        FROM `user_account`
+        WHERE user_name=#{userName}
+    </select>
+</mapper>

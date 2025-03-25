@@ -1,6 +1,7 @@
 package org.example;
 
 import com.alibaba.fastjson2.JSON;
+import io.jsonwebtoken.Claims;
 import lombok.extern.slf4j.Slf4j;
 import org.example.api.IRaffleActivityService;
 import org.example.api.dto.RaffleStrategyRuleWeightRequestDTO;
@@ -30,11 +31,14 @@ import org.example.infrastructure.persistent.dao.IStrategyRuleDao;
 import org.example.infrastructure.persistent.po.Strategy;
 import org.example.infrastructure.persistent.po.StrategyAward;
 import org.example.infrastructure.persistent.po.StrategyRule;
+import org.example.infrastructure.persistent.po.UserAccount;
+import org.example.types.Utils.JWTUtil;
 import org.example.types.model.Response;
 import org.junit.jupiter.api.Test;
 import org.redisson.api.RedissonClient;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.security.crypto.password.PasswordEncoder;
 
 import javax.annotation.Resource;
 import java.util.*;
@@ -48,6 +52,38 @@ import java.util.*;
 @SpringBootTest
 @Slf4j
 public class Test1 {
+
+    @Autowired
+    private PasswordEncoder passwordEncoder;
+
+    @Test
+    public void test(){
+        String encode = passwordEncoder.encode("1234");
+        String encode2 = passwordEncoder.encode("1234");
+        System.out.println(encode);
+        System.out.println(encode2);
+    }
+
+    @Test
+    public void jwtTest(){
+        UserAccount userAccount = new UserAccount();
+        userAccount.setId(1);
+        userAccount.setUserName("abc");
+        userAccount.setPassword("123456");
+        String jwt = JWTUtil.createJWT("1", JSON.toJSONString(userAccount), null);
+
+        //解析jwt
+        try {
+            Claims claims = JWTUtil.parseJWT(jwt);
+            String subject = claims.getSubject();
+            System.out.println(subject);
+            System.out.println(claims);
+        } catch (Exception e) {
+            throw new RuntimeException(e);
+        }
+
+
+    }
 
 
 
