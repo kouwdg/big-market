@@ -12,6 +12,10 @@
         <result column="user_name" property="userName"/>
         <result column="password" property="password"/>
     </resultMap>
+    <insert id="insert" parameterType="org.example.infrastructure.persistent.po.UserAccount">
+        INSERT INTO user_account (user_id, password, user_name)
+        VALUES (#{userId}, #{password}, #{userName})
+    </insert>
     <select id="queryByUseName" resultMap="UserMap">
         SELECT *
         FROM `user_account`

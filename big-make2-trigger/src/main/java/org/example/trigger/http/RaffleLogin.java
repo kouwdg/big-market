@@ -1,9 +1,11 @@
 package org.example.trigger.http;
 
+import com.sun.org.apache.xpath.internal.operations.Bool;
 import lombok.extern.slf4j.Slf4j;
 import org.example.api.IRaffleLogin;
 import org.example.api.dto.UserAccountRequest;
 import org.example.domain.login.model.Vo.UserLoginVo;
+import org.example.domain.login.model.Vo.UserRegisterVo;
 import org.example.domain.login.service.ILoginService;
 import org.example.types.enums.ResponseCode;
 import org.example.types.model.Response;
@@ -54,8 +56,18 @@ public class RaffleLogin implements IRaffleLogin {
     }
 
     @Override
-    public Response<Boolean> register() {
-        return null;
+    @PostMapping("register")
+    //http://localhost:8080/api/v1/raffle/Login/register
+    public Response<Boolean> register(@RequestBody UserAccountRequest request) {
+        Boolean result=loginService.register(UserRegisterVo.builder()
+                .userName(request.getUserName())
+                .password(request.getPassword())
+                .build());
+        return Response.<Boolean>builder()
+                .code(ResponseCode.SUCCESS.getCode())
+                .info(ResponseCode.SUCCESS.getInfo())
+                .data(result)
+                .build();
     }
 
     //http://localhost:8091/api/v1/raffle/Login/test1

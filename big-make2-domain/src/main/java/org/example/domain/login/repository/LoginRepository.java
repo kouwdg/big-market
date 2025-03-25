@@ -1,6 +1,7 @@
 package org.example.domain.login.repository;
 
 import org.example.domain.login.model.Vo.UserLoginVo;
+import org.example.domain.login.model.Vo.UserRegisterVo;
 import org.example.domain.login.model.entity.UserAccountEntity;
 import org.springframework.web.bind.annotation.RequestBody;
 
@@ -19,4 +20,6 @@ public interface LoginRepository {
     UserAccountEntity IsUserAccountInRedis(String userId);
 
     Boolean quitLogin(String userName);
+
+    Boolean register(UserRegisterVo request);
 }

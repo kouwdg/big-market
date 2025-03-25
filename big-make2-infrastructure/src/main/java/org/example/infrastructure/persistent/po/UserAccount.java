@@ -1,6 +1,9 @@
 package org.example.infrastructure.persistent.po;
 
+import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 import org.apache.commons.lang3.StringUtils;
 import org.example.types.common.Constants;
 
@@ -16,6 +19,9 @@ import java.util.List;
  * @date 2025/3/24 11:26
  */
 @Data
+@Builder
+@AllArgsConstructor
+@NoArgsConstructor
 public class UserAccount implements Serializable {
     private Integer id;
     private String userId;

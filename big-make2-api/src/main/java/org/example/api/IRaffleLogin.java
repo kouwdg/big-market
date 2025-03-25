@@ -19,6 +19,6 @@ public interface IRaffleLogin {
     Response<Boolean>QuitLogin(String userName);
 
     //注册
-    Response<Boolean> register();
+    Response<Boolean> register(UserAccountRequest request);
 
 }

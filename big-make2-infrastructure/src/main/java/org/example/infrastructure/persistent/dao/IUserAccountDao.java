@@ -17,4 +17,5 @@ public interface IUserAccountDao {
     //查询用户
     UserAccount queryByUseName(@Param("userName") String userName);
 
+    int insert(UserAccount build);
 }

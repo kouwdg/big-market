@@ -1,6 +1,7 @@
 package org.example.domain.login.service;
 
 import org.example.domain.login.model.Vo.UserLoginVo;
+import org.example.domain.login.model.Vo.UserRegisterVo;
 import org.example.domain.login.model.entity.UserAccountEntity;
 
 /**
@@ -21,4 +22,6 @@ public interface ILoginService {
     //判断redis中是否有对应的用户信息
     UserAccountEntity IsUserAccountInRedis(String userId);
 
+    //注册
+    Boolean register(UserRegisterVo request);
 }

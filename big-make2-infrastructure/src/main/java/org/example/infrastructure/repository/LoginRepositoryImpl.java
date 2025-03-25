@@ -2,7 +2,9 @@ package org.example.infrastructure.repository;
 
 import com.alibaba.fastjson2.JSON;
 import lombok.extern.slf4j.Slf4j;
+import org.apache.commons.lang3.RandomStringUtils;
 import org.example.domain.login.model.Vo.UserLoginVo;
+import org.example.domain.login.model.Vo.UserRegisterVo;
 import org.example.domain.login.model.entity.UserAccountEntity;
 import org.example.domain.login.repository.LoginRepository;
 import org.example.infrastructure.persistent.dao.IUserAccountDao;
@@ -15,8 +17,10 @@ import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
+import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Repository;
 import java.util.Objects;
+import java.util.UUID;
 import java.util.concurrent.TimeUnit;
 
 /**
@@ -32,6 +36,8 @@ public class LoginRepositoryImpl implements LoginRepository {
 
     @Autowired
     private AuthenticationManager authenticationManager;
+    @Autowired
+    private PasswordEncoder passwordEncoder;
 
     @Autowired
     private RedissonClient redissonClient;
@@ -93,5 +99,26 @@ public class LoginRepositoryImpl implements LoginRepository {
         RMapCache<Object, Object> mapCache = redissonClient.getMapCache("login_token");
         mapCache.remove("userId:" + userAccount.getUserId());
         return true;
+    }
+
+    @Override
+    public Boolean register(UserRegisterVo request) {
+        //1 查询用户名是否已经存在
+        UserAccount userAccount = userAccountDao.queryByUseName(request.getUserName());
+        if (userAccount!=null){
+            return false;
+        }
+        //2 添加到数据库
+        String password=passwordEncoder.encode(request.getPassword());
+        String userName=request.getUserName();
+
+        //3 随机生成用户ID
+        String userId = RandomStringUtils.randomAlphabetic(12);
+
+        UserAccount build = UserAccount.builder().userId(userId)
+                .password(password)
+                .userName(userName).build();
+        int i=userAccountDao.insert(build);
+        return i == 1;
     }
 }
