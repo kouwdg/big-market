@@ -1,6 +1,8 @@
 package org.example.infrastructure.persistent.dao;
 
 import org.apache.ibatis.annotations.Mapper;
+import org.example.domain.award.model.entity.UserAwardRecordEntity;
+import org.example.infrastructure.persistent.po.UserCreditAccount;
 import org.example.infrastructure.persistent.po.UserRaffleOrder;
 import org.example.infrastructure.persistent.po.UserAwardRecord;
 
@@ -15,4 +17,6 @@ public interface IUserAwardRecordDao {
     void insert(UserAwardRecord userAwardRecord);
 
     int updateUserRaffleOrderStateUsed(UserRaffleOrder userRaffleOrder);
+
+    void updateStatus(UserAwardRecordEntity userAwardRecordEntity);
 }

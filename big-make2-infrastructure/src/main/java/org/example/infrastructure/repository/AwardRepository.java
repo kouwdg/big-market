@@ -6,11 +6,13 @@ import org.example.domain.activity.model.aggregate.UserAwardRecordAggregate;
 import org.example.domain.activity.model.entity.TaskEntity;
 import org.example.domain.activity.model.entity.UserAwardRecordEntity;
 import org.example.domain.activity.repository.IAwardRepository;
+import org.example.domain.award.model.Enum.AccountStatus;
+import org.example.domain.award.model.aggregate.GiveOutPrizesAggregate;
+import org.example.domain.award.model.entity.UserCreditAwardEntity;
 import org.example.infrastructure.event.eventPublisher;
-import org.example.infrastructure.persistent.dao.IUserRaffleOrderDao;
+import org.example.infrastructure.persistent.dao.*;
+import org.example.infrastructure.persistent.po.UserCreditAccount;
 import org.example.infrastructure.persistent.po.UserRaffleOrder;
-import org.example.infrastructure.persistent.dao.ITaskDao;
-import org.example.infrastructure.persistent.dao.IUserAwardRecordDao;
 import org.example.infrastructure.persistent.po.Task;
 import org.example.infrastructure.persistent.po.UserAwardRecord;
 import org.example.types.enums.ResponseCode;
@@ -35,6 +37,8 @@ public class AwardRepository implements IAwardRepository {
     private IUserRaffleOrderDao userRaffleOrderDao;
 
     @Resource
+    private IUserCreditAccountDao userCreditAccountDao;
+    @Resource
     private eventPublisher eventPublisher;
 
     @Resource
@@ -42,6 +46,8 @@ public class AwardRepository implements IAwardRepository {
     @Resource
     private ITaskDao taskDao;
 
+    @Resource
+    private IAwardDao awardDao;
     @Override
     public void saveUserAwardRecord(UserAwardRecordAggregate userAwardRecordAggregate) {
         UserAwardRecordEntity userAwardRecordEntity = userAwardRecordAggregate.getUserAwardRecordEntity();
@@ -85,6 +91,47 @@ public class AwardRepository implements IAwardRepository {
             log.info("写入中奖记录，发送MQ消息失败 userId:{} topic:{}", task.getUserId(), task.getTopic());
             taskDao.updateTaskSendMessageFail(task);
         }
+    }
+
+    //查询奖品配置信息
+    @Override
+    public String queryAwardConfig(Integer awardId) {
+       return awardDao.queryAwardConfigByAwardId(awardId);
+    }
+
+    @Override
+    public void saveGiveOutPrizesAggregate(GiveOutPrizesAggregate giveOutPrizesAggregate) {
+        String userId=giveOutPrizesAggregate.getUserId();
+        org.example.domain.award.model.entity.UserAwardRecordEntity userAwardRecordEntity = giveOutPrizesAggregate.getUserAwardRecordEntity();
+        UserCreditAwardEntity creditAward = giveOutPrizesAggregate.getUserCreditAwardEntity();
+        //1 更新积分表
+            //1-1 查询用户是否存在
+        UserCreditAccount userCreditAccount=userCreditAccountDao.queryByUserId(userId);
+        if(userCreditAccount==null){
+            //1-2 创建
+            UserCreditAccount builder = UserCreditAccount.builder()
+                    .userId(userId)
+                    .totalAmount(creditAward.getCreditAmount())
+                    .availableAmount(creditAward.getCreditAmount())
+                    .accountStatus(AccountStatus.open.getCode())
+                    .build();
+            int i=userCreditAccountDao.insert(builder);
+            if (i!=1){
+                throw new RuntimeException("插入失败");
+            }
+        }
+            //1-3 更新
+        userCreditAccountDao.AddAmount(creditAward);
+
+        //2 更新 发奖订单表
+        userAwardRecordDao.updateStatus(userAwardRecordEntity);
+    }
+
+    //查询奖品的key
+    //todo 放到redis中
+    @Override
+    public String queryAwardKey(Integer awardId) {
+      return awardDao.queryAwardKey(awardId);
     }
 
     @Transactional(rollbackFor = Exception.class)

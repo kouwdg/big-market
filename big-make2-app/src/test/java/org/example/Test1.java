@@ -25,6 +25,7 @@ import org.example.domain.strategy.service.rule.chain.ILogicChain;
 import org.example.domain.strategy.service.rule.chain.factory.DefaultChainFactory;
 import org.example.domain.strategy.service.rule.tree.factory.DefaultTreeFactory;
 import org.example.domain.strategy.service.rule.tree.factory.engine.IDecisionTreeEngine;
+import org.example.infrastructure.persistent.dao.IAwardDao;
 import org.example.infrastructure.persistent.dao.IStrategyAwardDao;
 import org.example.infrastructure.persistent.dao.IStrategyDao;
 import org.example.infrastructure.persistent.dao.IStrategyRuleDao;
@@ -55,13 +56,13 @@ public class Test1 {
 
     @Autowired
     private PasswordEncoder passwordEncoder;
+    @Autowired
+    private IAwardDao awardDao;
 
     @Test
     public void test(){
-        String encode = passwordEncoder.encode("1234");
-        String encode2 = passwordEncoder.encode("1234");
-        System.out.println(encode);
-        System.out.println(encode2);
+        String string = awardDao.queryAwardConfigByAwardId(101);
+        System.out.println(string);
     }
 
     @Test

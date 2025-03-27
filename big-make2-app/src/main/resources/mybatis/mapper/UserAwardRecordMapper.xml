@@ -30,4 +30,9 @@
         SET order_state="used"
         WHERE user_id=#{userId} AND order_id=#{orderId}
     </update>
+    <update id="updateStatus" parameterType="org.example.domain.award.model.entity.UserAwardRecordEntity">
+        UPDATE user_raffle_order
+        set award_state=#{awardState}
+        where order_id=#{order_id}
+    </update>
 </mapper>

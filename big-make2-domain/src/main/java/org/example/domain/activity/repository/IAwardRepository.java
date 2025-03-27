@@ -2,6 +2,7 @@ package org.example.domain.activity.repository;
 
 
 import org.example.domain.activity.model.aggregate.UserAwardRecordAggregate;
+import org.example.domain.award.model.aggregate.GiveOutPrizesAggregate;
 
 /**
  * @author 程宇乐
@@ -11,4 +12,12 @@ import org.example.domain.activity.model.aggregate.UserAwardRecordAggregate;
  */
 public interface IAwardRepository {
     void saveUserAwardRecord(UserAwardRecordAggregate userAwardRecordAggregate);
+
+    //查询奖品配置信息
+    String queryAwardConfig(Integer awardId);
+
+    void saveGiveOutPrizesAggregate(GiveOutPrizesAggregate giveOutPrizesAggregate);
+
+    //查询奖品的key
+    String queryAwardKey(Integer awardId);
 }

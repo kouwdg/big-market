@@ -114,6 +114,7 @@ public class RaffleActivityController implements IRaffleActivityService {
      * @param requestDTO
      * @return url :
      * http://localhost:8091/api/v1/raffle/activity/draw
+     * /api/v1/raffle/activity/draw
      */
     @RequestMapping(value = "draw", method = RequestMethod.POST)
     @Override
