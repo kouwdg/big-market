@@ -352,6 +352,7 @@ public class ActivityRepository implements IActivityRepository {
                 .totalCount(activityCountEntity.getTotalCount())
                 .dayCount(activityCountEntity.getDayCount())
                 .monthCount(activityCountEntity.getMonthCount())
+                .count(Integer.parseInt(skuRechargeEntity.getSkuConfig()))
                 .activityOrderEntity(activityOrderEntity)
                 .build();
     }
@@ -368,7 +369,7 @@ public class ActivityRepository implements IActivityRepository {
         raffleActivityOrder.setStrategyId(activityOrderEntity.getStrategyId());
         raffleActivityOrder.setOrderId(activityOrderEntity.getOrderId());
         raffleActivityOrder.setOrderTime(activityOrderEntity.getOrderTime());
-        //todo 暂时 重置次数都是1
+
         raffleActivityOrder.setSkuCount(1);
         raffleActivityOrder.setState(activityOrderEntity.getState().getCode());
         raffleActivityOrder.setOutBusinessNo(activityOrderEntity.getOutBusinessNo());

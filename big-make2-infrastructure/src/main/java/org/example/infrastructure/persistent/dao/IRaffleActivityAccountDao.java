@@ -22,4 +22,6 @@ public interface IRaffleActivityAccountDao {
     void insert(RaffleActivityAccount raffleActivityAccount);
 
     RaffleActivityAccount queryActivityAccountEntity(RaffleActivityAccount activityAccount);
+
+    int AddCount(@Param("userId") String userId,@Param("activityId") Long activityId,@Param("count") Integer count);
 }

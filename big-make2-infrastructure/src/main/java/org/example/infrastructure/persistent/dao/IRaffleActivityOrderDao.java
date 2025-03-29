@@ -12,4 +12,6 @@ import org.example.infrastructure.persistent.po.RaffleActivityOrder;
 @Mapper
 public interface IRaffleActivityOrderDao {
     void insert(RaffleActivityOrder raffleActivityOrder);
+
+    void updateRaffleActivityOrderToCompleted(String orderId);
 }

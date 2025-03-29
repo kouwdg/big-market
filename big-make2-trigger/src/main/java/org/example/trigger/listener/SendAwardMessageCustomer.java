@@ -6,7 +6,6 @@ import lombok.extern.slf4j.Slf4j;
 import org.example.domain.activity.event.SendAwardMessageEvent;
 import org.example.domain.award.model.entity.DistributeAwardEntity;
 import org.example.domain.award.service.distribute.IAwardDistributionService;
-import org.example.domain.rebate.event.SendRebateMessageEvent;
 import org.example.types.event.BaseEvent;
 import org.springframework.amqp.rabbit.annotation.Queue;
 import org.springframework.amqp.rabbit.annotation.RabbitListener;

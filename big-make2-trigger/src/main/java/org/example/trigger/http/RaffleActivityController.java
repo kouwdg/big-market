@@ -4,13 +4,13 @@ package org.example.trigger.http;
 import com.alibaba.fastjson2.JSON;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
-import org.apache.ibatis.annotations.Param;
 import org.example.api.IRaffleActivityService;
 import org.example.api.dto.*;
+import org.example.domain.RechargeDraw.Model.vo.RechargeDrawVo;
+import org.example.domain.RechargeDraw.Service.IRechargeDrawService;
 import org.example.domain.activity.model.entity.UserAwardRecordEntity;
 import org.example.domain.activity.model.entity.UserRaffleOrderEntity;
 import org.example.domain.activity.model.vo.UserAwardRecordStateVo;
-import org.example.domain.activity.repository.IAwardRepository;
 import org.example.domain.activity.service.armory.IActivityArmory;
 import org.example.domain.activity.service.awardOrder.IAwardService;
 import org.example.domain.activity.service.order.IRaffleActivityPartakeService;
@@ -23,18 +23,18 @@ import org.example.domain.rebate.service.IBehaviorRebateService;
 import org.example.domain.strategy.model.entity.ActivityAccountEntity;
 import org.example.domain.strategy.model.entity.RaffleAwardEntity;
 import org.example.domain.strategy.model.entity.RaffleFactorEntity;
-import org.example.domain.strategy.model.vo.RuleWeightVo;
 import org.example.domain.strategy.service.armory.IStrategyArmory;
 import org.example.domain.strategy.service.raffle.IRaffleStrategy;
 import org.example.domain.strategy.service.rule.IRaffleRule;
 import org.example.types.enums.ResponseCode;
 import org.example.types.exception.AppException;
 import org.example.types.model.Response;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
 import java.text.SimpleDateFormat;
-import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
@@ -70,6 +70,10 @@ public class RaffleActivityController implements IRaffleActivityService {
 
     @Resource
     private IRaffleActivityAccountQuota raffleActivityAccountQuota;
+
+    @Autowired
+    @Qualifier("Recharge_draw_credit")
+    private IRechargeDrawService rechargeDraw;
 
 
     /**
@@ -288,6 +292,26 @@ public class RaffleActivityController implements IRaffleActivityService {
     @Override
     public Response<Integer> UsedRaffleCount(String userId, Long activityId) {
         return null;
+    }
+
+    //使用积分兑换抽奖次数
+    //http://localhost:8091/api/v1/raffle/activity/rechargeDrawCredit?userId=cheng&activityId=101&count=2
+    @GetMapping("rechargeDrawCredit")
+    @Override
+    public Response<Boolean> RechargeDrawCredit(@RequestParam("userId") String userId,
+                                                @RequestParam("activityId") Long activityId,
+                                                @RequestParam("count") Integer count) {
+        RechargeDrawVo build = RechargeDrawVo.builder()
+                .sku(101L)
+                .activity(activityId)
+                .userId(userId)
+                .count(count).build();
+        rechargeDraw.RechargeDraw(build);
+        return Response.<Boolean>builder()
+                .code(ResponseCode.SUCCESS.getCode())
+                .info(ResponseCode.SUCCESS.getInfo())
+                .data(true)
+                .build();
     }
 
     @RequestMapping(value = "used_Raffle_Count",method = RequestMethod.POST)

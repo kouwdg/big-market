@@ -1,4 +1,4 @@
-package org.example.infrastructure.persistent.po;
+package org.example.domain.RechargeDraw.Model.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -9,18 +9,16 @@ import java.util.Date;
 
 /**
  * @author 程宇乐
- * @description 抽奖活动单 持久化对象
- * @create 2024-03-02 13:21
+ * @version 1.0
+ * @description: TODO
+ * @date 2025/3/28 13:17
  */
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-public class RaffleActivityOrder {
-    /**
-     * 自增ID
-     */
-    private Long id;
+public class RaffleActivityOrderEntity {
+
     /**
      * 用户ID
      */
@@ -29,6 +27,8 @@ public class RaffleActivityOrder {
      * 活动ID
      */
     private Long sku;
+
+    //活动ID
     private Long activityId;
     /**
      * 活动名称
@@ -42,29 +42,11 @@ public class RaffleActivityOrder {
      * 订单ID
      */
     private String orderId;
-    /**
-     * 下单时间
-     */
-    private Date orderTime;
+
     /**
      * 订单状态（not_used、used、expire）
      */
     private String state;
-    /**
-     * 创建时间
-     */
-    private Date createTime;
-
+    //充值数量
     private Integer skuCount;
-    /**
-     * 更新时间
-     */
-    private Date updateTime;
-
-    /**
-     * 业务防重Id
-     */
-    private String outBusinessNo;
-
-
 }

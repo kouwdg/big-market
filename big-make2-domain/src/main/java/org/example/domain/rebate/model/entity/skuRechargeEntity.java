@@ -20,7 +20,9 @@ public class skuRechargeEntity {
     private String userId;
     /** 商品SKU - activity + activity count */
     private Long sku;
-
     //业务单号
     private String outBusinessNo;
+
+    //订单ID
+    private String skuConfig;
 }

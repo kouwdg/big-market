@@ -49,14 +49,17 @@ public class SendRebateMessageEvent extends BaseEvent<SendRebateMessageEvent.Reb
          */
         private String rebateDesc;
         /**
-         * 返利类型（sku 活动库存充值商品、integral 用户活动积分）
+         * 返利类型（sku 添加抽奖次数、integral 用户活动积分）
          */
         private String rebateType;
         /**
-         * 返利配置【sku值，积分值】
+         * 返利配置【添加抽奖的次数，积分值】
          */
         private String rebateConfig;
         /* 业务Id - 确保唯一值*/
         private String bizId;
+
+        private String orderId;
+        private Long activityId;
     }
 }

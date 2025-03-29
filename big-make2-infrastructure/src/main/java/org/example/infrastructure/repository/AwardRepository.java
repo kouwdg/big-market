@@ -100,6 +100,7 @@ public class AwardRepository implements IAwardRepository {
     }
 
     @Override
+    @Transactional
     public void saveGiveOutPrizesAggregate(GiveOutPrizesAggregate giveOutPrizesAggregate) {
         String userId=giveOutPrizesAggregate.getUserId();
         org.example.domain.award.model.entity.UserAwardRecordEntity userAwardRecordEntity = giveOutPrizesAggregate.getUserAwardRecordEntity();

@@ -36,6 +36,8 @@ public class CreateOrderAggregate {
      * 增加；月次数
      */
     private Integer monthCount;
+
+    private Integer count;
     /**
      * 活动订单实体
      */

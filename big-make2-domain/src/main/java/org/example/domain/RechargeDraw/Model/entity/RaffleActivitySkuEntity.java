@@ -1,19 +1,24 @@
-package org.example.infrastructure.persistent.po;
+package org.example.domain.RechargeDraw.Model.entity;
 
+import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 import java.math.BigDecimal;
-import java.util.Date;
 
 /**
  * @author 程宇乐
- * @description 抽奖活动sku持久化对象
- * @create 2024-03-16 10:54
+ * @version 1.0
+ * @description: TODO
+ * @date 2025/3/28 13:26
  */
-@Data
-public class RaffleActivitySku {
 
-    private Long id;
+@Data
+@Builder
+@AllArgsConstructor
+@NoArgsConstructor
+public class RaffleActivitySkuEntity {
     /**
      * 商品sku
      */
@@ -37,12 +42,4 @@ public class RaffleActivitySku {
 
     //积分价格
     private BigDecimal productAmount;
-    /**
-     * 创建时间
-     */
-    private Date createTime;
-    /**
-     * 更新时间
-     */
-    private Date updateTime;
 }

@@ -22,9 +22,26 @@
         SET total_amount=total_amount+#{creditAmount},available_amount=available_amount+#{creditAmount}
         WHERE user_id=#{userId}
     </update>
+    <update id="adjustAmount" parameterType="org.example.domain.credit.model.entity.CreditAccountEntity">
+        UPDATE `user_credit_account`
+        SET total_amount=total_amount+#{adjustAmount},available_amount=available_amount+#{adjustAmount}
+        WHERE user_id=#{userId}
+
+    </update>
+    <update id="ReduceAmount">
+        UPDATE `user_credit_account`
+        SET available_amount=available_amount-#{creditAmount}
+        WHERE user_id=#{userId}
+    </update>
+
 
     <select id="queryByUserId" resultMap="UserCreditAccountMap">
         select *
+        from user_credit_account
+        where user_id=#{userId}
+    </select>
+    <select id="getTotalCredit" resultType="java.math.BigDecimal">
+        select available_amount
         from user_credit_account
         where user_id=#{userId}
     </select>

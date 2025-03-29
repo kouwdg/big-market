@@ -47,6 +47,19 @@
         update_time = now()
         where user_id = #{userId} and activity_id = #{activityId}
     </update>
+    <update id="AddCount">
+        update raffle_activity_account
+        set
+        total_count = total_count + #{count},
+        total_count_surplus = total_count_surplus + #{count},
+        day_count_surplus = day_count_surplus + #{count},
+        day_count = day_count + #{count},
+        month_count_surplus = month_count_surplus + #{count},
+        month_count = month_count + #{count},
+        update_time = now()
+        where user_id = #{userId} and activity_id = #{activityId}
+
+    </update>
     <select id="queryActivityAccountByUserId" resultMap="RaffleActivityAccountMap">
         select user_id, activity_id, total_count, total_count_surplus, day_count,
         day_count_surplus, month_count, month_count_surplus

@@ -26,4 +26,8 @@ public class Constants {
 
      }
 
+    public static class MQName{
+        public static String SEND_REBATE="send_rebate";
+    }
+
 }

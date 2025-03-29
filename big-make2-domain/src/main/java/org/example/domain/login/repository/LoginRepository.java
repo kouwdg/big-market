@@ -21,5 +21,6 @@ public interface LoginRepository {
 
     Boolean quitLogin(String userName);
 
+    //注册
     Boolean register(UserRegisterVo request);
 }

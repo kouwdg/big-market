@@ -23,7 +23,12 @@
 
     <insert id="insert" parameterType="org.example.infrastructure.persistent.po.RaffleActivityOrder">
         insert into raffle_activity_order(user_id, activity_id,sku,sku_count,activity_name, strategy_id, order_id, order_time, state, create_time, update_time,out_business_no)
-        values(#{userId},#{activityId},#{sku},#{skuCount},#{activityName}, #{strategyId},#{orderId}, #{orderTime}, #{state}, now(), now(),#{outBusinessNo})
+        values(#{userId},#{activityId},#{sku},#{skuCount},#{activityName}, #{strategyId},#{orderId}, #{orderTime}, #{state},now(), now(),#{outBusinessNo})
     </insert>
+    <update id="updateRaffleActivityOrderToCompleted">
+        update raffle_activity_order
+        set state="completed"
+        where order_id=#{orderId}
+    </update>
 
 </mapper>

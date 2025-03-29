@@ -52,5 +52,9 @@ public interface IRaffleActivityService {
     Response<Integer> UsedRaffleCount(String userId,Long activityId);
 
 
+    //使用积分兑换抽奖次数
+    Response<Boolean> RechargeDrawCredit(String userId,Long activityId,Integer count);
+
+
 
 }

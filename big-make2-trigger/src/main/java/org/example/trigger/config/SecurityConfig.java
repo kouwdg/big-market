@@ -39,7 +39,10 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                 .sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS)
                 .and()
                 .authorizeHttpRequests()
-                .antMatchers("/api/v1/raffle/Login/login", "/api/v1/raffle/Login/register","/api/v1/raffle/activity/draw").permitAll()
+                .antMatchers("/api/v1/raffle/Login/login",
+                        "/api/v1/raffle/Login/register",
+                        "/api/v1/raffle/activity/draw",
+                        "/api/v1/raffle/activity/rechargeDrawCredit").permitAll()
                 .anyRequest().authenticated();
 
         //配置过滤器
